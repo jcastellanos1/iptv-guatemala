@@ -192,6 +192,9 @@ def validate_stream(channel):
                     last_error = f"HTTP 200 but invalid HLS content: {hls_check['details']}"
             else:
                 last_error = f"HTTP {response.status_code}"
+                if response.status_code in [404, 410]:
+                    # Definitivamente caídos, no seguimos reintentando
+                    break
 
         except requests.exceptions.Timeout:
             last_error = f"Timeout after {TIMEOUT_SECONDS}s (attempt {attempt})"
@@ -204,9 +207,21 @@ def validate_stream(channel):
         if attempt < MAX_RETRIES:
             time.sleep(RETRY_DELAY_SECONDS)
 
-    # Si nunca fue exitoso, registrar el último error
+    # Si nunca fue exitoso (online sigue siendo False)
     if not result["online"]:
-        result["error"] = last_error
+        # Solo marcamos como caídos los errores definitivos (404, 410 y DNS)
+        # DNS ya se manejó arriba (retornando early con online=False)
+        if result["http_status"] in [404, 410]:
+            result["online"] = False
+            result["error"] = last_error
+        elif result["http_status"] is not None:
+            # Por ejemplo, 403 Forbidden por geoblocking de CloudFront
+            result["online"] = True
+            result["error"] = f"{last_error} (Marcado como en linea para evitar falsos positivos por geoblocking)"
+        else:
+            # Fallos de conexión o timeouts temporales en la máquina de CI
+            result["online"] = True
+            result["error"] = f"{last_error} (Marcado como en linea para evitar falsos positivos por fallos de red temporales)"
 
     return result
 

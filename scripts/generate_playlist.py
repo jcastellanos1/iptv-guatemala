@@ -135,27 +135,25 @@ def main():
         print("  Corrija los duplicados antes de continuar.")
         sys.exit(1)
 
-    # Cargar estado de validación (solo informativo)
+    # Cargar estado de validación
     stream_status = load_stream_status()
 
-    # Incluir todos los canales habilitados en la lista.
-    # No excluimos canales basándonos en el reporte de validación porque
-    # los CDN (CloudFront) pueden bloquear geográficamente las solicitudes
-    # desde GitHub Actions (servidores en EE.UU.), pero funcionar
-    # perfectamente desde Guatemala u otras regiones.
-    final_channels = list(enabled_channels)
-    offline_names = []
-    if stream_status:
-        for ch in enabled_channels:
-            ch_id = ch.get("id")
-            if ch_id in stream_status and not stream_status[ch_id]:
-                offline_names.append(ch.get("name", ch_id))
+    # Filtrar canales caídos definitivamente (DNS, 404, 410)
+    # Los canales con error 403 (geoblocking) o timeouts no se marcan como caídos en validate_streams.py
+    final_channels = []
+    excluded_offline = []
+    for ch in enabled_channels:
+        ch_id = ch.get("id")
+        if stream_status and ch_id in stream_status:
+            if not stream_status[ch_id]:
+                excluded_offline.append(ch.get("name", ch_id))
+                continue
+        final_channels.append(ch)
 
-    if offline_names:
-        print(f"  [INFO] Canales con fallo en ultima validacion: {len(offline_names)}")
-        for name in offline_names:
+    if excluded_offline:
+        print(f"  Excluidos por estar caidos definitivamente (DNS/404/410): {len(excluded_offline)}")
+        for name in excluded_offline:
             print(f"    - {name}")
-        print("  (Se incluyen de todas formas; el CDN puede bloquear por region)")
 
     # Ordenar alfabéticamente por nombre
     final_channels.sort(key=lambda ch: ch.get("name", "").lower())
@@ -185,7 +183,7 @@ def main():
     print("  Resumen:")
     print(f"    Canales incluidos:       {len(final_channels)}")
     print(f"    Canales deshabilitados:  {disabled_count}")
-    print(f"    Canales con fallo validacion: {len(offline_names)}")
+    print(f"    Canales caidos (DNS/404/410): {len(excluded_offline)}")
     print(f"    Total en base de datos:  {total_channels}")
     print()
     print(f"  Archivo: {output_path}")
