@@ -1,4 +1,10 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-id="Canal3.gt" tvg-name="Canal 3 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/canal3.png" group-title="Guatemala",Canal 3 Guatemala
+https://d3jocgwjuhw91y.cloudfront.net/medialist_4276517416086298479_hls.m3u8
+
+#EXTINF:-1 tvg-id="Canal7.gt" tvg-name="Canal 7 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/canal7.png" group-title="Guatemala",Canal 7 Guatemala
+https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8
+
 #EXTINF:-1 tvg-id="TN23.gt" tvg-name="TN23 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/tn23.png" group-title="Guatemala",TN23 Guatemala
 https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
