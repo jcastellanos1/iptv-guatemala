@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T19:06:59Z",
+  "generated_at": "2026-07-16T19:15:43Z",
   "summary": {
     "total": 3,
     "online": 1,
@@ -12,10 +12,10 @@
       "url": "https://d3jocgwjuhw91y.cloudfront.net/medialist_4276517416086298479_hls.m3u8",
       "online": false,
       "http_status": 403,
-      "latency_ms": 29,
+      "latency_ms": 28,
       "content_type": "text/html",
       "hls_details": null,
-      "checked_at": "2026-07-16T19:06:50Z",
+      "checked_at": "2026-07-16T19:15:30Z",
       "error": "HTTP 403"
     },
     {
@@ -24,10 +24,10 @@
       "url": "https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8",
       "online": false,
       "http_status": 403,
-      "latency_ms": 30,
+      "latency_ms": 31,
       "content_type": "text/html",
       "hls_details": null,
-      "checked_at": "2026-07-16T19:06:54Z",
+      "checked_at": "2026-07-16T19:15:34Z",
       "error": "HTTP 403"
     },
     {
@@ -36,10 +36,10 @@
       "url": "https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8",
       "online": true,
       "http_status": 200,
-      "latency_ms": 40,
+      "latency_ms": 112,
       "content_type": "application/vnd.apple.mpegurl",
       "hls_details": "Media playlist with 4 segment(s)",
-      "checked_at": "2026-07-16T19:06:59Z",
+      "checked_at": "2026-07-16T19:15:39Z",
       "error": null
     }
   ]
