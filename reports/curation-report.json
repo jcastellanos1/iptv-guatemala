@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-17T20:51:17.218690+00:00",
-  "execution_time_seconds": 21.12,
+  "generated_at": "2026-07-17T20:53:05.127006+00:00",
+  "execution_time_seconds": 9.92,
   "metrics": {
     "total_brands_processed": 50,
-    "channels_found": 26,
-    "channels_not_found": 24,
-    "total_http_requests": 30,
-    "discarded_by_region": 13,
+    "channels_found": 28,
+    "channels_not_found": 22,
+    "total_http_requests": 31,
+    "discarded_by_region": 9,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 2
   },
@@ -33,6 +33,8 @@
     "TeleSUR",
     "Milenio Televisión",
     "Foro TV",
+    "History",
+    "History 2",
     "National Geographic",
     "Nickelodeon",
     "Nick Jr.",
@@ -106,14 +108,6 @@
     {
       "name": "Animal Planet",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "History",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "History 2",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Nat Geo Wild",

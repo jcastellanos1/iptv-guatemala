@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T20:51:17.216672+00:00",
+  "generated_at": "2026-07-17T20:53:05.126210+00:00",
   "channels": [
     {
       "curated_name": "AMC",
@@ -12,7 +12,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 388,
+      "latency_ms": 313,
       "source": "iptv-org"
     },
     {
@@ -26,7 +26,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 175,
+      "latency_ms": 246,
       "source": "iptv-org"
     },
     {
@@ -40,7 +40,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 376,
+      "latency_ms": 308,
       "source": "iptv-org"
     },
     {
@@ -54,7 +54,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 186,
+      "latency_ms": 244,
       "source": "iptv-org"
     },
     {
@@ -68,7 +68,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 224,
+      "latency_ms": 243,
       "source": "iptv-org"
     },
     {
@@ -82,7 +82,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "US",
-      "latency_ms": 220,
+      "latency_ms": 238,
       "source": "iptv-org"
     },
     {
@@ -96,7 +96,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 355,
+      "latency_ms": 309,
       "source": "iptv-org"
     },
     {
@@ -110,7 +110,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 384,
+      "latency_ms": 308,
       "source": "iptv-org"
     },
     {
@@ -124,7 +124,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 152,
+      "latency_ms": 241,
       "source": "iptv-org"
     },
     {
@@ -138,7 +138,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 147,
+      "latency_ms": 239,
       "source": "iptv-org"
     },
     {
@@ -152,7 +152,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 148,
+      "latency_ms": 269,
       "source": "iptv-org"
     },
     {
@@ -166,7 +166,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 195,
+      "latency_ms": 240,
       "source": "iptv-org"
     },
     {
@@ -180,7 +180,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 287,
+      "latency_ms": 729,
       "source": "iptv-org"
     },
     {
@@ -194,7 +194,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 187,
+      "latency_ms": 257,
       "source": "iptv-org"
     },
     {
@@ -208,21 +208,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 155,
+      "latency_ms": 1264,
       "source": "iptv-org"
     },
     {
       "curated_name": "Las Estrellas",
-      "display_name": "Las Estrellas (1080p)",
-      "tvg_id": "LasEstrellas.mx@SD",
+      "display_name": "Las Estrellas Latin America (1080p)",
+      "tvg_id": "LasEstrellasLatinAmerica.mx@SD",
       "tvg_name": "",
       "tvg_logo": "https://i.imgur.com/g5ShxZ7.png",
       "group": "Entretenimiento",
-      "stream_url": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8",
+      "stream_url": "http://177.234.249.135:8888/LasEstrellas/index.m3u8",
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 207,
+      "latency_ms": 241,
       "source": "iptv-org"
     },
     {
@@ -236,7 +236,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 177,
+      "latency_ms": 239,
       "source": "iptv-org"
     },
     {
@@ -250,7 +250,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 955,
+      "latency_ms": 84,
       "source": "iptv-org"
     },
     {
@@ -264,7 +264,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "CO",
-      "latency_ms": 297,
+      "latency_ms": 233,
       "source": "iptv-org"
     },
     {
@@ -278,7 +278,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "VE",
-      "latency_ms": 344,
+      "latency_ms": 195,
       "source": "iptv-org"
     },
     {
@@ -292,7 +292,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "MX",
-      "latency_ms": 1200,
+      "latency_ms": 663,
       "source": "iptv-org"
     },
     {
@@ -306,7 +306,35 @@
       "extra_lines": [],
       "resolution": "",
       "country": "PE",
-      "latency_ms": 508,
+      "latency_ms": 239,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "History",
+      "display_name": "History Latin America (1080p)",
+      "tvg_id": "HistoryLatinAmerica.us@Panregional",
+      "tvg_name": "",
+      "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png",
+      "group": "Documentales",
+      "stream_url": "http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "US",
+      "latency_ms": 248,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "History 2",
+      "display_name": "History 2 Latin America (1080p)",
+      "tvg_id": "History2LatinAmerica.us@Panregional",
+      "tvg_name": "",
+      "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/History2_logo_%282022%29.svg/500px-History2_logo_%282022%29.svg.png",
+      "group": "Documentales",
+      "stream_url": "http://138.121.15.230:9002/HISTORY-2/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "US",
+      "latency_ms": 246,
       "source": "iptv-org"
     },
     {
@@ -320,7 +348,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 1157,
+      "latency_ms": 242,
       "source": "iptv-org"
     },
     {
@@ -334,7 +362,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 223,
+      "latency_ms": 250,
       "source": "iptv-org"
     },
     {
@@ -348,7 +376,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 223,
+      "latency_ms": 238,
       "source": "iptv-org"
     },
     {
@@ -362,7 +390,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 152,
+      "latency_ms": 270,
       "source": "iptv-org"
     }
   ]

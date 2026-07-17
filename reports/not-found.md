@@ -19,8 +19,6 @@
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
 | Discovery Turbo | No candidates matched name or aliases in IPTV-org |
 | Animal Planet | No candidates matched name or aliases in IPTV-org |
-| History | All matched candidates failed stream validation or were skipped |
-| History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
