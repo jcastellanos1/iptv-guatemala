@@ -9,65 +9,20 @@ https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8
 #EXTINF:-1 tvg-id="TN23.gt" tvg-name="TN23 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/tn23.png" group-title="Guatemala",TN23 Guatemala
 https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 
-#EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-name="AMC Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" group-title="Películas y Series",AMC Latin America (1080p)
-http://45.162.193.35/AMC/index.m3u8
+#EXTINF:-1 tvg-id="AztecaUno.mx@HD" tvg-name="Azteca Uno" tvg-logo="azteca.png" group-title="TV abierta México",Azteca Uno
+http://azteca/stream
 
-#EXTINF:-1 tvg-id="AXNLatinAmerica.us@CentralAmerica" tvg-name="AXN Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Películas y Series",AXN Latin America (1080p)
-http://138.121.15.230:9002/AXN/index.m3u8
+#EXTINF:-1 tvg-id="CNNenEspanol.us@HD" tvg-name="CNN en Español" tvg-logo="cnn.png" group-title="Noticias en español",CNN en Español
+http://cnn/stream
 
-#EXTINF:-1 tvg-id="Cinecanal.us@Mexico" tvg-name="Cinecanal Mexico (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/CinecanalLA.png/960px-CinecanalLA.png" group-title="Películas y Series",Cinecanal Mexico (720p)
-http://177.245.131.133:8080/CINECANAL/index.m3u8
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-name="AMC" tvg-logo="amc.png" group-title="Películas y Series",AMC
+http://amc/stream
 
-#EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" tvg-name="De Pelicula Latin America" tvg-logo="https://i.imgur.com/aksM8pa.png" group-title="Películas y Series",De Pelicula Latin America
-http://181.119.93.83:8000/play/a1jw/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us@SD" tvg-name="AXN" tvg-logo="axn.png" group-title="Películas y Series",AXN
+http://axn/stream720
 
-#EXTINF:-1 tvg-id="FXLatinAmerica.us@South" tvg-name="FX Latin America South (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" group-title="Películas y Series",FX Latin America South (720p)
-http://72.1.184.5:8089/play/a05i/index.m3u8
+#EXTINF:-1 tvg-id="TNT.us@SD" tvg-name="TNT" tvg-logo="tnt.png" group-title="Películas y Series",TNT
+http://tnt/stream
 
-#EXTINF:-1 tvg-id="Golden.mx@Panregional" tvg-name="Golden (720p)" tvg-logo="https://i.imgur.com/NNd1lYl.png" group-title="Películas y Series",Golden (720p)
-http://177.234.249.135:8888/Golden/index.m3u8
-
-#EXTINF:-1 tvg-id="GoldenEdge.mx@Panregional" tvg-name="Golden Edge (1080p)" tvg-logo="https://i.imgur.com/SlSbcp3.png" group-title="Películas y Series",Golden Edge (1080p)
-http://138.186.23.7:8082/GOLDENEDGE/index.m3u8
-
-#EXTINF:-1 tvg-id="ParamountNetworkdePlutoTV.de@ES" tvg-name="Paramount Network de Pluto TV" tvg-logo="https://images.pluto.tv/channels/68d566603d3a9580eb461251/colorLogoPNG_1762199133146.png" group-title="Películas y Series",Paramount Network de Pluto TV
-https://jmp2.uk/plu-68d566603d3a9580eb461251.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Space Series (1080p)" tvg-logo="" group-title="Películas y Series",Space Series (1080p)
-https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/18d329ef-d478-413c-b68f-c123494ac434/manifest.m3u8
-
-#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@CentralAmerica" tvg-name="Star Channel Latin America Central America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Películas y Series",Star Channel Latin America Central America (1080p)
-https://streamer.metronethn.com/StarChannel/index.m3u8
-
-#EXTINF:-1 tvg-id="TNT.ru@SD" tvg-name="TNT (576p)" tvg-logo="https://i.imgur.com/T4A6rEI.png" group-title="Películas y Series",TNT (576p)
-http://94.230.129.31:8080/THT/index.m3u8
-
-#EXTINF:-1 tvg-id="AE.us@East" tvg-name="A&E (720p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/A%26E_Network_logo.svg/960px-A%26E_Network_logo.svg.png" group-title="Entretenimiento",A&E (720p)
-http://23.239.31.26:8989/aande/index.m3u8
-
-#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-name="Comedy Central Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" group-title="Entretenimiento",Comedy Central Latin America (1080p)
-http://181.119.93.83:8000/play/a1di/index.m3u8
-
-#EXTINF:-1 tvg-id="DistritoComedia.mx@SD" tvg-name="Distrito Comedia (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/DistritoComediaLOGO2018.png/960px-DistritoComediaLOGO2018.png" group-title="Entretenimiento",Distrito Comedia (1080p)
-http://177.234.249.135:8888/DistritoComedia/index.m3u8
-
-#EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Panregional" tvg-name="Lifetime Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Logo_Lifetime_2020.svg/960px-Logo_Lifetime_2020.svg.png" group-title="Entretenimiento",Lifetime Latin America (1080p)
-http://138.121.15.230:9002/LIFETIME/index.m3u8
-
-#EXTINF:-1 tvg-id="SonyChannelAndes.us@SD" tvg-name="Sony Channel Andes (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="Entretenimiento",Sony Channel Andes (1080p)
-http://138.186.23.7:8082/SONYCHANNEL/index.m3u8
-
-#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" tvg-name="Studio Universal Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/StudioUniversal2016.png/960px-StudioUniversal2016.png" group-title="Entretenimiento",Studio Universal Latin America (1080p)
-http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8
-
-#EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional" tvg-name="Universal TV Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" group-title="Entretenimiento",Universal TV Latin America (1080p)
-http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
-
-#EXTINF:-1 tvg-id="FilmArts.ar@Panregional" tvg-name="Film & Arts (720p)" tvg-logo="https://i.imgur.com/ukdmEKD.png" group-title="Documentales",Film & Arts (720p)
-http://200.91.32.158:8080/filmarts/index.m3u8
-
-#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional" tvg-name="History Latin America (1080p)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentales",History Latin America (1080p)
-http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
-
-#EXTINF:-1 tvg-id="TelemundoInternacional.us@CentralAmerica" tvg-name="Telemundo Internacional Central America (1080p)" tvg-logo="https://i.imgur.com/j2O4ndp.png" group-title="Televisión abierta Latinoamérica",Telemundo Internacional Central America (1080p)
-http://190.60.46.156:8089/TELEMUNDO/index.m3u8
+#EXTINF:-1 tvg-id="TNTSeries.us@SD" tvg-name="TNT Series" tvg-logo="tntseries.png" group-title="Películas y Series",TNT Series
+http://tntseries/stream

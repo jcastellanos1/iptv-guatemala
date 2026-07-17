@@ -1,0 +1,60 @@
+{
+  "candidates": [
+    {
+      "base_name": "AXN",
+      "name": "AXN Latin America (1080p)",
+      "tvg_id": "AXNLatinAmerica.us@CentralAmerica",
+      "score": 305,
+      "country": "US",
+      "quality": "1080p"
+    },
+    {
+      "base_name": "AXN",
+      "name": "AXN Latin America (720p)",
+      "tvg_id": "AXNLatinAmerica.us@SD",
+      "score": 295,
+      "country": "US",
+      "quality": "720p"
+    },
+    {
+      "base_name": "AMC",
+      "name": "AMC Latin America (1080p)",
+      "tvg_id": "AMCLatinAmerica.us@Panregional",
+      "score": 305,
+      "country": "US",
+      "quality": "1080p"
+    },
+    {
+      "base_name": "CNN en Español",
+      "name": "CNN en Español HD",
+      "tvg_id": "CNNenEspanol.us@HD",
+      "score": 215,
+      "country": "US",
+      "quality": "720p"
+    },
+    {
+      "base_name": "Azteca Uno",
+      "name": "Azteca Uno HD",
+      "tvg_id": "AztecaUno.mx@HD",
+      "score": 240,
+      "country": "MX",
+      "quality": "720p"
+    },
+    {
+      "base_name": "TNT",
+      "name": "TNT",
+      "tvg_id": "TNT.us@SD",
+      "score": 200,
+      "country": "US",
+      "quality": ""
+    },
+    {
+      "base_name": "TNT Series",
+      "name": "TNT Series",
+      "tvg_id": "TNTSeries.us@SD",
+      "score": 200,
+      "country": "US",
+      "quality": ""
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "generated_at": "2026-07-17T20:31:34.688393+00:00",
+  "summary": {
+    "total_m3u_entries": 12,
+    "total_latin_candidates": 6,
+    "total_imported": 6,
+    "duplicates_discarded": 1,
+    "online": 6,
+    "offline": 0
+  },
+  "channels": [
+    {
+      "query": "AXN",
+      "candidates_found": 2,
+      "selected": {
+        "name": "AXN Latin America (720p)",
+        "region": "Panregional / Internacional",
+        "quality": "720p",
+        "score": 295,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": true
+    },
+    {
+      "query": "AMC",
+      "candidates_found": 1,
+      "selected": {
+        "name": "AMC Latin America (1080p)",
+        "region": "Panregional / Internacional",
+        "quality": "1080p",
+        "score": 305,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    },
+    {
+      "query": "CNN en Español",
+      "candidates_found": 1,
+      "selected": {
+        "name": "CNN en Español HD",
+        "region": "Panregional / Internacional",
+        "quality": "720p",
+        "score": 215,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    },
+    {
+      "query": "Azteca Uno",
+      "candidates_found": 1,
+      "selected": {
+        "name": "Azteca Uno HD",
+        "region": "México",
+        "quality": "720p",
+        "score": 240,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    },
+    {
+      "query": "TNT",
+      "candidates_found": 1,
+      "selected": {
+        "name": "TNT",
+        "region": "Panregional / Internacional",
+        "quality": "",
+        "score": 200,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    },
+    {
+      "query": "TNT Series",
+      "candidates_found": 1,
+      "selected": {
+        "name": "TNT Series",
+        "region": "Panregional / Internacional",
+        "quality": "",
+        "score": 200,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    }
+  ]
+}

@@ -1,79 +1,54 @@
 {
   "overrides": {
+    "CNN en Español": {
+      "force_include": true,
+      "display_name": "CNN en Español",
+      "category_final": "Noticias en español"
+    },
     "AXN": {
-      "blocked_terms": ["Asia", "Adriatic", "Black", "CEE", "Romania", "Bulgaria", "Indonesia", "White", "Spin"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Asia", "Adriatic", "Black", "CEE", "Romania", "Bulgaria", "Indonesia", "White", "Spin"]
     },
     "AMC": {
-      "blocked_terms": ["Crime", "Selekt"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Crime", "Selekt"]
     },
     "TNT": {
-      "blocked_terms": ["Sports", "Brasil", "Brazil", "Africa", "Arryadia", "Kids", "Novelas", "TNTV"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Sports", "Brasil", "Brazil", "Africa", "Arryadia", "Kids", "Novelas", "TNTV"]
     },
     "TNT Series": {
-      "blocked_terms": ["Sports", "Brasil", "Brazil"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Sports", "Brasil", "Brazil"]
     },
     "History": {
-      "blocked_terms": ["History 2", "H2", "Historia", "History 365", "History Hit"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["History 2", "H2", "Historia", "History 365", "History Hit"]
     },
     "FX": {
-      "blocked_terms": ["FXX", "FX Movie", "FXNOW"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["FXX", "FX Movie", "FXNOW"]
     },
     "Space": {
-      "blocked_terms": ["Outer Space", "Deep Space", "SpaceX", "Namespace", "Pluto TV", "Space Live", "Spacetoon", "sen"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Outer Space", "Deep Space", "SpaceX", "Namespace", "Pluto TV", "Space Live", "Spacetoon", "sen"]
     },
     "Discovery Channel": {
-      "blocked_terms": ["Discovery Kids", "Discovery Science", "Discovery Turbo", "Discovery Home", "Discovery Family", "Discovery Life", "Discovery World"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Discovery Kids", "Discovery Science", "Discovery Turbo", "Discovery Home", "Discovery Family", "Discovery Life", "Discovery World"]
     },
     "Comedy Central": {
-      "blocked_terms": ["Comedy Central Extra", "Comedy Central Family"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Comedy Central Extra", "Comedy Central Family"]
     },
     "Star Channel": {
-      "blocked_terms": ["Star Life", "Star Plus", "Star Movies", "Star Sports", "Star Gold", "Star Bharat", "Star Vijay", "Star Maa", "Finland", "Star Trek"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Star Life", "Star Plus", "Star Movies", "Star Sports", "Star Gold", "Star Bharat", "Star Vijay", "Star Maa", "Finland", "Star Trek"]
     },
     "Golden": {
-      "blocked_terms": ["Golden Edge", "Golden Premier", "Golden Community", "GCO.tv", "Golden CO", "Golden Boy", "Golden Plus"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Golden Edge", "Golden Premier", "Golden Community", "GCO.tv", "Golden CO", "Golden Boy", "Golden Plus"]
     },
     "Sony Channel": {
-      "blocked_terms": ["Sony Turbo", "Sony Sci-Fi", "Sony SET"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Sony Turbo", "Sony Sci-Fi", "Sony SET"]
     },
     "A&E": {
-      "blocked_terms": [],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": []
     },
     "Paramount Network": {
-      "blocked_terms": ["Paramount Plus", "Paramount+"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Paramount Plus", "Paramount+"]
     },
     "Universal TV": {
-      "blocked_terms": ["Imagen Universal", "Imagen Universal TV"],
-      "preferred_name": null,
-      "selected_tvg_id": null
+      "blocked_terms": ["Imagen Universal", "Imagen Universal TV"]
     }
   }
 }

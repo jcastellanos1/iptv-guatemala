@@ -26,11 +26,20 @@ OUTPUT_FILE = os.path.join(BASE_DIR, "index.m3u")
 # Orden de grupos para la playlist
 GROUP_ORDER = [
     "Guatemala",
+    "TV abierta México",
+    "TV abierta Colombia",
+    "TV abierta Centroamérica",
+    "TV abierta Sudamérica",
+    "Noticias en español",
     "Películas y Series",
     "Entretenimiento",
     "Documentales",
-    "Noticias Latinoamérica",
-    "Televisión abierta Latinoamérica",
+    "Deportes",
+    "Infantil",
+    "Cultura y Educación",
+    "Música",
+    "Internacional en Español",
+    "Otros Latinos",
 ]
 
 
@@ -91,9 +100,9 @@ def convert_imported_to_playlist_format(imported_channels):
 
         entry = {
             "id": ch.get("tvg_id", ""),
-            "name": ch.get("selected_name", ch.get("tvg_name", "")),
+            "name": ch.get("display_name", ch.get("selected_name", "")),
             "logo": ch.get("tvg_logo", ""),
-            "group": ch.get("group_title", "Entretenimiento"),
+            "group": ch.get("category_final", "Otros Latinos"),
             "stream_url": ch.get("stream_url", ""),
             "enabled": True,
             "source": "iptv-org",

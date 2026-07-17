@@ -61,7 +61,7 @@ def load_imported_channels():
     for ch in data.get("channels", []):
         entry = {
             "id": ch.get("tvg_id", ""),
-            "name": ch.get("selected_name", ch.get("tvg_name", "")),
+            "name": ch.get("display_name", ch.get("selected_name", ch.get("tvg_name", ""))),
             "stream_url": ch.get("stream_url", ""),
             "enabled": True,
             "source": "iptv-org",
