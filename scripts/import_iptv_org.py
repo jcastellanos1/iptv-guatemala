@@ -40,6 +40,36 @@ CANDIDATES_FILE = os.path.join(BASE_DIR, "data", "discovered_candidates.json")
 REPORT_JSON = os.path.join(BASE_DIR, "reports", "discovery-report.json")
 REPORT_MD = os.path.join(BASE_DIR, "reports", "discovery-report.md")
 DUPLICATES_REPORT_MD = os.path.join(BASE_DIR, "reports", "duplicates-report.md")
+CACHE_FILE = os.path.join(BASE_DIR, "data", "validation_cache.json")
+
+def load_validation_cache():
+    if os.path.exists(CACHE_FILE):
+        try:
+            with open(CACHE_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            pass
+    return {}
+
+def save_validation_cache(cache):
+    try:
+        os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
+            json.dump(cache, f, indent=2, ensure_ascii=False)
+    except Exception:
+        pass
+
+def get_cached_validation(url, cache):
+    if url in cache:
+        entry = cache[url]
+        try:
+            check_date = datetime.fromisoformat(entry["checked_at"])
+            age_days = (datetime.now(timezone.utc) - check_date).days
+            if age_days < 7 and entry.get("status") in ("online", "geo-restricted"):
+                return True, entry
+        except Exception:
+            pass
+    return False, None
 
 IPTV_ORG_URL = "https://iptv-org.github.io/iptv/index.m3u"
 
@@ -678,13 +708,30 @@ def run_import():
     lock = threading.Lock()
     
     def _save_partial():
-        os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+        dir_name = os.path.dirname(OUTPUT_FILE)
+        os.makedirs(dir_name, exist_ok=True)
+        tmp_file = os.path.join(dir_name, "imported_channels.tmp.json")
         sorted_imported = sorted(imported_channels, key=lambda x: x["display_name"].lower())
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f_out:
+        
+        # 1. Write to temp file
+        with open(tmp_file, "w", encoding="utf-8") as f_out:
             json.dump({
                 "channels": sorted_imported,
                 "generated_at": datetime.now(timezone.utc).isoformat()
             }, f_out, indent=2, ensure_ascii=False)
+            
+        # 2. Validate JSON structure
+        try:
+            with open(tmp_file, "r", encoding="utf-8") as f_test:
+                test_data = json.load(f_test)
+                if not isinstance(test_data, dict) or "channels" not in test_data:
+                    raise ValueError("Estructura JSON invalida")
+            # 3. Replace production file safely
+            if os.path.exists(OUTPUT_FILE):
+                os.remove(OUTPUT_FILE)
+            os.rename(tmp_file, OUTPUT_FILE)
+        except Exception as e:
+            print(f"  [ERROR] Fallo al validar JSON temporal: {e}")
             
     # Save discovered_candidates.json
     discovered_list = []
@@ -709,6 +756,7 @@ def run_import():
     base_progress = {name: 0 for name in groups_to_validate}
     # base_name -> selected candidate (or None)
     base_selected = {name: None for name in groups_to_validate}
+    
     # Calculate total potential validations
     total_to_validate = 0
     for base_name, group in groups_to_validate.items():
@@ -716,6 +764,10 @@ def run_import():
         
     validated_count = 0
     count_lock = threading.Lock()
+    
+    # Load validation cache
+    validation_cache = load_validation_cache()
+    cache_lock = threading.Lock()
     
     print(f"  Validando candidatos con 8 workers...")
     
@@ -738,6 +790,24 @@ def run_import():
             base_name, cand = item
             stream = cand["stream"]
             
+            # Check cache
+            with cache_lock:
+                cached_ok, cached_entry = get_cached_validation(stream["stream_url"], validation_cache)
+                
+            if cached_ok:
+                val_status = cached_entry["status"]
+                is_online = True
+                status_detail = cached_entry.get("status_detail", "online (cached)")
+                latency = cached_entry.get("latency", 100)
+                language = cached_entry.get("language", "unknown")
+                language_status = cached_entry.get("language_status", "verified")
+                
+                with count_lock:
+                    validated_count += 1
+                    current_idx = validated_count
+                print(f"    [{current_idx}/{total_to_validate}] [CACHE] {base_name} ({cand['quality'] or 'SD'})...", flush=True)
+                return base_name, cand, is_online, val_status, status_detail, latency, language, language_status
+                
             with count_lock:
                 validated_count += 1
                 current_idx = validated_count
@@ -753,12 +823,16 @@ def run_import():
             
             val_status = "online"
             if not is_online:
-                val_status = "timeout" if "timeout" in status_detail.lower() else "offline"
-                
-            # HLS audio check if online
+                if "403" in status_detail or "geoblock" in status_detail.lower():
+                    val_status = "geo-restricted"
+                    is_online = True
+                else:
+                    val_status = "timeout" if "timeout" in status_detail.lower() else "offline"
+                    
+            # HLS audio check if online and not geoblocked
             language = "unknown"
             language_status = "unverifiable"
-            if is_online:
+            if is_online and val_status != "geo-restricted":
                 audio_lang, audio_status = inspect_hls_audio(
                     stream["stream_url"],
                     stream.get("user_agent"),
@@ -770,6 +844,19 @@ def run_import():
                     val_status = "rejected_language"
                     is_online = False
                     
+            # Cache the result
+            with cache_lock:
+                validation_cache[stream["stream_url"]] = {
+                    "status": val_status,
+                    "status_detail": status_detail,
+                    "checked_at": datetime.now(timezone.utc).isoformat(),
+                    "latency": latency,
+                    "quality": cand["quality"],
+                    "language": language,
+                    "language_status": language_status,
+                    "is_geoblocked": "403" in status_detail or "geoblock" in status_detail.lower()
+                }
+                
             return base_name, cand, is_online, val_status, status_detail, latency, language, language_status
             
         with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
@@ -791,6 +878,9 @@ def run_import():
                                 }
                 except Exception as e:
                     print(f"      Error en validador: {e}")
+                    
+    # Save validation cache at the end of loop
+    save_validation_cache(validation_cache)
                     
     # Process final selections
     for base_name, selection in base_selected.items():
