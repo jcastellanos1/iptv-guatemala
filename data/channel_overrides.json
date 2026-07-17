@@ -1,0 +1,79 @@
+{
+  "overrides": {
+    "AXN": {
+      "blocked_terms": ["Asia", "Adriatic", "Black", "CEE", "Romania", "Bulgaria", "Indonesia", "White", "Spin"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "AMC": {
+      "blocked_terms": ["Crime", "Selekt"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "TNT": {
+      "blocked_terms": ["Sports", "Brasil", "Brazil", "Africa", "Arryadia", "Kids", "Novelas", "TNTV"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "TNT Series": {
+      "blocked_terms": ["Sports", "Brasil", "Brazil"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "History": {
+      "blocked_terms": ["History 2", "H2", "Historia", "History 365", "History Hit"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "FX": {
+      "blocked_terms": ["FXX", "FX Movie", "FXNOW"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Space": {
+      "blocked_terms": ["Outer Space", "Deep Space", "SpaceX", "Namespace", "Pluto TV", "Space Live", "Spacetoon", "sen"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Discovery Channel": {
+      "blocked_terms": ["Discovery Kids", "Discovery Science", "Discovery Turbo", "Discovery Home", "Discovery Family", "Discovery Life", "Discovery World"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Comedy Central": {
+      "blocked_terms": ["Comedy Central Extra", "Comedy Central Family"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Star Channel": {
+      "blocked_terms": ["Star Life", "Star Plus", "Star Movies", "Star Sports", "Star Gold", "Star Bharat", "Star Vijay", "Star Maa", "Finland", "Star Trek"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Golden": {
+      "blocked_terms": ["Golden Edge", "Golden Premier", "Golden Community", "GCO.tv", "Golden CO", "Golden Boy", "Golden Plus"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Sony Channel": {
+      "blocked_terms": ["Sony Turbo", "Sony Sci-Fi", "Sony SET"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "A&E": {
+      "blocked_terms": [],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Paramount Network": {
+      "blocked_terms": ["Paramount Plus", "Paramount+"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    },
+    "Universal TV": {
+      "blocked_terms": ["Imagen Universal", "Imagen Universal TV"],
+      "preferred_name": null,
+      "selected_tvg_id": null
+    }
+  }
+}

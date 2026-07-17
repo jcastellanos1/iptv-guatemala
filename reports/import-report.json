@@ -1,0 +1,1302 @@
+{
+  "generated_at": "2026-07-17T19:58:45.618131+00:00",
+  "summary": {
+    "wanted": 27,
+    "found": 21,
+    "not_found": 6,
+    "online": 5,
+    "offline": 15,
+    "needs_review": 9
+  },
+  "channels": [
+    {
+      "query": "Warner Channel",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
+      "needs_review": false
+    },
+    {
+      "query": "TNT Series",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
+      "needs_review": false
+    },
+    {
+      "query": "TNT",
+      "candidates_found": 1,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "TNT (576p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "TNT (576p)",
+        "region": "Unknown",
+        "quality": "",
+        "score": 120,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "Studio Universal",
+      "candidates_found": 2,
+      "candidates_rejected": [
+        {
+          "name": "Studio Universal Latin America Brazil (720p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -810,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "Studio Universal Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Studio Universal Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "Sony Channel",
+      "candidates_found": 4,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Sony Channel Andes (1080p)",
+          "score": 180,
+          "region": "Andes",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Sony Channel (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Sony Channel (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Sony Channel (720p)",
+          "score": 130,
+          "region": "MX",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "Sony Channel Andes (1080p)",
+        "region": "Andes",
+        "quality": "1080p",
+        "score": 180,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "FX",
+      "candidates_found": 9,
+      "candidates_rejected": [
+        {
+          "name": "FX Latin America Brazil (720p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -810,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "FX Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "FX Latin America South (720p)",
+          "score": 190,
+          "region": "Latin America",
+          "resolution": "720p"
+        },
+        {
+          "name": "FX (1080p) [Geo-blocked]",
+          "score": 150,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "FX (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "FX (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "FX TV 1",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "FX TV 2",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Radio Fx Net (720p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "FX Latin America South (720p)",
+        "region": "Latin America",
+        "quality": "720p",
+        "score": 190,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": true
+    },
+    {
+      "query": "Cinecanal",
+      "candidates_found": 4,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Cinecanal Mexico (720p)",
+          "score": 180,
+          "region": "Mexico",
+          "resolution": "720p"
+        },
+        {
+          "name": "Cinecanal (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Cinecanal Pacific (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Cinecanal South (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Cinecanal Mexico (720p)",
+        "region": "Mexico",
+        "quality": "720p",
+        "score": 180,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "AMC",
+      "candidates_found": 20,
+      "candidates_rejected": [
+        {
+          "name": "AMC Europe",
+          "reason": "coincidencia exacta del nombre base (+100); tiene logo (+10); tiene tvg-id (+10); usa HTTPS (+10); penalización: UK (-1000)",
+          "score": -870,
+          "region": "Unknown"
+        },
+        {
+          "name": "AMC Europe Bulgary",
+          "reason": "coincidencia exacta del nombre base (+100); tiene logo (+10); tiene tvg-id (+10); penalización: UK (-1000)",
+          "score": -880,
+          "region": "Unknown"
+        },
+        {
+          "name": "AMC Europe Czech Republic",
+          "reason": "coincidencia exacta del nombre base (+100); tiene logo (+10); tiene tvg-id (+10); penalización: Europa/otra región (czech) (-1000); penalización: UK (-1000)",
+          "score": -1880,
+          "region": "Unknown"
+        },
+        {
+          "name": "AMC Europe Hungary",
+          "reason": "coincidencia exacta del nombre base (+100); tiene logo (+10); tiene tvg-id (+10); penalización: Europa/otra región (hungary) (-1000); penalización: UK (-1000)",
+          "score": -1880,
+          "region": "Unknown"
+        },
+        {
+          "name": "AMC Latin America Brazil (1080p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 1080p (+20); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -800,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "AMC Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AMC Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AMC Series Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AMC (1080p)",
+          "score": 150,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AMC en Español (720p) [Geo-blocked]",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "AMC (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "AMC Absolute Reality",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "AMC Cupid (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AMC East (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "AMC Reality (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AMC+ (1080p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Stories by AMC",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Stories by AMC",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "The Walking Dead by AMC (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "The Walking Dead by AMC",
+          "score": 90,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "AMC Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Star Channel",
+      "candidates_found": 7,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Star Channel Latin America Central America (1080p)",
+          "score": 210,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Star Channel Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Star Channel (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Star Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "STAR Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Star Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Star Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "Star Channel Latin America Central America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 210,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Discovery Channel",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
+      "needs_review": false
+    },
+    {
+      "query": "AXN",
+      "candidates_found": 9,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "AXN Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN Latin America Andes (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN Latin America Mexico (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN Latin America South",
+          "score": 180,
+          "region": "Latin America",
+          "resolution": ""
+        },
+        {
+          "name": "AXN (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "AXN Movies (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "AXN",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "AXN Adria",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "AXN Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Investigation Discovery",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
+      "needs_review": false
+    },
+    {
+      "query": "Space",
+      "candidates_found": 2,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Space Series (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Space TV",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "Space Series (1080p)",
+        "region": "Unknown",
+        "quality": "1080p",
+        "score": 130,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Universal TV",
+      "candidates_found": 3,
+      "candidates_rejected": [
+        {
+          "name": "Universal TV Latin America Brazil (720p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -810,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "Universal TV Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Universal TV Latin America Mexico (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Universal TV Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Comedy Central",
+      "candidates_found": 16,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Comedy Central Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Comedy Central Pluto TV",
+          "score": 190,
+          "region": "Latin America",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central South Park",
+          "score": 190,
+          "region": "Latin America",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central (720p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Comedy Central (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Comedy Central",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central Animation",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central en español",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central Pluto TV",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central Pluto TV",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central Roast",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central South Park",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central South Park",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Comedy Central",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "Comedy Central Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": true
+    },
+    {
+      "query": "Golden Edge",
+      "candidates_found": 1,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Golden Edge (1080p)",
+          "score": 140,
+          "region": "MX",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Golden Edge (1080p)",
+        "region": "MX",
+        "quality": "1080p",
+        "score": 140,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "Golden",
+      "candidates_found": 1,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Golden (720p)",
+          "score": 130,
+          "region": "MX",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "Golden (720p)",
+        "region": "MX",
+        "quality": "720p",
+        "score": 130,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "De Película",
+      "candidates_found": 2,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "De Pelicula Latin America",
+          "score": 180,
+          "region": "Latin America",
+          "resolution": ""
+        },
+        {
+          "name": "De Pelicula US (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "De Pelicula Latin America",
+        "region": "Latin America",
+        "quality": "",
+        "score": 180,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    },
+    {
+      "query": "Distrito Comedia",
+      "candidates_found": 1,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Distrito Comedia (1080p)",
+          "score": 140,
+          "region": "MX",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Distrito Comedia (1080p)",
+        "region": "MX",
+        "quality": "1080p",
+        "score": 140,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "Caracol Internacional",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
+      "needs_review": false
+    },
+    {
+      "query": "RCN Internacional",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
+      "needs_review": false
+    },
+    {
+      "query": "Telemundo Internacional",
+      "candidates_found": 2,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Telemundo Internacional Central America (1080p)",
+          "score": 175,
+          "region": "Centroamérica",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Telemundo Internacional (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Telemundo Internacional Central America (1080p)",
+        "region": "Centroamérica",
+        "quality": "1080p",
+        "score": 175,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "Lifetime",
+      "candidates_found": 12,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Lifetime Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Lifetime Latin America Mexico (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Lifetime Movies (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Lifetime Movies West (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Lifetime (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Lifetime Movies (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Lifetime Movies Love & Drama (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Lifetime West (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Lifetime Movie Favorites (720p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Lifetime Movie Favorites (720p) [Geo-blocked]",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Lifetime Real Women (576p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Matched Married Meet by Lifetime (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "Lifetime Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Film & Arts",
+      "candidates_found": 1,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Film & Arts (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "Film & Arts (720p)",
+        "region": "Unknown",
+        "quality": "720p",
+        "score": 130,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "A&E",
+      "candidates_found": 12,
+      "candidates_rejected": [
+        {
+          "name": "A&E Latin America Brazil (720p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -810,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "A&E Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "A&E Latin America South (720p)",
+          "score": 190,
+          "region": "Latin America",
+          "resolution": "720p"
+        },
+        {
+          "name": "A&E (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "A&E West (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "A&E Crime 360 (720p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Storage Wars by A&E (720p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Intervention by A&E (1080p) [Geo-blocked]",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "60 Days In by A&E (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Hoarders by A&E (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "The First 48 by A&E (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Cold Case Files by A&E",
+          "score": 90,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "A&E (720p)",
+        "region": "Unknown",
+        "quality": "720p",
+        "score": 130,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": true
+    },
+    {
+      "query": "Paramount Network",
+      "candidates_found": 3,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Paramount Network Latin America (720p)",
+          "score": 190,
+          "region": "Latin America",
+          "resolution": "720p"
+        },
+        {
+          "name": "Paramount Network (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Paramount Network de Pluto TV",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "Paramount Network de Pluto TV",
+        "region": "Unknown",
+        "quality": "",
+        "score": 130,
+        "status": "online"
+      },
+      "status": "online",
+      "needs_review": false
+    },
+    {
+      "query": "History",
+      "candidates_found": 38,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "History Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History Channel (1080p)",
+          "score": 150,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History TV18 HD (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History West (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Autentic History (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "History (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "History & Warfare Now (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History and Warfare Now (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History and Warfare Now (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History Hunters (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History Hunters (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Viasat History (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "History",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "History",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "History TV18 (576p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "True History (720p)",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "American Pickers by History (1080p) [Geo-blocked]",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "History & Warfare",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "History Hunters",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "PBS History (1080p)",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "PBS History (1080p)",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Pluto TV History",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Pluto TV History",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Pluto TV History",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "TVS Hollywood History (582p)",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Viasat History (720p)",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Viasat History",
+          "score": 110,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Alone By History (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Modern Marvels by HISTORY (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Modern Marvels Presented by History (720p) [Geo-blocked]",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "True History Channel (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Viasat History [Not 24/7]",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "viju History (576p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Xtreme Outdoor Presented by HISTORY (720p)",
+          "score": 100,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Beyond History",
+          "score": 90,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Xtreme Outdoor by HISTORY",
+          "score": 90,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "History Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "timeout"
+      },
+      "status": "timeout",
+      "needs_review": false
+    }
+  ]
+}

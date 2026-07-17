@@ -2,8 +2,8 @@
 """
 validate_streams.py — Validador de streams HLS para IPTV Guatemala.
 
-Verifica que cada stream HLS en channels.json responda correctamente,
-tenga contenido válido M3U8 y sea reproducible.
+Verifica que cada stream HLS en channels.json y imported_channels.json
+responda correctamente, tenga contenido válido M3U8 y sea reproducible.
 
 Uso:
     python scripts/validate_streams.py
@@ -21,8 +21,10 @@ import requests
 
 
 # Configuración
-CHANNELS_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "channels.json")
-REPORT_FILE = os.path.join(os.path.dirname(__file__), "..", "reports", "stream-status.json")
+BASE_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
+CHANNELS_FILE = os.path.join(BASE_DIR, "data", "channels.json")
+IMPORTED_FILE = os.path.join(BASE_DIR, "data", "imported_channels.json")
+REPORT_FILE = os.path.join(BASE_DIR, "reports", "stream-status.json")
 MAX_RETRIES = 3
 RETRY_DELAY_SECONDS = 2
 TIMEOUT_SECONDS = 15
@@ -33,7 +35,7 @@ HLS_TAGS = {"#EXTM3U", "#EXT-X-STREAM-INF", "#EXTINF", "#EXT-X-TARGETDURATION", 
 
 
 def load_channels():
-    """Carga los canales desde channels.json."""
+    """Carga los canales guatemaltecos desde channels.json."""
     channels_path = os.path.normpath(CHANNELS_FILE)
     if not os.path.exists(channels_path):
         print(f"ERROR: No se encontró {channels_path}")
@@ -43,6 +45,37 @@ def load_channels():
         data = json.load(f)
 
     return data.get("channels", [])
+
+
+def load_imported_channels():
+    """Carga los canales importados desde imported_channels.json (si existe)."""
+    imported_path = os.path.normpath(IMPORTED_FILE)
+    if not os.path.exists(imported_path):
+        return []
+
+    with open(imported_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Convert imported format to validation format
+    channels = []
+    for ch in data.get("channels", []):
+        entry = {
+            "id": ch.get("tvg_id", ""),
+            "name": ch.get("selected_name", ch.get("tvg_name", "")),
+            "stream_url": ch.get("stream_url", ""),
+            "enabled": True,
+            "source": "iptv-org",
+            "extra_lines": ch.get("extra_lines", []),
+        }
+        # Extract custom user-agent and referrer from extra_lines
+        for line in ch.get("extra_lines", []):
+            if "http-user-agent=" in line.lower():
+                entry["custom_user_agent"] = line.split("=", 1)[1] if "=" in line else None
+            elif "http-referrer=" in line.lower() or "http-referer=" in line.lower():
+                entry["custom_referrer"] = line.split("=", 1)[1] if "=" in line else None
+        channels.append(entry)
+
+    return channels
 
 
 def resolve_dns(hostname):
@@ -112,6 +145,7 @@ def validate_stream(channel):
     channel_id = channel.get("id", "unknown")
     channel_name = channel.get("name", "Unknown")
     stream_url = channel.get("stream_url", "")
+    source = channel.get("source", "local")
 
     result = {
         "id": channel_id,
@@ -123,7 +157,8 @@ def validate_stream(channel):
         "content_type": None,
         "hls_details": None,
         "checked_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "error": None
+        "error": None,
+        "source": source,
     }
 
     if not stream_url:
@@ -142,6 +177,12 @@ def validate_stream(channel):
         result["error"] = dns_error
         return result
 
+    # Determine User-Agent and Referer
+    ua = channel.get("custom_user_agent", USER_AGENT)
+    headers = {"User-Agent": ua}
+    if channel.get("custom_referrer"):
+        headers["Referer"] = channel["custom_referrer"]
+
     # Intentar conexión con reintentos
     last_error = None
     for attempt in range(1, MAX_RETRIES + 1):
@@ -149,7 +190,7 @@ def validate_stream(channel):
             start_time = time.time()
             response = requests.get(
                 stream_url,
-                headers={"User-Agent": USER_AGENT},
+                headers=headers,
                 timeout=TIMEOUT_SECONDS,
                 allow_redirects=True,
                 stream=False
@@ -233,14 +274,23 @@ def main():
     print("=" * 60)
     print()
 
-    channels = load_channels()
-    enabled_channels = [ch for ch in channels if ch.get("enabled", False)]
+    # Load Guatemala channels
+    gt_channels = load_channels()
+    enabled_gt = [ch for ch in gt_channels if ch.get("enabled", False)]
 
-    if not enabled_channels:
+    # Load imported channels
+    imported_channels = load_imported_channels()
+
+    all_channels = enabled_gt + imported_channels
+    total = len(all_channels)
+
+    if not all_channels:
         print("No hay canales habilitados para validar.")
         sys.exit(0)
 
-    print(f"Canales habilitados: {len(enabled_channels)}")
+    print(f"Canales guatemaltecos: {len(enabled_gt)}")
+    print(f"Canales importados: {len(imported_channels)}")
+    print(f"Total a validar: {total}")
     print(f"Reintentos por canal: {MAX_RETRIES}")
     print(f"Timeout: {TIMEOUT_SECONDS}s")
     print()
@@ -249,9 +299,11 @@ def main():
     online_count = 0
     offline_count = 0
 
-    for channel in enabled_channels:
+    for channel in all_channels:
         name = channel.get("name", "Unknown")
-        print(f"  Validando: {name}...", end=" ", flush=True)
+        source = channel.get("source", "local")
+        source_label = f" [{source}]" if source != "local" else ""
+        print(f"  Validando: {name}{source_label}...", end=" ", flush=True)
 
         result = validate_stream(channel)
         results.append(result)
@@ -272,7 +324,9 @@ def main():
         "summary": {
             "total": len(results),
             "online": online_count,
-            "offline": offline_count
+            "offline": offline_count,
+            "guatemala_channels": len(enabled_gt),
+            "imported_channels": len(imported_channels),
         },
         "channels": results
     }
