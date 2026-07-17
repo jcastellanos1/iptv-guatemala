@@ -1,0 +1,144 @@
+{
+  "generated_at": "2026-07-17T20:51:17.218690+00:00",
+  "execution_time_seconds": 21.12,
+  "metrics": {
+    "total_brands_processed": 50,
+    "channels_found": 26,
+    "channels_not_found": 24,
+    "total_http_requests": 30,
+    "discarded_by_region": 13,
+    "discarded_by_duplicity": 0,
+    "discarded_by_blocked_terms": 2
+  },
+  "selected_channels": [
+    "AMC",
+    "AXN",
+    "FX",
+    "Golden",
+    "Golden Edge",
+    "Paramount Network",
+    "Star Channel",
+    "Studio Universal",
+    "Universal TV",
+    "A&E",
+    "Comedy Central",
+    "Distrito Comedia",
+    "E!",
+    "Lifetime",
+    "Sony Channel",
+    "Las Estrellas",
+    "TLNovelas",
+    "Azteca Internacional",
+    "NTN24",
+    "TeleSUR",
+    "Milenio Televisión",
+    "Foro TV",
+    "National Geographic",
+    "Nickelodeon",
+    "Nick Jr.",
+    "Disney Channel"
+  ],
+  "not_found_channels": [
+    {
+      "name": "Cinecanal",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Cinemax",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Space",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "TNT",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "TNT Series",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Warner Channel",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Telemundo Internacional",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "CNN en Español",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "DW Español",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "France 24 Español",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Euronews Español",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Todo Noticias",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "C5N",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Discovery Channel",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Discovery Science",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Discovery Turbo",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Animal Planet",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "History",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Nat Geo Wild",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Love Nature",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Cartoon Network",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Cartoonito",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Discovery Kids",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    }
+  ],
+  "guatemala_channels_confirmed": [
+    "Canal 3 Guatemala",
+    "Canal 7 Guatemala",
+    "TN23 Guatemala"
+  ]
+}

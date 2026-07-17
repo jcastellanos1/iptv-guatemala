@@ -1,0 +1,402 @@
+[
+  {
+    "name": "AMC",
+    "aliases": ["AMC Latin America", "AMC Latinoamérica", "AMC Mexico", "AMC Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Crime", "Selekt", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "AXN",
+    "aliases": ["AXN Latin America", "AXN Latinoamérica", "AXN Mexico", "AXN Andes"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Cinecanal",
+    "aliases": ["Cinecanal Latin America", "Cinecanal Latinoamérica", "Cinecanal Mexico", "Cinecanal Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Cinemax",
+    "aliases": ["Cinemax Latin America", "Cinemax Latinoamérica", "Cinemax Mexico", "Cinemax Argentina", "Cinemax East", "Cinemax West"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic", "UK", "Germany"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "FX",
+    "aliases": ["FX Latin America", "FX Latinoamérica", "FX Mexico", "FX Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["FXX", "FX Movie", "FXNOW", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Golden",
+    "aliases": ["Golden Latin America", "Golden Latinoamérica", "Golden Mexico", "Golden Plus"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Golden Edge", "Golden Premier", "Golden Community", "GCO.tv", "Golden CO", "Golden Boy", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Golden Edge",
+    "aliases": ["Golden Edge Latin America", "Golden Edge Latinoamérica", "Golden Edge Mexico"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Golden Premier", "Golden Community", "Golden Plus", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Paramount Network",
+    "aliases": ["Paramount Network Latin America", "Paramount Network Latinoamérica", "Paramount Channel Latin America", "Paramount Channel"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Paramount Plus", "Paramount+", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic", "UK"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Space",
+    "aliases": ["Space Latin America", "Space Latinoamérica", "Space Mexico", "Space Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Outer Space", "Deep Space", "SpaceX", "Namespace", "Pluto TV", "Space Live", "Spacetoon", "sen", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Star Channel",
+    "aliases": ["Star Channel Latin America", "Star Channel Latinoamérica", "Star Channel Mexico", "Star Channel Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Star Life", "Star Plus", "Star Movies", "Star Sports", "Star Gold", "Star Bharat", "Star Vijay", "Star Maa", "Finland", "Star Trek", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Studio Universal",
+    "aliases": ["Studio Universal Latin America", "Studio Universal Latinoamérica", "Studio Universal Mexico", "Studio Universal Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "TNT",
+    "aliases": ["TNT Latin America", "TNT Latinoamérica", "TNT Mexico", "TNT Argentina", "TNT Chile"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Sports", "Brasil", "Brazil", "Africa", "Arryadia", "Kids", "Novelas", "TNTV", "TNT Series", "Asia", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "TNT Series",
+    "aliases": ["TNT Series Latin America", "TNT Series Latinoamérica", "TNT Series Mexico", "TNT Series Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Sports", "Brasil", "Brazil", "Asia", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic", "TNT ("],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Universal TV",
+    "aliases": ["Universal TV Latin America", "Universal TV Latinoamérica", "Universal Channel", "Universal TV Mexico"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Imagen Universal", "Imagen Universal TV", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "Warner Channel",
+    "aliases": ["Warner Channel Latin America", "Warner Channel Latinoamérica", "Warner TV", "Warner Channel Mexico", "Warner Channel Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Películas y Series",
+    "priority": 100
+  },
+  {
+    "name": "A&E",
+    "aliases": ["A&E Latin America", "A&E Latinoamérica", "A&E Mexico", "A&E Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Comedy Central",
+    "aliases": ["Comedy Central Latin America", "Comedy Central Latinoamérica", "Comedy Central Mexico", "Comedy Central Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Comedy Central Extra", "Comedy Central Family", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Distrito Comedia",
+    "aliases": ["Distrito Comedia Latin America", "Distrito Comedia Latinoamérica", "Distrito Comedia Mexico"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "E!",
+    "aliases": ["E! Entertainment Television", "E! Entertainment Latin America", "E! Latin America", "E! Latinoamérica", "E! Entertainment", "E! Mexico", "E! Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic", "Germany", "France", "UK"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Lifetime",
+    "aliases": ["Lifetime Latin America", "Lifetime Latinoamérica", "Lifetime Mexico", "Lifetime Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic", "Canada", "UK"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Sony Channel",
+    "aliases": ["Sony Channel Latin America", "Sony Channel Latinoamérica", "Sony Channel Mexico", "Sony Channel Argentina", "Canal Sony"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Sony Turbo", "Sony Sci-Fi", "Sony SET", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Telemundo Internacional",
+    "aliases": ["Telemundo Internacional Latin America", "Telemundo Internacional Latinoamérica", "Telemundo Internacional Mexico"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Telemundo US", "Telemundo East", "Telemundo West", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Las Estrellas",
+    "aliases": ["Las Estrellas Latin America", "Las Estrellas Latinoamérica", "Las Estrellas Internacional", "Canal de las Estrellas", "Las Estrellas Mexico"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "TLNovelas",
+    "aliases": ["TLNovelas Latin America", "TLNovelas Latinoamérica", "TLNovelas Mexico", "tlnovelas"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "Azteca Internacional",
+    "aliases": ["Azteca Internacional Latin America", "Azteca Internacional Latinoamérica", "Azteca Mundo"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Azteca Uno", "Azteca 7", "Azteca 13", "Azteca Deportes", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Entretenimiento",
+    "priority": 100
+  },
+  {
+    "name": "CNN en Español",
+    "aliases": ["CNN en Español Latin America", "CNN en Español Latinoamérica", "CNN en Espanol", "CNN en Español Panregional"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["CNN International", "CNN US", "CNN Chile", "CNN Brazil", "CNN Brasil", "CNN Portugal", "CNN Turkey", "CNN Indonesia"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "NTN24",
+    "aliases": ["NTN24 Latin America", "NTN24 Latinoamérica", "Nuestra Tele Noticias 24"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "DW Español",
+    "aliases": ["DW Español Latin America", "DW Latinoamérica", "DW Deutsch", "DW English"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["DW Deutsch", "DW English", "DW Arabia", "DW Feed", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "France 24 Español",
+    "aliases": ["France 24 Español Latin America", "France 24 Latinoamérica", "France 24 Spanish"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["France 24 English", "France 24 Français", "France 24 Arabic", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "Euronews Español",
+    "aliases": ["Euronews Español Latin America", "Euronews Latinoamérica", "Euronews Spanish"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Euronews English", "Euronews French", "Euronews German", "Euronews Russian", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "TeleSUR",
+    "aliases": ["teleSUR Latin America", "teleSUR Latinoamérica"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["teleSUR English", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "Milenio Televisión",
+    "aliases": ["Milenio Televisión Latin America", "Milenio TV", "Milenio México"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "Foro TV",
+    "aliases": ["Foro TV Latin America", "Foro TV Latinoamérica", "Foro TV Mexico", "FOROtv"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "Todo Noticias",
+    "aliases": ["Todo Noticias Latin America", "Todo Noticias Latinoamérica", "TN Argentina", "TN"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["TN23", "TN 23", "TN Uruguay", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "C5N",
+    "aliases": ["C5N Latin America", "C5N Latinoamérica", "C5N Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Noticias",
+    "priority": 100
+  },
+  {
+    "name": "Discovery Channel",
+    "aliases": ["Discovery Channel Latin America", "Discovery Channel Latinoamérica", "Discovery Channel Mexico", "Discovery Channel Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Discovery Kids", "Discovery Science", "Discovery Turbo", "Discovery Home", "Discovery Family", "Discovery Life", "Discovery World", "Discovery Theater", "Discovery ID", "Investigation Discovery", "ID Discovery", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "Discovery Science",
+    "aliases": ["Discovery Science Latin America", "Discovery Science Latinoamérica", "Discovery Science Mexico", "Science Channel"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Discovery Kids", "Discovery Channel", "Discovery Turbo", "Discovery Home", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "Discovery Turbo",
+    "aliases": ["Discovery Turbo Latin America", "Discovery Turbo Latinoamérica", "Discovery Turbo Mexico"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Discovery Kids", "Discovery Channel", "Discovery Science", "Discovery Home", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "Animal Planet",
+    "aliases": ["Animal Planet Latin America", "Animal Planet Latinoamérica", "Animal Planet Mexico", "Animal Planet Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "History",
+    "aliases": ["History Channel Latin America", "History Channel Latinoamérica", "History Latin America", "History Latinoamérica", "The History Channel"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["History 2", "History2", "H2", "Historia", "History 365", "History Hit", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "History 2",
+    "aliases": ["History 2 Latin America", "History 2 Latinoamérica", "History2 Latin America", "History2 Latinoamérica", "H2"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["History Channel", "The History Channel", "Historia", "History 365", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "National Geographic",
+    "aliases": ["National Geographic Latin America", "National Geographic Latinoamérica", "Nat Geo Latin America", "Nat Geo Latinoamérica", "National Geographic Channel"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Nat Geo Wild", "NatGeo Wild", "Nat Geo Kids", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "Nat Geo Wild",
+    "aliases": ["Nat Geo Wild Latin America", "Nat Geo Wild Latinoamérica", "NatGeo Wild"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["National Geographic Channel", "National Geographic", "Nat Geo Kids", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "Love Nature",
+    "aliases": ["Love Nature Latin America", "Love Nature Latinoamérica", "Love Nature HD"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Documentales",
+    "priority": 100
+  },
+  {
+    "name": "Cartoon Network",
+    "aliases": ["Cartoon Network Latin America", "Cartoon Network Latinoamérica", "Cartoon Network Mexico", "Cartoon Network Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Cartoonito", "Tooncast", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic", "Japan"],
+    "category": "Infantil",
+    "priority": 100
+  },
+  {
+    "name": "Cartoonito",
+    "aliases": ["Cartoonito Latin America", "Cartoonito Latinoamérica", "Cartoonito Mexico", "Cartoonito Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Cartoon Network", "Tooncast", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Infantil",
+    "priority": 100
+  },
+  {
+    "name": "Discovery Kids",
+    "aliases": ["Discovery Kids Latin America", "Discovery Kids Latinoamérica", "Discovery Kids Mexico", "Discovery Kids Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Discovery Channel", "Discovery Science", "Discovery Turbo", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Infantil",
+    "priority": 100
+  },
+  {
+    "name": "Nickelodeon",
+    "aliases": ["Nickelodeon Latin America", "Nickelodeon Latinoamérica", "Nickelodeon Mexico", "Nickelodeon Argentina", "Nick Latin America"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Nick Jr.", "NickJr", "NickToons", "TeenNick", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Infantil",
+    "priority": 100
+  },
+  {
+    "name": "Nick Jr.",
+    "aliases": ["Nick Jr. Latin America", "Nick Jr. Latinoamérica", "Nick Jr. Mexico", "Nick Jr. Argentina", "NickJr"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Nickelodeon", "NickToons", "TeenNick", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Infantil",
+    "priority": 100
+  },
+  {
+    "name": "Disney Channel",
+    "aliases": ["Disney Channel Latin America", "Disney Channel Latinoamérica", "Disney Channel Mexico", "Disney Channel Argentina"],
+    "preferred_regions": ["Latin America", "Panregional", "Central America", "Mexico", "Andes", "Colombia"],
+    "blocked_terms": ["Disney Junior", "Disney Jr", "Disney XD", "Asia", "Brazil", "Brasil", "Portugal", "Spain", "España", "Russia", "Romania", "Bulgaria", "CEE", "Adriatic"],
+    "category": "Infantil",
+    "priority": 100
+  }
+]
