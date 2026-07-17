@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T19:58:45.618131+00:00",
+  "generated_at": "2026-07-17T20:05:56.865647+00:00",
   "summary": {
     "wanted": 27,
     "found": 21,
@@ -48,35 +48,6 @@
       "needs_review": false
     },
     {
-      "query": "Studio Universal",
-      "candidates_found": 2,
-      "candidates_rejected": [
-        {
-          "name": "Studio Universal Latin America Brazil (720p)",
-          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
-          "score": -810,
-          "region": "Latin America"
-        }
-      ],
-      "all_scored": [
-        {
-          "name": "Studio Universal Latin America (1080p)",
-          "score": 200,
-          "region": "Latin America",
-          "resolution": "1080p"
-        }
-      ],
-      "selected": {
-        "name": "Studio Universal Latin America (1080p)",
-        "region": "Latin America",
-        "quality": "1080p",
-        "score": 200,
-        "status": "offline"
-      },
-      "status": "offline",
-      "needs_review": false
-    },
-    {
       "query": "Sony Channel",
       "candidates_found": 4,
       "candidates_rejected": [],
@@ -111,6 +82,63 @@
         "region": "Andes",
         "quality": "1080p",
         "score": 180,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "Space",
+      "candidates_found": 2,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Space Series (1080p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Space TV",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "Space Series (1080p)",
+        "region": "Unknown",
+        "quality": "1080p",
+        "score": 130,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Studio Universal",
+      "candidates_found": 2,
+      "candidates_rejected": [
+        {
+          "name": "Studio Universal Latin America Brazil (720p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -810,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "Studio Universal Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Studio Universal Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
         "status": "offline"
       },
       "status": "offline",
@@ -188,43 +216,81 @@
       "needs_review": true
     },
     {
-      "query": "Cinecanal",
-      "candidates_found": 4,
+      "query": "AXN",
+      "candidates_found": 9,
       "candidates_rejected": [],
       "all_scored": [
         {
-          "name": "Cinecanal Mexico (720p)",
+          "name": "AXN Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN Latin America Andes (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN Latin America Mexico (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN Latin America South",
           "score": 180,
-          "region": "Mexico",
+          "region": "Latin America",
+          "resolution": ""
+        },
+        {
+          "name": "AXN (1080p)",
+          "score": 140,
+          "region": "Unknown",
+          "resolution": "1080p"
+        },
+        {
+          "name": "AXN (720p)",
+          "score": 130,
+          "region": "Unknown",
           "resolution": "720p"
         },
         {
-          "name": "Cinecanal (1080p)",
-          "score": 140,
+          "name": "AXN Movies (720p)",
+          "score": 130,
           "region": "Unknown",
-          "resolution": "1080p"
+          "resolution": "720p"
         },
         {
-          "name": "Cinecanal Pacific (1080p)",
-          "score": 140,
+          "name": "AXN",
+          "score": 120,
           "region": "Unknown",
-          "resolution": "1080p"
+          "resolution": ""
         },
         {
-          "name": "Cinecanal South (1080p)",
-          "score": 140,
+          "name": "AXN Adria",
+          "score": 120,
           "region": "Unknown",
-          "resolution": "1080p"
+          "resolution": ""
         }
       ],
       "selected": {
-        "name": "Cinecanal Mexico (720p)",
-        "region": "Mexico",
-        "quality": "720p",
-        "score": 180,
+        "name": "AXN Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
         "status": "offline"
       },
       "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Discovery Channel",
+      "candidates_found": 0,
+      "candidates_rejected": [],
+      "selected": null,
+      "status": "not_found",
       "needs_review": false
     },
     {
@@ -365,142 +431,6 @@
       "needs_review": true
     },
     {
-      "query": "Star Channel",
-      "candidates_found": 7,
-      "candidates_rejected": [],
-      "all_scored": [
-        {
-          "name": "Star Channel Latin America Central America (1080p)",
-          "score": 210,
-          "region": "Latin America",
-          "resolution": "1080p"
-        },
-        {
-          "name": "Star Channel Latin America (1080p)",
-          "score": 200,
-          "region": "Latin America",
-          "resolution": "1080p"
-        },
-        {
-          "name": "Star Channel (720p)",
-          "score": 130,
-          "region": "Unknown",
-          "resolution": "720p"
-        },
-        {
-          "name": "Star Channel",
-          "score": 120,
-          "region": "Unknown",
-          "resolution": ""
-        },
-        {
-          "name": "STAR Channel",
-          "score": 120,
-          "region": "Unknown",
-          "resolution": ""
-        },
-        {
-          "name": "Star Channel",
-          "score": 120,
-          "region": "Unknown",
-          "resolution": ""
-        },
-        {
-          "name": "Star Channel",
-          "score": 120,
-          "region": "Unknown",
-          "resolution": ""
-        }
-      ],
-      "selected": {
-        "name": "Star Channel Latin America Central America (1080p)",
-        "region": "Latin America",
-        "quality": "1080p",
-        "score": 210,
-        "status": "offline"
-      },
-      "status": "offline",
-      "needs_review": true
-    },
-    {
-      "query": "Discovery Channel",
-      "candidates_found": 0,
-      "candidates_rejected": [],
-      "selected": null,
-      "status": "not_found",
-      "needs_review": false
-    },
-    {
-      "query": "AXN",
-      "candidates_found": 9,
-      "candidates_rejected": [],
-      "all_scored": [
-        {
-          "name": "AXN Latin America (1080p)",
-          "score": 200,
-          "region": "Latin America",
-          "resolution": "1080p"
-        },
-        {
-          "name": "AXN Latin America Andes (1080p)",
-          "score": 200,
-          "region": "Latin America",
-          "resolution": "1080p"
-        },
-        {
-          "name": "AXN Latin America Mexico (1080p)",
-          "score": 200,
-          "region": "Latin America",
-          "resolution": "1080p"
-        },
-        {
-          "name": "AXN Latin America South",
-          "score": 180,
-          "region": "Latin America",
-          "resolution": ""
-        },
-        {
-          "name": "AXN (1080p)",
-          "score": 140,
-          "region": "Unknown",
-          "resolution": "1080p"
-        },
-        {
-          "name": "AXN (720p)",
-          "score": 130,
-          "region": "Unknown",
-          "resolution": "720p"
-        },
-        {
-          "name": "AXN Movies (720p)",
-          "score": 130,
-          "region": "Unknown",
-          "resolution": "720p"
-        },
-        {
-          "name": "AXN",
-          "score": 120,
-          "region": "Unknown",
-          "resolution": ""
-        },
-        {
-          "name": "AXN Adria",
-          "score": 120,
-          "region": "Unknown",
-          "resolution": ""
-        }
-      ],
-      "selected": {
-        "name": "AXN Latin America (1080p)",
-        "region": "Latin America",
-        "quality": "1080p",
-        "score": 200,
-        "status": "offline"
-      },
-      "status": "offline",
-      "needs_review": true
-    },
-    {
       "query": "Investigation Discovery",
       "candidates_found": 0,
       "candidates_rejected": [],
@@ -509,67 +439,44 @@
       "needs_review": false
     },
     {
-      "query": "Space",
-      "candidates_found": 2,
+      "query": "Cinecanal",
+      "candidates_found": 4,
       "candidates_rejected": [],
       "all_scored": [
         {
-          "name": "Space Series (1080p)",
-          "score": 130,
+          "name": "Cinecanal Mexico (720p)",
+          "score": 180,
+          "region": "Mexico",
+          "resolution": "720p"
+        },
+        {
+          "name": "Cinecanal (1080p)",
+          "score": 140,
           "region": "Unknown",
           "resolution": "1080p"
         },
         {
-          "name": "Space TV",
-          "score": 130,
+          "name": "Cinecanal Pacific (1080p)",
+          "score": 140,
           "region": "Unknown",
-          "resolution": ""
-        }
-      ],
-      "selected": {
-        "name": "Space Series (1080p)",
-        "region": "Unknown",
-        "quality": "1080p",
-        "score": 130,
-        "status": "offline"
-      },
-      "status": "offline",
-      "needs_review": true
-    },
-    {
-      "query": "Universal TV",
-      "candidates_found": 3,
-      "candidates_rejected": [
-        {
-          "name": "Universal TV Latin America Brazil (720p)",
-          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
-          "score": -810,
-          "region": "Latin America"
-        }
-      ],
-      "all_scored": [
-        {
-          "name": "Universal TV Latin America (1080p)",
-          "score": 200,
-          "region": "Latin America",
           "resolution": "1080p"
         },
         {
-          "name": "Universal TV Latin America Mexico (1080p)",
-          "score": 200,
-          "region": "Latin America",
+          "name": "Cinecanal South (1080p)",
+          "score": 140,
+          "region": "Unknown",
           "resolution": "1080p"
         }
       ],
       "selected": {
-        "name": "Universal TV Latin America (1080p)",
-        "region": "Latin America",
-        "quality": "1080p",
-        "score": 200,
+        "name": "Cinecanal Mexico (720p)",
+        "region": "Mexico",
+        "quality": "720p",
+        "score": 180,
         "status": "offline"
       },
       "status": "offline",
-      "needs_review": true
+      "needs_review": false
     },
     {
       "query": "Comedy Central",
@@ -684,6 +591,99 @@
       "needs_review": true
     },
     {
+      "query": "Star Channel",
+      "candidates_found": 7,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "Star Channel Latin America Central America (1080p)",
+          "score": 210,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Star Channel Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Star Channel (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        },
+        {
+          "name": "Star Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "STAR Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Star Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        },
+        {
+          "name": "Star Channel",
+          "score": 120,
+          "region": "Unknown",
+          "resolution": ""
+        }
+      ],
+      "selected": {
+        "name": "Star Channel Latin America Central America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 210,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
+      "query": "Universal TV",
+      "candidates_found": 3,
+      "candidates_rejected": [
+        {
+          "name": "Universal TV Latin America Brazil (720p)",
+          "reason": "coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000)",
+          "score": -810,
+          "region": "Latin America"
+        }
+      ],
+      "all_scored": [
+        {
+          "name": "Universal TV Latin America (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        },
+        {
+          "name": "Universal TV Latin America Mexico (1080p)",
+          "score": 200,
+          "region": "Latin America",
+          "resolution": "1080p"
+        }
+      ],
+      "selected": {
+        "name": "Universal TV Latin America (1080p)",
+        "region": "Latin America",
+        "quality": "1080p",
+        "score": 200,
+        "status": "offline"
+      },
+      "status": "offline",
+      "needs_review": true
+    },
+    {
       "query": "Golden Edge",
       "candidates_found": 1,
       "candidates_rejected": [],
@@ -728,28 +728,34 @@
       "needs_review": false
     },
     {
-      "query": "De Película",
-      "candidates_found": 2,
+      "query": "Paramount Network",
+      "candidates_found": 3,
       "candidates_rejected": [],
       "all_scored": [
         {
-          "name": "De Pelicula Latin America",
-          "score": 180,
+          "name": "Paramount Network Latin America (720p)",
+          "score": 190,
           "region": "Latin America",
-          "resolution": ""
+          "resolution": "720p"
         },
         {
-          "name": "De Pelicula US (720p)",
+          "name": "Paramount Network (720p)",
           "score": 130,
           "region": "Unknown",
           "resolution": "720p"
+        },
+        {
+          "name": "Paramount Network de Pluto TV",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": ""
         }
       ],
       "selected": {
-        "name": "De Pelicula Latin America",
-        "region": "Latin America",
+        "name": "Paramount Network de Pluto TV",
+        "region": "Unknown",
         "quality": "",
-        "score": 180,
+        "score": 130,
         "status": "online"
       },
       "status": "online",
@@ -775,6 +781,34 @@
         "status": "offline"
       },
       "status": "offline",
+      "needs_review": false
+    },
+    {
+      "query": "De Película",
+      "candidates_found": 2,
+      "candidates_rejected": [],
+      "all_scored": [
+        {
+          "name": "De Pelicula Latin America",
+          "score": 180,
+          "region": "Latin America",
+          "resolution": ""
+        },
+        {
+          "name": "De Pelicula US (720p)",
+          "score": 130,
+          "region": "Unknown",
+          "resolution": "720p"
+        }
+      ],
+      "selected": {
+        "name": "De Pelicula Latin America",
+        "region": "Latin America",
+        "quality": "",
+        "score": 180,
+        "status": "online"
+      },
+      "status": "online",
       "needs_review": false
     },
     {
@@ -910,28 +944,6 @@
       "needs_review": true
     },
     {
-      "query": "Film & Arts",
-      "candidates_found": 1,
-      "candidates_rejected": [],
-      "all_scored": [
-        {
-          "name": "Film & Arts (720p)",
-          "score": 130,
-          "region": "Unknown",
-          "resolution": "720p"
-        }
-      ],
-      "selected": {
-        "name": "Film & Arts (720p)",
-        "region": "Unknown",
-        "quality": "720p",
-        "score": 130,
-        "status": "offline"
-      },
-      "status": "offline",
-      "needs_review": false
-    },
-    {
       "query": "A&E",
       "candidates_found": 12,
       "candidates_rejected": [
@@ -1021,37 +1033,25 @@
       "needs_review": true
     },
     {
-      "query": "Paramount Network",
-      "candidates_found": 3,
+      "query": "Film & Arts",
+      "candidates_found": 1,
       "candidates_rejected": [],
       "all_scored": [
         {
-          "name": "Paramount Network Latin America (720p)",
-          "score": 190,
-          "region": "Latin America",
-          "resolution": "720p"
-        },
-        {
-          "name": "Paramount Network (720p)",
+          "name": "Film & Arts (720p)",
           "score": 130,
           "region": "Unknown",
           "resolution": "720p"
-        },
-        {
-          "name": "Paramount Network de Pluto TV",
-          "score": 130,
-          "region": "Unknown",
-          "resolution": ""
         }
       ],
       "selected": {
-        "name": "Paramount Network de Pluto TV",
+        "name": "Film & Arts (720p)",
         "region": "Unknown",
-        "quality": "",
+        "quality": "720p",
         "score": 130,
-        "status": "online"
+        "status": "offline"
       },
-      "status": "online",
+      "status": "offline",
       "needs_review": false
     },
     {

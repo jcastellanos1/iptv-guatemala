@@ -1,6 +1,6 @@
 # Reporte de Importación IPTV-org
 
-**Generado:** 2026-07-17T19:58:45.618131+00:00
+**Generado:** 2026-07-17T20:05:56.865647+00:00
 
 ## Resumen
 
@@ -40,20 +40,6 @@
 
 ---
 
-### Studio Universal
-
-**Seleccionado:**
-- **Studio Universal Latin America (1080p)**
-- Región: Latin America
-- Calidad: 1080p
-- Estado: offline
-- Score: 200
-
-**Rechazados:**
-- ~~Studio Universal Latin America Brazil (720p)~~ — coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000) (score: -810)
-
----
-
 ### Sony Channel
 
 **Seleccionado:**
@@ -67,6 +53,36 @@
 - Sony Channel (1080p) — score: 140, región: Unknown, calidad: 1080p
 - Sony Channel (720p) — score: 130, región: Unknown, calidad: 720p
 - Sony Channel (720p) — score: 130, región: MX, calidad: 720p
+
+---
+
+### Space
+
+**Seleccionado:**
+- **Space Series (1080p)**
+- Región: Unknown
+- Calidad: 1080p
+- Estado: offline
+- Score: 130
+
+**Otros candidatos:**
+- Space TV — score: 130, región: Unknown, calidad: n/a
+
+> ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
+
+---
+
+### Studio Universal
+
+**Seleccionado:**
+- **Studio Universal Latin America (1080p)**
+- Región: Latin America
+- Calidad: 1080p
+- Estado: offline
+- Score: 200
+
+**Rechazados:**
+- ~~Studio Universal Latin America Brazil (720p)~~ — coincidencia exacta del nombre base (+100); región Latin America/LATAM (+60); calidad 720p (+10); tiene logo (+10); tiene tvg-id (+10); penalización: brazil (-1000) (score: -810)
 
 ---
 
@@ -92,19 +108,28 @@
 
 ---
 
-### Cinecanal
+### AXN
 
 **Seleccionado:**
-- **Cinecanal Mexico (720p)**
-- Región: Mexico
-- Calidad: 720p
+- **AXN Latin America (1080p)**
+- Región: Latin America
+- Calidad: 1080p
 - Estado: offline
-- Score: 180
+- Score: 200
 
 **Otros candidatos:**
-- Cinecanal (1080p) — score: 140, región: Unknown, calidad: 1080p
-- Cinecanal Pacific (1080p) — score: 140, región: Unknown, calidad: 1080p
-- Cinecanal South (1080p) — score: 140, región: Unknown, calidad: 1080p
+- AXN Latin America Andes (1080p) — score: 200, región: Latin America, calidad: 1080p
+- AXN Latin America Mexico (1080p) — score: 200, región: Latin America, calidad: 1080p
+- AXN Latin America South — score: 180, región: Latin America, calidad: n/a
+- AXN (1080p) — score: 140, región: Unknown, calidad: 1080p
+
+> ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
+
+---
+
+### Discovery Channel
+
+**No encontrado en la lista de IPTV-org.**
 
 ---
 
@@ -134,6 +159,47 @@
 
 ---
 
+### Investigation Discovery
+
+**No encontrado en la lista de IPTV-org.**
+
+---
+
+### Cinecanal
+
+**Seleccionado:**
+- **Cinecanal Mexico (720p)**
+- Región: Mexico
+- Calidad: 720p
+- Estado: offline
+- Score: 180
+
+**Otros candidatos:**
+- Cinecanal (1080p) — score: 140, región: Unknown, calidad: 1080p
+- Cinecanal Pacific (1080p) — score: 140, región: Unknown, calidad: 1080p
+- Cinecanal South (1080p) — score: 140, región: Unknown, calidad: 1080p
+
+---
+
+### Comedy Central
+
+**Seleccionado:**
+- **Comedy Central Latin America (1080p)**
+- Región: Latin America
+- Calidad: 1080p
+- Estado: online
+- Score: 200
+
+**Otros candidatos:**
+- Comedy Central Pluto TV — score: 190, región: Latin America, calidad: n/a
+- Comedy Central South Park — score: 190, región: Latin America, calidad: n/a
+- Comedy Central (720p) — score: 140, región: Unknown, calidad: 720p
+- Comedy Central (1080p) — score: 140, región: Unknown, calidad: 1080p
+
+> ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
+
+---
+
 ### Star Channel
 
 **Seleccionado:**
@@ -153,53 +219,6 @@
 
 ---
 
-### Discovery Channel
-
-**No encontrado en la lista de IPTV-org.**
-
----
-
-### AXN
-
-**Seleccionado:**
-- **AXN Latin America (1080p)**
-- Región: Latin America
-- Calidad: 1080p
-- Estado: offline
-- Score: 200
-
-**Otros candidatos:**
-- AXN Latin America Andes (1080p) — score: 200, región: Latin America, calidad: 1080p
-- AXN Latin America Mexico (1080p) — score: 200, región: Latin America, calidad: 1080p
-- AXN Latin America South — score: 180, región: Latin America, calidad: n/a
-- AXN (1080p) — score: 140, región: Unknown, calidad: 1080p
-
-> ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
-
----
-
-### Investigation Discovery
-
-**No encontrado en la lista de IPTV-org.**
-
----
-
-### Space
-
-**Seleccionado:**
-- **Space Series (1080p)**
-- Región: Unknown
-- Calidad: 1080p
-- Estado: offline
-- Score: 130
-
-**Otros candidatos:**
-- Space TV — score: 130, región: Unknown, calidad: n/a
-
-> ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
-
----
-
 ### Universal TV
 
 **Seleccionado:**
@@ -214,25 +233,6 @@
 
 **Otros candidatos:**
 - Universal TV Latin America Mexico (1080p) — score: 200, región: Latin America, calidad: 1080p
-
-> ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
-
----
-
-### Comedy Central
-
-**Seleccionado:**
-- **Comedy Central Latin America (1080p)**
-- Región: Latin America
-- Calidad: 1080p
-- Estado: online
-- Score: 200
-
-**Otros candidatos:**
-- Comedy Central Pluto TV — score: 190, región: Latin America, calidad: n/a
-- Comedy Central South Park — score: 190, región: Latin America, calidad: n/a
-- Comedy Central (720p) — score: 140, región: Unknown, calidad: 720p
-- Comedy Central (1080p) — score: 140, región: Unknown, calidad: 1080p
 
 > ⚠️ **Requiere revisión manual:** Los dos mejores candidatos tienen una diferencia menor a 20 puntos.
 
@@ -260,17 +260,18 @@
 
 ---
 
-### De Película
+### Paramount Network
 
 **Seleccionado:**
-- **De Pelicula Latin America**
-- Región: Latin America
+- **Paramount Network de Pluto TV**
+- Región: Unknown
 - Calidad: no especificada
 - Estado: online
-- Score: 180
+- Score: 130
 
 **Otros candidatos:**
-- De Pelicula US (720p) — score: 130, región: Unknown, calidad: 720p
+- Paramount Network (720p) — score: 130, región: Unknown, calidad: 720p
+- Paramount Network de Pluto TV — score: 130, región: Unknown, calidad: n/a
 
 ---
 
@@ -282,6 +283,20 @@
 - Calidad: 1080p
 - Estado: offline
 - Score: 140
+
+---
+
+### De Película
+
+**Seleccionado:**
+- **De Pelicula Latin America**
+- Región: Latin America
+- Calidad: no especificada
+- Estado: online
+- Score: 180
+
+**Otros candidatos:**
+- De Pelicula US (720p) — score: 130, región: Unknown, calidad: 720p
 
 ---
 
@@ -330,17 +345,6 @@
 
 ---
 
-### Film & Arts
-
-**Seleccionado:**
-- **Film & Arts (720p)**
-- Región: Unknown
-- Calidad: 720p
-- Estado: offline
-- Score: 130
-
----
-
 ### A&E
 
 **Seleccionado:**
@@ -363,18 +367,14 @@
 
 ---
 
-### Paramount Network
+### Film & Arts
 
 **Seleccionado:**
-- **Paramount Network de Pluto TV**
+- **Film & Arts (720p)**
 - Región: Unknown
-- Calidad: no especificada
-- Estado: online
+- Calidad: 720p
+- Estado: offline
 - Score: 130
-
-**Otros candidatos:**
-- Paramount Network (720p) — score: 130, región: Unknown, calidad: 720p
-- Paramount Network de Pluto TV — score: 130, región: Unknown, calidad: n/a
 
 ---
 
