@@ -2,7 +2,6 @@
 
 | Canal | Razón |
 |---|---|
-| Cinecanal | All matched candidates failed stream validation or were skipped |
 | Cinemax | No candidates matched name or aliases in IPTV-org |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
