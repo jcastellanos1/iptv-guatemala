@@ -1,7 +1,7 @@
 # Reporte de Curación y Reconstrucción
 
-- **Fecha**: 2026-07-18 02:50:35 UTC
-- **Tiempo total de ejecución**: 28.69 segundos
+- **Fecha**: 2026-07-18 07:22:33 UTC
+- **Tiempo total de ejecución**: 33.11 segundos
 - **Total de marcas procesadas**: 81
 - **Canales encontrados**: 41
 - **Canales no encontrados**: 40
@@ -19,44 +19,44 @@
 
 | Canal | Categoría | Resolución | Origen | Latencia |
 |---|---|---|---|---|
-| AMC | Películas y Series | desconocida |  | 294ms |
-| AXN | Películas y Series | desconocida |  | 220ms |
-| Cinecanal | Películas y Series | desconocida |  | 522ms |
-| FX | Películas y Series | desconocida |  | 286ms |
-| Golden | Películas y Series | desconocida |  | 232ms |
-| Golden Edge | Películas y Series | desconocida |  | 209ms |
-| Star Channel | Películas y Series | desconocida |  | 286ms |
-| Studio Universal | Películas y Series | desconocida |  | 286ms |
-| Universal TV | Películas y Series | desconocida |  | 212ms |
-| A&E | Entretenimiento | desconocida |  | 226ms |
-| Comedy Central | Entretenimiento | desconocida |  | 247ms |
-| Distrito Comedia | Entretenimiento | desconocida |  | 232ms |
-| Lifetime | Entretenimiento | desconocida |  | 217ms |
-| Sony Channel | Entretenimiento | desconocida |  | 215ms |
-| TLNovelas | Entretenimiento | desconocida |  | 231ms |
-| Azteca Internacional | Entretenimiento | desconocida |  | 173ms |
-| TeleSUR | Noticias | desconocida |  | 343ms |
-| History | Documentales | desconocida |  | 222ms |
-| National Geographic | Documentales | 1080p | US | 286ms |
-| Nickelodeon | Infantil | desconocida |  | 209ms |
-| Nick Jr. | Infantil | desconocida |  | 210ms |
-| Disney Channel | Infantil | desconocida |  | 246ms |
-| Imagen Televisión | TV abierta México | 1080p | MX | 237ms |
-| Canal 5 México | TV abierta México | 1080p | MX | 151ms |
-| Canal 22 México | TV abierta México | 720p | AR | 341ms |
-| Caracol Televisión | TV abierta Colombia | desconocida |  | 243ms |
-| RCN Televisión | TV abierta Colombia | 1080p | CO | 219ms |
-| Canal 1 Colombia | TV abierta Colombia | 1080p | CO | 221ms |
-| Canal Capital | TV abierta Colombia | 1080p | CO | 220ms |
-| Teleantioquia | TV abierta Colombia | 720p | CO | 401ms |
-| Telecaribe | TV abierta Colombia | 720p | CO | 148ms |
-| Telepacífico | TV abierta Colombia | 1080p | CO | 832ms |
-| TV Perú | TV abierta Sudamérica | 1080p | PE | 294ms |
-| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 272ms |
-| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 244ms |
-| América Televisión Perú | TV abierta Sudamérica | 1080p | PE | 239ms |
-| Mega Chile | TV abierta Sudamérica | 1080p | PY | 546ms |
-| TVN Chile | TV abierta Sudamérica | 1080p | CL | 286ms |
-| Telefe | TV abierta Sudamérica | desconocida | AR | 299ms |
-| El Trece Argentina | TV abierta Sudamérica | 1080p | AR | 652ms |
-| Canal IPe | Cultura y Educación | 720p | PE | 338ms |
+| AMC | Películas y Series | desconocida |  | 333ms |
+| AXN | Películas y Series | desconocida |  | 256ms |
+| Cinecanal | Películas y Series | desconocida |  | 257ms |
+| FX | Películas y Series | desconocida |  | 329ms |
+| Golden | Películas y Series | desconocida |  | 258ms |
+| Golden Edge | Películas y Series | desconocida |  | 252ms |
+| Star Channel | Películas y Series | desconocida |  | 330ms |
+| Studio Universal | Películas y Series | desconocida |  | 332ms |
+| Universal TV | Películas y Series | desconocida |  | 254ms |
+| A&E | Entretenimiento | desconocida |  | 255ms |
+| Comedy Central | Entretenimiento | desconocida |  | 286ms |
+| Distrito Comedia | Entretenimiento | desconocida |  | 256ms |
+| Lifetime | Entretenimiento | desconocida |  | 260ms |
+| Sony Channel | Entretenimiento | desconocida |  | 268ms |
+| TLNovelas | Entretenimiento | desconocida |  | 255ms |
+| Azteca Internacional | Entretenimiento | desconocida |  | 127ms |
+| TeleSUR | Noticias | desconocida |  | 213ms |
+| History | Documentales | desconocida |  | 263ms |
+| National Geographic | Documentales | 1080p | US | 329ms |
+| Nickelodeon | Infantil | desconocida |  | 252ms |
+| Nick Jr. | Infantil | desconocida |  | 251ms |
+| Disney Channel | Infantil | desconocida |  | 280ms |
+| Imagen Televisión | TV abierta México | 1080p | MX | 154ms |
+| Canal 5 México | TV abierta México | 1080p | MX | 190ms |
+| Canal 22 México | TV abierta México | 720p | AR | 470ms |
+| Caracol Televisión | TV abierta Colombia | desconocida |  | 434ms |
+| RCN Televisión | TV abierta Colombia | 1080p | CO | 256ms |
+| Canal 1 Colombia | TV abierta Colombia | 1080p | CO | 266ms |
+| Canal Capital | TV abierta Colombia | 1080p | CO | 253ms |
+| Teleantioquia | TV abierta Colombia | 720p | CO | 183ms |
+| Telecaribe | TV abierta Colombia | 720p | CO | 152ms |
+| Telepacífico | TV abierta Colombia | 1080p | CO | 928ms |
+| TV Perú | TV abierta Sudamérica | 1080p | PE | 287ms |
+| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 309ms |
+| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 287ms |
+| América Televisión Perú | TV abierta Sudamérica | 1080p | PE | 286ms |
+| Mega Chile | TV abierta Sudamérica | 1080p | PY | 598ms |
+| TVN Chile | TV abierta Sudamérica | 1080p | CL | 329ms |
+| Telefe | TV abierta Sudamérica | desconocida | AR | 341ms |
+| El Trece Argentina | TV abierta Sudamérica | 1080p | AR | 722ms |
+| Canal IPe | Cultura y Educación | 720p | PE | 380ms |
