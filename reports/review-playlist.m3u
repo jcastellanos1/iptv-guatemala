@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-name="AMC" group-title="Películas y Series",01 - AMC
+http://45.162.193.35/AMC/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us@CentralAmerica" tvg-name="AXN" group-title="Películas y Series",02 - AXN
+http://138.121.15.230:9002/AXN/index.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" tvg-name="FX" group-title="Películas y Series",03 - FX
+http://45.162.193.35/FX/index.m3u8
+#EXTINF:-1 tvg-id="Golden.mx@Panregional" tvg-name="Golden" group-title="Películas y Series",04 - Golden
+http://177.234.249.135:8888/Golden/index.m3u8
+#EXTINF:-1 tvg-id="GoldenEdge.mx@Panregional" tvg-name="Golden Edge" group-title="Películas y Series",05 - Golden Edge
+http://138.186.23.7:8082/GOLDENEDGE/index.m3u8
+#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us@Panregional" tvg-name="Star Channel" group-title="Películas y Series",06 - Star Channel
+http://45.162.193.35/STAR_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="StudioUniversalLatinAmerica.us@Panregional" tvg-name="Studio Universal" group-title="Películas y Series",07 - Studio Universal
+http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8
+#EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional" tvg-name="Universal TV" group-title="Películas y Series",08 - Universal TV
+http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="AELatinAmerica.us@Panregional" tvg-name="A&E" group-title="Entretenimiento",09 - A&E
+http://138.121.15.230:9002/A&E/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentralLatinAmerica.us@Panregional" tvg-name="Comedy Central" group-title="Entretenimiento",10 - Comedy Central
+http://181.119.93.83:8000/play/a1di/index.m3u8
+#EXTINF:-1 tvg-id="DistritoComedia.mx@SD" tvg-name="Distrito Comedia" group-title="Entretenimiento",11 - Distrito Comedia
+http://177.234.249.135:8888/DistritoComedia/index.m3u8
+#EXTINF:-1 tvg-id="ELatinAmerica.us@South" tvg-name="E!" group-title="Entretenimiento",12 - E!
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="LifetimeLatinAmerica.us@Panregional" tvg-name="Lifetime" group-title="Entretenimiento",13 - Lifetime
+http://138.121.15.230:9002/LIFETIME/index.m3u8
+#EXTINF:-1 tvg-id="SonyChannel.ar@SD" tvg-name="Sony Channel" group-title="Entretenimiento",14 - Sony Channel
+http://138.121.15.230:9002/SONY/index.m3u8
+#EXTINF:-1 tvg-id="LasEstrellas.mx@SD" tvg-name="Las Estrellas" group-title="Entretenimiento",15 - Las Estrellas
+https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
+#EXTINF:-1 tvg-id="TlnovelasLatinAmerica.mx@SD" tvg-name="TLNovelas" group-title="Entretenimiento",16 - TLNovelas
+http://177.234.249.135:8888/Telenovelas/index.m3u8
+#EXTINF:-1 tvg-id="AztecaInternacional.mx@SD" tvg-name="Azteca Internacional" group-title="Entretenimiento",17 - Azteca Internacional
+https://azt-mun.otteravision.com/azt/mun/mun.m3u8
+#EXTINF:-1 tvg-id="NTN24.co@SD" tvg-name="NTN24" group-title="Noticias",18 - NTN24
+http://181.78.8.199:8000/play/a0a6/index.m3u8
+#EXTINF:-1 tvg-id="Telesur.ve@HD" tvg-name="TeleSUR" group-title="Noticias",19 - TeleSUR
+https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="MilenioTelevision.mx@SD" tvg-name="Milenio Televisión" group-title="Noticias",20 - Milenio Televisión
+https://jmp2.uk/plu-652e922db4b047000825f975.m3u8
+#EXTINF:-1 tvg-id="ForoTV.pe@SD" tvg-name="Foro TV" group-title="Noticias",21 - Foro TV
+https://mc.servidor.stream:19360/8274/8274.m3u8
+#EXTINF:-1 tvg-id="HistoryLatinAmerica.us@Panregional" tvg-name="History" group-title="Documentales",22 - History
+http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="History2LatinAmerica.us@Panregional" tvg-name="History 2" group-title="Documentales",23 - History 2
+http://138.121.15.230:9002/HISTORY-2/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographic.mx@SD" tvg-name="National Geographic" group-title="Documentales",24 - National Geographic
+http://138.121.15.230:9002/NAT-GEO/index.m3u8
+#EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-name="Nickelodeon" group-title="Infantil",25 - Nickelodeon
+http://138.186.23.7:8082/NICK/index.m3u8
+#EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-name="Nick Jr." group-title="Infantil",26 - Nick Jr.
+http://138.186.23.7:8082/NICKJR/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@Panregional" tvg-name="Disney Channel" group-title="Infantil",27 - Disney Channel
+http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8

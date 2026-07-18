@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-18T01:10:31.827172+00:00",
-  "execution_time_seconds": 10.34,
+  "generated_at": "2026-07-17T21:37:37.482230+00:00",
+  "execution_time_seconds": 33.42,
   "metrics": {
-    "total_brands_processed": 50,
-    "channels_found": 28,
-    "channels_not_found": 22,
-    "total_http_requests": 31,
-    "discarded_by_region": 9,
+    "total_brands_processed": 81,
+    "channels_found": 42,
+    "channels_not_found": 39,
+    "total_http_requests": 29,
+    "discarded_by_region": 7,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 2
+    "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
     "AMC",
@@ -16,7 +16,6 @@
     "FX",
     "Golden",
     "Golden Edge",
-    "Paramount Network",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
@@ -29,49 +28,72 @@
     "Las Estrellas",
     "TLNovelas",
     "Azteca Internacional",
-    "NTN24",
     "TeleSUR",
-    "Milenio Televisión",
-    "Foro TV",
     "History",
-    "History 2",
     "National Geographic",
     "Nickelodeon",
     "Nick Jr.",
-    "Disney Channel"
+    "Disney Channel",
+    "Imagen Televisión",
+    "Canal 5 México",
+    "Canal 22 México",
+    "Caracol Televisión",
+    "RCN Televisión",
+    "Canal 1 Colombia",
+    "Canal Capital",
+    "Teleantioquia",
+    "Telecaribe",
+    "Telepacífico",
+    "TV Perú",
+    "Latina Televisión",
+    "Panamericana Televisión",
+    "América Televisión Perú",
+    "Mega Chile",
+    "TVN Chile",
+    "Telefe",
+    "El Trece Argentina",
+    "Canal IPe"
   ],
   "not_found_channels": [
     {
       "name": "Cinecanal",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Cinemax",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
+    },
+    {
+      "name": "Paramount Network",
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Space",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "TNT",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "TNT Series",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Warner Channel",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Telemundo Internacional",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "CNN en Español",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
+    },
+    {
+      "name": "NTN24",
+      "reason": "Disabled via overrides"
     },
     {
       "name": "DW Español",
@@ -86,48 +108,108 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Milenio Televisión",
+      "reason": "Disabled via overrides"
+    },
+    {
+      "name": "Foro TV",
+      "reason": "Disabled via overrides"
+    },
+    {
       "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "C5N",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Discovery Channel",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Discovery Science",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Discovery Turbo",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Animal Planet",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
-      "name": "Nat Geo Wild",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Love Nature",
+      "name": "History 2",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Nat Geo Wild",
+      "reason": "Disabled via overrides"
+    },
+    {
+      "name": "Love Nature",
+      "reason": "Disabled via overrides"
+    },
+    {
       "name": "Cartoon Network",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Cartoonito",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "Disabled via overrides"
     },
     {
       "name": "Discovery Kids",
+      "reason": "Disabled via overrides"
+    },
+    {
+      "name": "Azteca Uno",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Azteca 7",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "ADN 40",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Nu9ve",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Canal Once",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Multimedios",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Señal Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "TV UNAM",
+      "reason": "All matched candidates failed stream validation or were skipped"
     }
   ],
   "guatemala_channels_confirmed": [

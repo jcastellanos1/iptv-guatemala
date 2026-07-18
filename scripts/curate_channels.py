@@ -23,6 +23,7 @@ BASE_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), ".."))
 CURATED_FILE = os.path.join(BASE_DIR, "data", "curated_channels.json")
 SELECTED_FILE = os.path.join(BASE_DIR, "data", "selected_channels.json")
 CHANNELS_FILE = os.path.join(BASE_DIR, "data", "channels.json")
+OVERRIDES_FILE = os.path.join(BASE_DIR, "data", "channel_overrides.json")
 
 REPORT_JSON = os.path.join(BASE_DIR, "reports", "curation-report.json")
 REPORT_MD = os.path.join(BASE_DIR, "reports", "curation-report.md")
@@ -240,14 +241,52 @@ def check_is_spanish(stream):
         
     return False
 
-def matches_blocked_terms(stream, blocked_terms):
-    """Check if stream contains blocked terms (in name, tvg-id, group, or URL)."""
-    fields = [stream["display_name"], stream["tvg_id"], stream["group_title"], stream["stream_url"]]
+def matches_blocked_terms(stream, blocked_terms, blocked_urls=None, blocked_tvg_ids=None, global_blocked_urls=None):
+    """Check if stream contains blocked terms (in name, tvg-id, group, or URL) or specific urls/tvg-ids."""
+    stream_url = stream["stream_url"]
+    if global_blocked_urls and stream_url in global_blocked_urls:
+        return True
+    if blocked_urls and stream_url in blocked_urls:
+        return True
+    if blocked_tvg_ids and stream["tvg_id"] in blocked_tvg_ids:
+        return True
+        
+    fields = [stream["display_name"], stream["tvg_id"], stream["group_title"], stream_url]
     for term in blocked_terms:
         term_lower = term.lower()
         for f in fields:
             if term_lower in f.lower():
                 return True
+    return False
+
+def matches_identity(stream, target):
+    """
+    Strict identity matching:
+    1. Exact tvg-id base match (e.g. 'tnt' == 'tnt')
+    2. Exact Alias
+    3. Exact Full Name
+    """
+    s_name = normalize_string(stream["display_name"])
+    s_tvg = normalize_string(stream["tvg_name"])
+    tvg_id = stream["tvg_id"]
+    
+    # Extract base tvg_id without region suffix
+    base_id = tvg_id.split("@")[0].lower() if tvg_id else ""
+    base_id_normalized = normalize_string(base_id)
+    
+    target_name = target["name"]
+    aliases = target["aliases"]
+    
+    # 1. Exact tvg-id base match
+    if base_id_normalized == target_name or base_id_normalized in aliases:
+        return True
+        
+    # 2 & 3. Exact alias or exact name
+    if s_name == target_name or s_tvg == target_name:
+        return True
+    if s_name in aliases or s_tvg in aliases:
+        return True
+        
     return False
 
 def get_sorting_key(stream, preferred_regions):
@@ -293,6 +332,14 @@ def main():
     with open(CURATED_FILE, "r", encoding="utf-8") as f:
         curated_brands = json.load(f)
         
+    overrides = {}
+    global_blocked_urls = []
+    if os.path.exists(OVERRIDES_FILE):
+        with open(OVERRIDES_FILE, "r", encoding="utf-8") as f:
+            ovr_data = json.load(f)
+            overrides = ovr_data.get("overrides", {})
+            global_blocked_urls = ovr_data.get("global_blocked_urls", [])
+            
     if args.limit:
         curated_brands = curated_brands[:args.limit]
         print(f"  [DRY-RUN] Limited target brands to {len(curated_brands)} channels.")
@@ -324,12 +371,32 @@ def main():
     normalized_brand_targets = {}
     for b in curated_brands:
         brand_name = b["name"]
+        
+        # Merge overrides
+        brand_overrides = overrides.get(brand_name, {})
+        
+        # Skip if disabled
+        if brand_overrides.get("disabled", False):
+            continue
+        b_blocked_terms = b["blocked_terms"]
+        if "blocked_terms" in brand_overrides:
+            b_blocked_terms = list(set(b_blocked_terms + brand_overrides["blocked_terms"]))
+            
+        b_blocked_urls = brand_overrides.get("blocked_urls", [])
+        b_blocked_tvg_ids = brand_overrides.get("blocked_tvg_ids", [])
+        b_manual_verified = brand_overrides.get("manual_verified", False)
+        b_manual_url = brand_overrides.get("manual_url", "")
+        
         norm_name = normalize_string(brand_name)
         norm_aliases = [normalize_string(a) for a in b["aliases"]]
         normalized_brand_targets[brand_name] = {
             "name": norm_name,
             "aliases": norm_aliases,
-            "blocked": b["blocked_terms"],
+            "blocked": b_blocked_terms,
+            "blocked_urls": b_blocked_urls,
+            "blocked_tvg_ids": b_blocked_tvg_ids,
+            "manual_verified": b_manual_verified,
+            "manual_url": b_manual_url,
             "regions": b["preferred_regions"],
             "category": b["category"]
         }
@@ -341,16 +408,11 @@ def main():
         norm_s_tvg = normalize_string(s["tvg_name"])
         
         for brand_name, target in normalized_brand_targets.items():
-            # Check if name or tvg name matches target name or target aliases
-            matched = False
-            if norm_s_name == target["name"] or norm_s_tvg == target["name"]:
-                matched = True
-            elif norm_s_name in target["aliases"] or norm_s_tvg in target["aliases"]:
-                matched = True
+            matched = matches_identity(s, target)
                 
             if matched:
-                # Check blocked terms
-                if matches_blocked_terms(s, target["blocked"]):
+                # Check blocked terms and urls
+                if matches_blocked_terms(s, target["blocked"], target["blocked_urls"], target["blocked_tvg_ids"], global_blocked_urls):
                     discarded_by_blocked += 1
                     continue
                 # Keep candidate
@@ -369,6 +431,42 @@ def main():
     print("\n  Validating channels...")
     for b in curated_brands:
         brand_name = b["name"]
+        
+        if brand_name not in normalized_brand_targets:
+            # It was disabled
+            not_found_channels.append({
+                "name": brand_name,
+                "reason": "Disabled via overrides"
+            })
+            continue
+            
+        target = normalized_brand_targets[brand_name]
+        
+        # Handle manual override skipping
+        if target["manual_verified"] and target["manual_url"]:
+            print(f"    - Validating '{brand_name}' from manual override url...", end=" ", flush=True)
+            is_ok, latency, err = validate_stream(target["manual_url"], [])
+            if is_ok:
+                print(f"[OK] ({latency}ms)")
+                selected_channels.append({
+                    "curated_name": brand_name,
+                    "display_name": brand_name + " (Manual)",
+                    "tvg_id": "",
+                    "tvg_name": "",
+                    "tvg_logo": "",
+                    "group": target["category"],
+                    "stream_url": target["manual_url"],
+                    "extra_lines": [],
+                    "resolution": "",
+                    "country": "",
+                    "latency_ms": latency,
+                    "source": "manual-override"
+                })
+            else:
+                print(f"[FAIL] ({err})")
+                not_found_channels.append({"name": brand_name, "reason": f"Manual override failed: {err}"})
+            continue
+            
         candidates = matches[brand_name]
         
         if not candidates:

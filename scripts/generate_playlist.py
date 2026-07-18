@@ -26,7 +26,11 @@ GROUP_ORDER = [
     "Entretenimiento",
     "Noticias",
     "Documentales",
-    "Infantil"
+    "Infantil",
+    "TV abierta México",
+    "TV abierta Colombia",
+    "TV abierta Sudamérica",
+    "Cultura y Educación"
 ]
 
 def clean_display_name(name):

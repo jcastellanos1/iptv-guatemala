@@ -6,49 +6,304 @@
       "category_final": "Noticias en español"
     },
     "AXN": {
-      "blocked_terms": ["Asia", "Adriatic", "Black", "CEE", "Romania", "Bulgaria", "Indonesia", "White", "Spin"]
+      "blocked_terms": [
+        "Asia",
+        "Adriatic",
+        "Black",
+        "CEE",
+        "Romania",
+        "Bulgaria",
+        "Indonesia",
+        "White",
+        "Spin"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://138.121.15.230:9002/AXN/index.m3u8",
+      "selected_tvg_id": "AXNLatinAmerica.us@CentralAmerica",
+      "status": "CONFIRMADO"
     },
     "AMC": {
-      "blocked_terms": ["Crime", "Selekt"]
+      "blocked_terms": [
+        "Crime",
+        "Selekt"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://45.162.193.35/AMC/index.m3u8",
+      "selected_tvg_id": "AMCLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
     },
     "TNT": {
-      "blocked_terms": ["Sports", "Brasil", "Brazil", "Africa", "Arryadia", "Kids", "Novelas", "TNTV"]
+      "blocked_terms": [
+        "Sports",
+        "Brasil",
+        "Brazil",
+        "Africa",
+        "Arryadia",
+        "Kids",
+        "Novelas",
+        "TNTV"
+      ]
     },
     "TNT Series": {
-      "blocked_terms": ["Sports", "Brasil", "Brazil"]
+      "blocked_terms": [
+        "Sports",
+        "Brasil",
+        "Brazil"
+      ]
     },
     "History": {
-      "blocked_terms": ["History 2", "H2", "Historia", "History 365", "History Hit"]
+      "blocked_terms": [
+        "History 2",
+        "H2",
+        "Historia",
+        "History 365",
+        "History Hit"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8",
+      "selected_tvg_id": "HistoryLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
     },
     "FX": {
-      "blocked_terms": ["FXX", "FX Movie", "FXNOW"]
+      "blocked_terms": [
+        "FXX",
+        "FX Movie",
+        "FXNOW"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://45.162.193.35/FX/index.m3u8",
+      "selected_tvg_id": "FXLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
     },
     "Space": {
-      "blocked_terms": ["Outer Space", "Deep Space", "SpaceX", "Namespace", "Pluto TV", "Space Live", "Spacetoon", "sen"]
+      "blocked_terms": [
+        "Outer Space",
+        "Deep Space",
+        "SpaceX",
+        "Namespace",
+        "Pluto TV",
+        "Space Live",
+        "Spacetoon",
+        "sen"
+      ]
     },
     "Discovery Channel": {
-      "blocked_terms": ["Discovery Kids", "Discovery Science", "Discovery Turbo", "Discovery Home", "Discovery Family", "Discovery Life", "Discovery World"]
+      "blocked_terms": [
+        "Discovery Kids",
+        "Discovery Science",
+        "Discovery Turbo",
+        "Discovery Home",
+        "Discovery Family",
+        "Discovery Life",
+        "Discovery World"
+      ]
     },
     "Comedy Central": {
-      "blocked_terms": ["Comedy Central Extra", "Comedy Central Family"]
+      "blocked_terms": [
+        "Comedy Central Extra",
+        "Comedy Central Family"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://181.119.93.83:8000/play/a1di/index.m3u8",
+      "selected_tvg_id": "ComedyCentralLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
     },
     "Star Channel": {
-      "blocked_terms": ["Star Life", "Star Plus", "Star Movies", "Star Sports", "Star Gold", "Star Bharat", "Star Vijay", "Star Maa", "Finland", "Star Trek"]
+      "blocked_terms": [
+        "Star Life",
+        "Star Plus",
+        "Star Movies",
+        "Star Sports",
+        "Star Gold",
+        "Star Bharat",
+        "Star Vijay",
+        "Star Maa",
+        "Finland",
+        "Star Trek"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://45.162.193.35/STAR_CHANNEL/index.m3u8",
+      "selected_tvg_id": "StarChannelLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
     },
     "Golden": {
-      "blocked_terms": ["Golden Edge", "Golden Premier", "Golden Community", "GCO.tv", "Golden CO", "Golden Boy", "Golden Plus"]
+      "blocked_terms": [
+        "Golden Edge",
+        "Golden Premier",
+        "Golden Community",
+        "GCO.tv",
+        "Golden CO",
+        "Golden Boy",
+        "Golden Plus"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://177.234.249.135:8888/Golden/index.m3u8",
+      "selected_tvg_id": "Golden.mx@Panregional",
+      "status": "CONFIRMADO"
     },
     "Sony Channel": {
-      "blocked_terms": ["Sony Turbo", "Sony Sci-Fi", "Sony SET"]
+      "blocked_terms": [
+        "Sony Turbo",
+        "Sony Sci-Fi",
+        "Sony SET"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://138.121.15.230:9002/SONY/index.m3u8",
+      "selected_tvg_id": "SonyChannel.ar@SD",
+      "status": "CONFIRMADO"
     },
     "A&E": {
-      "blocked_terms": []
+      "blocked_terms": [],
+      "manual_verified": true,
+      "manual_url": "http://138.121.15.230:9002/A&E/index.m3u8",
+      "selected_tvg_id": "AELatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
     },
     "Paramount Network": {
-      "blocked_terms": ["Paramount Plus", "Paramount+"]
+      "blocked_terms": [
+        "Paramount Plus",
+        "Paramount+"
+      ],
+      "blocked_urls": [
+        "http://138.186.23.7:8082/PARAMOUNT/index.m3u8"
+      ],
+      "blocked_tvg_ids": [
+        "ParamountNetworkLatinAmerica.us@Panregional"
+      ]
     },
     "Universal TV": {
-      "blocked_terms": ["Imagen Universal", "Imagen Universal TV"]
+      "blocked_terms": [
+        "Imagen Universal",
+        "Imagen Universal TV"
+      ],
+      "manual_verified": true,
+      "manual_url": "http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8",
+      "selected_tvg_id": "UniversalTVLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Golden Edge": {
+      "manual_verified": true,
+      "manual_url": "http://138.186.23.7:8082/GOLDENEDGE/index.m3u8",
+      "selected_tvg_id": "GoldenEdge.mx@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Studio Universal": {
+      "manual_verified": true,
+      "manual_url": "http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8",
+      "selected_tvg_id": "StudioUniversalLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Distrito Comedia": {
+      "manual_verified": true,
+      "manual_url": "http://177.234.249.135:8888/DistritoComedia/index.m3u8",
+      "selected_tvg_id": "DistritoComedia.mx@SD",
+      "status": "CONFIRMADO"
+    },
+    "E!": {
+      "manual_verified": false,
+      "manual_url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8",
+      "selected_tvg_id": "ELatinAmerica.us@South",
+      "status": "ELIMINADO",
+      "reason": "URL globally blocked (bantel-cdn1)"
+    },
+    "Lifetime": {
+      "manual_verified": true,
+      "manual_url": "http://138.121.15.230:9002/LIFETIME/index.m3u8",
+      "selected_tvg_id": "LifetimeLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Las Estrellas": {
+      "manual_verified": true,
+      "manual_url": "https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8",
+      "selected_tvg_id": "LasEstrellas.mx@SD",
+      "status": "CONFIRMADO"
+    },
+    "TLNovelas": {
+      "manual_verified": true,
+      "manual_url": "http://177.234.249.135:8888/Telenovelas/index.m3u8",
+      "selected_tvg_id": "TlnovelasLatinAmerica.mx@SD",
+      "status": "CONFIRMADO"
+    },
+    "Azteca Internacional": {
+      "manual_verified": true,
+      "manual_url": "https://azt-mun.otteravision.com/azt/mun/mun.m3u8",
+      "selected_tvg_id": "AztecaInternacional.mx@SD",
+      "status": "CONFIRMADO"
+    },
+    "NTN24": {
+      "disabled": true,
+      "reason": "Eliminado por decisión del administrador durante la auditoría manual."
+    },
+    "TeleSUR": {
+      "manual_verified": true,
+      "manual_url": "https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8",
+      "selected_tvg_id": "Telesur.ve@HD",
+      "status": "CONFIRMADO"
+    },
+    "Milenio Televisión": {
+      "disabled": true,
+      "reason": "Eliminado por decisión del administrador durante la auditoría manual."
+    },
+    "Foro TV": {
+      "disabled": true,
+      "reason": "Eliminado por decisión del administrador durante la auditoría manual."
+    },
+    "History 2": {
+      "blocked_urls": [
+        "http://138.121.15.230:9002/HISTORY-2/index.m3u8",
+        "http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8"
+      ]
+    },
+    "National Geographic": {
+      "manual_verified": false,
+      "manual_url": "http://138.121.15.230:9002/NAT-GEO/index.m3u8",
+      "selected_tvg_id": "NationalGeographic.mx@SD",
+      "status": "ELIMINADO",
+      "blocked_urls": [
+        "http://138.121.15.230:9002/NAT-GEO/index.m3u8"
+      ]
+    },
+    "Nickelodeon": {
+      "manual_verified": true,
+      "manual_url": "http://138.186.23.7:8082/NICK/index.m3u8",
+      "selected_tvg_id": "NickelodeonLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Nick Jr.": {
+      "manual_verified": true,
+      "manual_url": "http://138.186.23.7:8082/NICKJR/index.m3u8",
+      "selected_tvg_id": "NickJrLatinAmerica.us@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Disney Channel": {
+      "manual_verified": true,
+      "manual_url": "http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8",
+      "selected_tvg_id": "DisneyChannelLatinAmerica.ar@Panregional",
+      "status": "CONFIRMADO"
+    },
+    "Cinecanal": {},
+    "Cinemax": {},
+    "Warner Channel": {},
+    "Telemundo Internacional": {},
+    "Todo Noticias": {},
+    "C5N": {},
+    "Discovery Science": {},
+    "Discovery Turbo": {},
+    "Animal Planet": {},
+    "Nat Geo Wild": {},
+    "Love Nature": {},
+    "Cartoon Network": {},
+    "Cartoonito": {},
+    "Discovery Kids": {},
+    "Caracol Televisión": {
+      "manual_verified": true,
+      "manual_url": "http://45.171.108.253:8888/CARACOL/index.m3u8",
+      "selected_tvg_id": "CaracolTV.co@SD",
+      "status": "CONFIRMADO"
     }
-  }
+  },
+  "global_blocked_urls": [
+    "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8",
+    "http://138.121.15.230:9002/NAT-GEO/index.m3u8"
+  ]
 }

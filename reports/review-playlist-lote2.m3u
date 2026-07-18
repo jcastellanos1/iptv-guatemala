@@ -1,0 +1,39 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ImagenTV.mx@SD" tvg-name="Imagen Televisión" group-title="TV abierta México",01 - Imagen Televisión
+https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
+#EXTINF:-1 tvg-id="Canal5.mx@SD" tvg-name="Canal 5 México" group-title="TV abierta México",02 - Canal 5 México
+http://45.181.87.106/CANAL5HD/index.m3u8
+#EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-name="Canal 22 México" group-title="TV abierta México",03 - Canal 22 México
+https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
+#EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-name="Caracol Televisión" group-title="TV abierta Colombia",04 - Caracol Televisión
+http://45.171.108.253:8888/CARACOL/index.m3u8
+#EXTINF:-1 tvg-id="CanalRCN.co@SD" tvg-name="RCN Televisión" group-title="TV abierta Colombia",05 - RCN Televisión
+http://138.121.15.230:9002/RCN/index.m3u8
+#EXTINF:-1 tvg-id="Canal1.co@SD" tvg-name="Canal 1 Colombia" group-title="TV abierta Colombia",06 - Canal 1 Colombia
+http://190.61.43.123:8081/CANAL1HD/index.m3u8
+#EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-name="Canal Capital" group-title="TV abierta Colombia",07 - Canal Capital
+http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
+#EXTINF:-1 tvg-id="Teleantioquia.co@SD" tvg-name="Teleantioquia" group-title="TV abierta Colombia",08 - Teleantioquia
+https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Telecaribe.co@SD" tvg-name="Telecaribe" group-title="TV abierta Colombia",09 - Telecaribe
+https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp01.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-name="Telepacífico" group-title="TV abierta Colombia",10 - Telepacífico
+https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8
+#EXTINF:-1 tvg-id="TVPeru.pe@SD" tvg-name="TV Perú" group-title="TV abierta Sudamérica",11 - TV Perú
+http://181.119.93.83:8000/play/a25t/index.m3u8
+#EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" group-title="TV abierta Sudamérica",12 - Latina Televisión
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
+#EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" group-title="TV abierta Sudamérica",13 - Panamericana Televisión
+http://45.171.108.253:8888/PANAMERICANA/index.m3u8
+#EXTINF:-1 tvg-id="AmericaTelevision.pe@SD" tvg-name="América Televisión Perú" group-title="TV abierta Sudamérica",14 - América Televisión Perú
+http://45.171.108.253:8888/AMERICA/index.m3u8
+#EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega Chile" group-title="TV abierta Sudamérica",15 - Mega Chile
+https://www.desde-paraguay.com/mega.m3u8
+#EXTINF:-1 tvg-id="TVN.cl@SD" tvg-name="TVN Chile" group-title="TV abierta Sudamérica",16 - TVN Chile
+http://45.162.193.35/TVN/index.m3u8
+#EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" group-title="TV abierta Sudamérica",17 - Telefe
+http://190.108.83.69:8000/play/a08l/index.m3u8
+#EXTINF:-1 tvg-id="ElTrece.ar@SD" tvg-name="El Trece Argentina" group-title="TV abierta Sudamérica",18 - El Trece Argentina
+https://livetrx01.vodgc.net/eltrecetv/index.m3u8
+#EXTINF:-1 tvg-id="CanalIPe.pe@SD" tvg-name="Canal IPe" group-title="Cultura y Educación",19 - Canal IPe
+http://187.102.210.46/IPE/index.m3u8
