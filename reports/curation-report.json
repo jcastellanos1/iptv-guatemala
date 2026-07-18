@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-17T21:37:37.482230+00:00",
-  "execution_time_seconds": 33.42,
+  "generated_at": "2026-07-18T01:54:14.753998+00:00",
+  "execution_time_seconds": 29.07,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
-    "total_http_requests": 29,
-    "discarded_by_region": 7,
+    "channels_found": 40,
+    "channels_not_found": 41,
+    "total_http_requests": 31,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 5
+    "discarded_by_blocked_terms": 7
   },
   "selected_channels": [
     "AMC",
@@ -22,10 +22,8 @@
     "A&E",
     "Comedy Central",
     "Distrito Comedia",
-    "E!",
     "Lifetime",
     "Sony Channel",
-    "Las Estrellas",
     "TLNovelas",
     "Azteca Internacional",
     "TeleSUR",
@@ -57,39 +55,47 @@
   "not_found_channels": [
     {
       "name": "Cinecanal",
-      "reason": "Disabled via overrides"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Cinemax",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Paramount Network",
-      "reason": "Disabled via overrides"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Space",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "TNT",
-      "reason": "Disabled via overrides"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "TNT Series",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Warner Channel",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "E!",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Telemundo Internacional",
-      "reason": "Disabled via overrides"
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Las Estrellas",
+      "reason": "Manual override failed: HTTP 403"
     },
     {
       "name": "CNN en Español",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "NTN24",
@@ -117,27 +123,27 @@
     },
     {
       "name": "Todo Noticias",
-      "reason": "Disabled via overrides"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "C5N",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Discovery Channel",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Discovery Science",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Discovery Turbo",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Animal Planet",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "History 2",
@@ -145,23 +151,23 @@
     },
     {
       "name": "Nat Geo Wild",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Love Nature",
-      "reason": "Disabled via overrides"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Cartoon Network",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Cartoonito",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Discovery Kids",
-      "reason": "Disabled via overrides"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Azteca Uno",
