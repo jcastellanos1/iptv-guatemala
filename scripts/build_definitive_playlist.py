@@ -74,6 +74,12 @@ CATALOG = [
     ("Pluto TV Novelas de México", ["Pluto TV Novelas Mexico"], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
     ("Pluto TV Series", ["Pluto TV Series LatAm"], ["Latin America", "Panregional", "Mexico"], ["Pluto TV Series Latinas", "Pluto TV Series Retro", "Series de Accion", "Series de Comedia", "Series de Crimen", "Series de Drama", "Series de Sci-Fi", "Series de Otros"], "Películas y Series"),
     ("Pluto TV Series Latinas", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
+    ("Pluto TV Sci-Fi", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
+    ("Pluto TV Cine Acción", ["Pluto TV Cine Accion"], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
+    ("Pluto TV Cine Comedia", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
+    ("Pluto TV Cine Drama", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
+    ("Pluto TV Cine Terror", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
+    ("Pluto TV Anime", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
     ("Pluto TV Series Retro", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
     ("Pluto TV Series de Acción", ["Pluto TV Series de Accion"], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
     ("Pluto TV Series de Comedia", [], ["Latin America", "Panregional", "Mexico"], [], "Películas y Series"),
@@ -95,22 +101,23 @@ CATALOG = [
     ("Canal 5 México", ["Canal 5", "Canal 5 HD", "Canal 5 Mexico"], ["Mexico", "Panregional"], ["Canal 5 Honduras", "Canal 5 Uruguay", "Canal 5 Peru"], "TV Latinoamérica"),
     ("Telefe", ["Telefe HD", "Telefe Argentina", "Telefe Internacional"], ["Latin America", "Panregional"], [], "TV Latinoamérica"),
     ("El Trece Argentina", ["El Trece", "Canal 13 Argentina", "El Trece HD"], ["Latin America", "Panregional"], ["Canal 13 Chile", "Canal 13 Colombia"], "TV Latinoamérica"),
-    ("Mega Chile", ["Mega", "Mega TV", "Mega HD"], ["Latin America", "Panregional", "Andes"], ["Mega TV USA", "Mega TV Puerto Rico"], "TV Latinoamérica"),
-    ("TVN Chile", ["TVN", "Televisión Nacional de Chile", "TV Chile"], ["Latin America", "Panregional", "Andes"], ["TVN Panama", "TVN Poland"], "TV Latinoamérica"),
-    ("Latina Televisión", ["Latina", "Latina TV", "Latina HD"], ["Andes", "Panregional"], [], "TV Latinoamérica"),
+    ("Mega Chile", ["Mega", "Mega TV", "Mega HD"], ["cl", "Chile"], ["Mega TV USA", "Mega TV Puerto Rico", "py", "Paraguay"], "TV Latinoamérica"),
+    ("TVN Chile", ["TVN", "Televisión Nacional de Chile", "TV Chile"], ["cl", "Chile"], ["TVN Panama", "TVN Poland"], "TV Latinoamérica"),
+    ("Canal 13 Chile", ["Canal 13", "Canal 13 HD", "Trece Chile"], ["cl", "Chile"], ["Canal 13 Argentina", "Canal 13 Colombia"], "TV Latinoamérica"),
+    ("Latina Televisión", ["Latina", "Latina TV", "Latina HD"], ["pe", "Peru"], ["ve", "Venezuela"], "TV Latinoamérica"),
     ("América Televisión Perú", ["America TV Peru", "América Televisión", "America Television"], ["Andes", "Panregional"], ["America TV Argentina"], "TV Latinoamérica"),
     ("Panamericana Televisión", ["Panamericana TV", "Panamericana HD"], ["Andes", "Panregional"], [], "TV Latinoamérica"),
     ("RCN Televisión", ["Canal RCN", "RCN TV", "RCN HD", "RCN Colombia"], ["Colombia", "Andes", "Panregional"], ["NTN24"], "TV Latinoamérica"),
     ("Canal 1 Colombia", ["Canal 1", "Canal Uno", "Canal 1 HD"], ["Colombia", "Andes", "Panregional"], ["Canal 1 Ecuador", "Canal 1 Peru"], "TV Latinoamérica"),
     ("Ecuavisa", ["Ecuavisa HD", "Ecuavisa Ecuador"], ["Andes", "Panregional"], [], "TV Latinoamérica"),
     ("Teleamazonas", ["Teleamazonas HD", "Teleamazonas Ecuador"], ["Andes", "Panregional"], [], "TV Latinoamérica"),
-    ("Unitel Bolivia", ["Unitel", "Unitel HD"], ["Andes", "Panregional"], [], "TV Latinoamérica"),
-    ("Red Uno", ["Red Uno Bolivia", "Red Uno HD"], ["Andes", "Panregional"], [], "TV Latinoamérica"),
-    ("Telefuturo Paraguay", ["Telefuturo", "Telefuturo HD"], ["Latin America", "Panregional"], [], "TV Latinoamérica"),
+    ("Unitel Bolivia", ["Unitel", "Unitel HD"], ["bo", "Bolivia"], ["pe", "Peru"], "TV Latinoamérica"),
+    ("Red Uno", ["Red Uno Bolivia", "Red Uno HD"], ["bo", "Bolivia"], [], "TV Latinoamérica"),
+    ("Telefuturo Paraguay", ["Telefuturo", "Telefuturo HD"], ["py", "Paraguay"], [], "TV Latinoamérica"),
     ("Venevisión", ["Venevision", "Venevisión HD"], ["Andes", "Panregional", "Latin America"], [], "TV Latinoamérica"),
     ("Televen", ["Televen HD", "Televen Venezuela"], ["Andes", "Panregional", "Latin America"], [], "TV Latinoamérica"),
     # INFANTILES
-    ("Disney Junior", ["Disney Junior Latinoamérica", "Disney Junior Latin America", "Disney Jr"], ["Latin America", "Panregional", "Mexico"], ["Disney Channel", "Disney XD", "MENA", "West"], "Infantil"),
+    ("Disney Junior", ["Disney Junior Latinoamérica", "Disney Junior Latin America", "Disney Jr"], ["Latin America", "Panregional", "Mexico"], ["Disney Channel", "Disney XD", "MENA", "West", "fr", "france", "english"], "Infantil"),
     ("DreamWorks Channel Latin America", ["DreamWorks Channel", "DreamWorks Latinoamérica", "DreamWorks Latin America"], ["Latin America", "Panregional", "Mexico"], ["DreamWorks Channel Asia"], "Infantil"),
     ("Cartoon Network", ["Cartoon Network Latin America", "Cartoon Network Latinoamérica"], ["Latin America", "Panregional", "Mexico"], ["Cartoonito"], "Infantil"),
     ("Discovery Kids", ["Discovery Kids Latinoamérica", "Discovery Kids Latin America"], ["Latin America", "Panregional", "Mexico"], ["Discovery Channel", "Discovery Science", "Discovery Turbo"], "Infantil"),
@@ -120,7 +127,7 @@ CATALOG = [
     # DOCUMENTALES Y CULTURA
     ("Discovery Channel", ["Discovery Channel Latin America", "Discovery Channel Latinoamérica"], ["Latin America", "Panregional", "Mexico"], ["Discovery Kids", "Discovery Science", "Discovery Turbo", "Discovery Home", "Discovery Family", "Discovery Life", "Discovery World"], "Documentales y Cultura"),
     ("Animal Planet", ["Animal Planet Latin America", "Animal Planet Latinoamérica"], ["Latin America", "Panregional", "Mexico"], [], "Documentales y Cultura"),
-    ("Love Nature", ["Love Nature en Espanol", "Love Nature Español", "Love Nature HD"], ["Latin America", "Panregional", "Mexico"], [], "Documentales y Cultura"),
+    ("Love Nature", ["Love Nature en Espanol", "Love Nature Español", "Love Nature HD"], ["Latin America", "Panregional", "Mexico"], ["english", "canada", "ca"], "Documentales y Cultura"),
     ("Smithsonian Channel", ["Smithsonian Channel Latinoamérica"], ["Latin America", "Panregional", "Mexico"], ["Smithsonian Channel Pluto", "Smithsonian Channel Selects"], "Documentales y Cultura"),
     ("Canal IPe", ["Canal IPe HD", "IPe"], ["Andes", "Panregional"], [], "Documentales y Cultura"),
     ("Discovery Turbo", ["Discovery Turbo TV", "Discovery Turbo Latin America"], ["Latin America", "Panregional", "Mexico"], ["Discovery Kids", "Discovery Channel", "Discovery Science", "Discovery Home"], "Documentales y Cultura"),
@@ -249,13 +256,21 @@ def validate_stream(url, extra_lines):
         if resp.status_code != 200:
             resp.close()
             return False, latency, f"HTTP {resp.status_code}"
+            
+        content_type = resp.headers.get("Content-Type", "").lower()
+        if "text/html" in content_type:
+            resp.close()
+            return False, latency, "HTML page returned instead of stream"
+            
         try:
             chunk_bytes = next(resp.iter_content(chunk_size=4096), b"")
         except StopIteration:
             chunk_bytes = b""
         chunk = chunk_bytes.decode("utf-8", errors="replace")
         resp.close()
-        if chunk.strip().startswith("#EXTM3U") or "#EXT-X-STREAM-INF" in chunk or "#EXTINF" in chunk:
+        
+        # Verify valid HLS
+        if chunk.strip().startswith("#EXTM3U") or "#EXT-X-STREAM-INF" in chunk or "#EXTINF" in chunk or "mpegurl" in content_type:
             return True, latency, None
         else:
             return False, latency, "Not valid HLS playlist"
@@ -281,11 +296,20 @@ def matches_preferred_region(stream, preferred_regions):
         "andes": ["pe", "co", "ve", "ec", "bo"]
     }
     general_latam_suffixes = ["ar", "cl", "uy", "py", "do", "pr"]
+    
+    # Specific country exact match (e.g. LatinaTV needs pe, Mega needs cl)
+    exact_match = ["pe", "cl", "bo", "ve", "py", "mx", "co", "gt", "cr", "pa", "hn", "ni", "sv"]
+    
     # Check the @region from TVG-ID first (most reliable)
     if tvg_region in ["latam", "panregional", "centralamerica", "andes", "south"]:
         return True
+    
     for r in preferred_regions:
         r_clean = r.lower()
+        if r_clean in exact_match:
+            if suffix == r_clean or tvg_region == r_clean:
+                return True
+            continue # If specific country is required, don't fall back to general LatAm for this rule
         if r_clean in region_suffixes:
             if suffix in region_suffixes[r_clean]:
                 return True
@@ -293,6 +317,12 @@ def matches_preferred_region(stream, preferred_regions):
                 return True
         if r_clean in name_lower or r_clean in group_lower:
             return True
+            
+    # If the preferred regions ONLY contain exact matches, don't fallback
+    only_exact = all(r.lower() in exact_match or r.lower() in ["chile", "peru", "bolivia"] for r in preferred_regions)
+    if only_exact:
+        return False
+
     if suffix in general_latam_suffixes:
         return True
     return False
@@ -428,7 +458,7 @@ def main():
         "National Geographic Latin America", "National Geographic Latinoamérica",
         "Nat Geo Latin America", "Nat Geo Latinoamérica", "National Geographic Channel"
     ]]
-    natgeo_blocked_terms = ["Nat Geo Wild", "NatGeo Wild", "Nat Geo Kids"] + GLOBAL_BLOCKED_TERMS
+    natgeo_blocked_terms = ["Nat Geo Wild", "NatGeo Wild", "Nat Geo Kids", "english", "us", "uk"] + GLOBAL_BLOCKED_TERMS
     natgeo_preferred = ["Latin America", "Panregional", "Mexico", "Andes", "Central America"]
 
     natgeo_candidates = []
@@ -737,6 +767,8 @@ def main():
 
     m3u_lines = ["#EXTM3U", ""]
     for ch in all_playlist:
+        # Extra lines are explicitly ignored to ensure TV parses exactly 75 URLs
+        # immediately following the EXTINF line.
         extinf = (
             f'#EXTINF:-1 tvg-id="{ch["id"]}" '
             f'tvg-name="{ch["name"]}" '
@@ -745,14 +777,23 @@ def main():
             f',{ch["name"]}'
         )
         m3u_lines.append(extinf)
-        for extra in ch.get("extra_lines", []):
-            m3u_lines.append(extra)
         m3u_lines.append(ch["stream_url"])
         m3u_lines.append("")
 
-    with open(OUTPUT_M3U, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(m3u_lines))
+    with open(OUTPUT_M3U, "wb") as f:
+        # Write exactly with LF to avoid \r\n issues on some players
+        content = "\n".join(m3u_lines).encode("utf-8")
+        f.write(content)
     print(f"  Generated index.m3u with {len(all_playlist)} channels")
+    
+    # ─── STEP 9: Generate reports based on actual M3U written ──────────
+    with open(FINAL_LIST_MD, "w", encoding="utf-8") as f:
+        f.write("# Lista Definitiva de Canales\n\n")
+        f.write("| N.º | Canal | Categoría | Región | TVG-ID |\n")
+        f.write("|-----|-------|-----------|--------|--------|\n")
+        for i, ch in enumerate(all_playlist, 1):
+            f.write(f"| {i:02d} | {ch['name']} | {ch['group']} | {ch.get('country', '-')} | {ch['id']} |\n")
+
 
     # ─── STEP 9: Validations ──────────────────────────────────────────
     print("\n  --- Final Validations ---")

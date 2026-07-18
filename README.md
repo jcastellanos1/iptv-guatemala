@@ -9,7 +9,7 @@ Lista M3U gratuita y pública de canales de televisión abierta de Guatemala, co
 ## 🔗 URL Directa de la Lista
 
 ```
-https://jcastellanos1.github.io/iptv-guatemala/index.m3u
+https://jcastellanos1.github.io/iptv-guatemala/index.m3u?v=2
 ```
 
 Copia esta URL y pégala en tu reproductor favorito.
@@ -42,7 +42,7 @@ Copia esta URL y pégala en tu reproductor favorito.
 7. En **Nombre**, escribe: `IPTV Guatemala`
 8. En **URL**, pega:
    ```
-   https://jcastellanos1.github.io/iptv-guatemala/index.m3u
+   https://jcastellanos1.github.io/iptv-guatemala/index.m3u?v=2
    ```
 9. Haz clic en **Guardar**.
 10. En el televisor, reinicia o actualiza SS IPTV.
@@ -59,7 +59,7 @@ Copia esta URL y pégala en tu reproductor favorito.
 2. Ve a **Medio** → **Abrir ubicación de red** (Ctrl+N).
 3. Pega la URL:
    ```
-   https://jcastellanos1.github.io/iptv-guatemala/index.m3u
+   https://jcastellanos1.github.io/iptv-guatemala/index.m3u?v=2
    ```
 4. Haz clic en **Reproducir**.
 5. Para ver la lista de canales: **Ver** → **Lista de reproducción**.
@@ -74,7 +74,7 @@ Copia esta URL y pégala en tu reproductor favorito.
    - **Ubicación de la lista M3U:** URL remota
    - **URL de la lista M3U:**
      ```
-     https://jcastellanos1.github.io/iptv-guatemala/index.m3u
+     https://jcastellanos1.github.io/iptv-guatemala/index.m3u?v=2
      ```
 4. Reinicia Kodi.
 5. Ve a **TV** en el menú principal para ver los canales.
@@ -88,7 +88,7 @@ Copia esta URL y pégala en tu reproductor favorito.
 3. Selecciona **M3U playlist**.
 4. Ingresa la URL:
    ```
-   https://jcastellanos1.github.io/iptv-guatemala/index.m3u
+   https://jcastellanos1.github.io/iptv-guatemala/index.m3u?v=2
    ```
 5. Sigue las instrucciones para completar la configuración.
 
