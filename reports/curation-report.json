@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-18T18:41:36.163256+00:00",
-  "execution_time_seconds": 32.46,
+  "generated_at": "2026-07-18T21:15:02.343816+00:00",
+  "execution_time_seconds": 31.86,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
+    "channels_found": 42,
+    "channels_not_found": 39,
     "total_http_requests": 30,
-    "discarded_by_region": 14,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
@@ -25,6 +25,7 @@
     "Distrito Comedia",
     "Lifetime",
     "Sony Channel",
+    "Telemundo Internacional",
     "TLNovelas",
     "Azteca Internacional",
     "TeleSUR",
@@ -50,7 +51,8 @@
     "Mega Chile",
     "TVN Chile",
     "Telefe",
-    "El Trece Argentina"
+    "El Trece Argentina",
+    "Canal IPe"
   ],
   "not_found_channels": [
     {
@@ -79,10 +81,6 @@
     },
     {
       "name": "E!",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Telemundo Internacional",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -211,10 +209,6 @@
     },
     {
       "name": "TV UNAM",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal IPe",
       "reason": "All matched candidates failed stream validation or were skipped"
     }
   ],
