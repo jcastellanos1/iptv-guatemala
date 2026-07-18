@@ -42,3 +42,4 @@
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
 | TV UNAM | All matched candidates failed stream validation or were skipped |
+| Canal IPe | All matched candidates failed stream validation or were skipped |
