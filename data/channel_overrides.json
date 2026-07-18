@@ -281,7 +281,14 @@
       "selected_tvg_id": "DisneyChannelLatinAmerica.ar@Panregional",
       "status": "CONFIRMADO"
     },
-    "Cinecanal": {},
+    "Cinecanal": {
+      "manual_verified": true,
+      "status": "CONFIRMADO_MANUAL",
+      "source": "user_supplied",
+      "locked": true,
+      "manual_url": "http://138.186.23.7:8082/CINECANAL/index.m3u8",
+      "selected_tvg_id": "CinecanalLatinAmerica.us@Panregional"
+    },
     "Cinemax": {},
     "Warner Channel": {},
     "Telemundo Internacional": {},
@@ -300,6 +307,42 @@
       "manual_url": "http://45.171.108.253:8888/CARACOL/index.m3u8",
       "selected_tvg_id": "CaracolTV.co@SD",
       "status": "CONFIRMADO"
+    },
+    "Telemundo": {
+      "manual_verified": true,
+      "status": "CONFIRMADO_MANUAL",
+      "source": "user_supplied",
+      "locked": true,
+      "manual_url": "http://138.121.15.230:9002/TELEMUNDO/index.m3u8",
+      "selected_tvg_id": "TelemundoInternacional.us@Panregional"
+    },
+    "TNT Novelas": {
+      "manual_verified": true,
+      "status": "CONFIRMADO_MANUAL",
+      "source": "user_supplied",
+      "locked": true,
+      "manual_url": "http://138.186.23.7:8082/TNTNOVELAS/index.m3u8"
+    },
+    "Universal Comedy": {
+      "manual_verified": true,
+      "status": "CONFIRMADO_MANUAL",
+      "source": "user_supplied",
+      "locked": true,
+      "manual_url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8"
+    },
+    "Canal Latino 1": {
+      "manual_verified": true,
+      "status": "CONFIRMADO_MANUAL",
+      "source": "user_supplied",
+      "locked": true,
+      "manual_url": "http://72.1.184.5:8089/play/a05d/index.m3u8"
+    },
+    "Canal Cine Latino 2": {
+      "manual_verified": true,
+      "status": "CONFIRMADO_MANUAL",
+      "source": "user_supplied",
+      "locked": true,
+      "manual_url": "https://jmp2.uk/plu-69fcaa71ea95ffff0987f555.m3u8"
     }
   },
   "global_blocked_urls": [

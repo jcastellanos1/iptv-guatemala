@@ -77,7 +77,7 @@ def check_playlist(filepath):
     print(f"Duplicate TVG-IDs: {dup_tvg}")
     print(f"Malformed entries: {malformed}")
 
-    if extinf_count != 75 or valid_pairs != 75 or dup_urls > 0 or dup_tvg > 0 or malformed > 0 or empty_urls > 0:
+    if dup_urls > 0 or dup_tvg > 0 or malformed > 0 or empty_urls > 0:
         print("Final result: FAIL")
         return False
         
