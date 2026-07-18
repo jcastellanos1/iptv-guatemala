@@ -287,11 +287,10 @@
       "source": "user_supplied",
       "locked": true,
       "manual_url": "http://138.186.23.7:8082/CINECANAL/index.m3u8",
-      "selected_tvg_id": "CinecanalLatinAmerica.us@Panregional"
+      "selected_tvg_id": "Cinecanal.us"
     },
     "Cinemax": {},
     "Warner Channel": {},
-    "Telemundo Internacional": {},
     "Todo Noticias": {},
     "C5N": {},
     "Discovery Science": {},
@@ -308,27 +307,29 @@
       "selected_tvg_id": "CaracolTV.co@SD",
       "status": "CONFIRMADO"
     },
-    "Telemundo": {
+    "Telemundo Internacional": {
       "manual_verified": true,
       "status": "CONFIRMADO_MANUAL",
       "source": "user_supplied",
       "locked": true,
       "manual_url": "http://138.121.15.230:9002/TELEMUNDO/index.m3u8",
-      "selected_tvg_id": "TelemundoInternacional.us@Panregional"
+      "selected_tvg_id": "TelemundoInternacional.us"
     },
     "TNT Novelas": {
       "manual_verified": true,
       "status": "CONFIRMADO_MANUAL",
       "source": "user_supplied",
       "locked": true,
-      "manual_url": "http://138.186.23.7:8082/TNTNOVELAS/index.m3u8"
+      "manual_url": "http://138.186.23.7:8082/TNTNOVELAS/index.m3u8",
+      "selected_tvg_id": "TNTNovelas.us"
     },
     "Universal Comedy": {
       "manual_verified": true,
       "status": "CONFIRMADO_MANUAL",
       "source": "user_supplied",
       "locked": true,
-      "manual_url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8"
+      "manual_url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8",
+      "selected_tvg_id": "UniversalComedy.us"
     },
     "Canal Latino 1": {
       "manual_verified": true,

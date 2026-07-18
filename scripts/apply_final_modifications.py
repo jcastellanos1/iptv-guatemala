@@ -12,22 +12,22 @@ def main():
         "Cinecanal": {
             "category": "Películas y Series",
             "url": "http://138.186.23.7:8082/CINECANAL/index.m3u8",
-            "tvg_id": "CinecanalLatinAmerica.us@Panregional"
+            "tvg_id": "Cinecanal.us"
         },
-        "Telemundo": {
+        "Telemundo Internacional": {
             "category": "Entretenimiento",
             "url": "http://138.121.15.230:9002/TELEMUNDO/index.m3u8",
-            "tvg_id": "TelemundoInternacional.us@Panregional"
+            "tvg_id": "TelemundoInternacional.us"
         },
         "TNT Novelas": {
             "category": "Películas y Series",
             "url": "http://138.186.23.7:8082/TNTNOVELAS/index.m3u8",
-            "tvg_id": ""
+            "tvg_id": "TNTNovelas.us"
         },
         "Universal Comedy": {
             "category": "Películas y Series",
             "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8",
-            "tvg_id": ""
+            "tvg_id": "UniversalComedy.us"
         },
         "Canal Latino 1": {
             "category": "Entretenimiento",
