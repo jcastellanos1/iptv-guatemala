@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-19T07:53:21.246039+00:00",
-  "execution_time_seconds": 39.09,
+  "generated_at": "2026-07-19T12:43:38.840353+00:00",
+  "execution_time_seconds": 32.33,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
-    "total_http_requests": 30,
-    "discarded_by_region": 14,
+    "channels_found": 41,
+    "channels_not_found": 40,
+    "total_http_requests": 31,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
@@ -38,6 +38,8 @@
     "Canal 5 México",
     "Canal 22 México",
     "Caracol Televisión",
+    "RCN Televisión",
+    "Canal 1 Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -45,7 +47,6 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
-    "América Televisión Perú",
     "Mega Chile",
     "TVN Chile",
     "Telefe",
@@ -186,15 +187,11 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "RCN Televisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 1 Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Señal Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "América Televisión Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

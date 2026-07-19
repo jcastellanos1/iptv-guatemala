@@ -35,9 +35,8 @@
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal Once | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
-| RCN Televisión | All matched candidates failed stream validation or were skipped |
-| Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
 | Señal Colombia | All matched candidates failed stream validation or were skipped |
+| América Televisión Perú | All matched candidates failed stream validation or were skipped |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
