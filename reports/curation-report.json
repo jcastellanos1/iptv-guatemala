@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-19T01:16:11.183601+00:00",
-  "execution_time_seconds": 29.78,
+  "generated_at": "2026-07-19T07:53:21.246039+00:00",
+  "execution_time_seconds": 39.09,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 30,
-    "discarded_by_region": 13,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
@@ -38,8 +38,6 @@
     "Canal 5 México",
     "Canal 22 México",
     "Caracol Televisión",
-    "RCN Televisión",
-    "Canal 1 Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -186,6 +184,14 @@
     {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "RCN Televisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 1 Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Señal Colombia",
