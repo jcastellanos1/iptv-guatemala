@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-20T08:31:58.101529+00:00",
-  "execution_time_seconds": 38.44,
+  "generated_at": "2026-07-20T13:40:56.543488+00:00",
+  "execution_time_seconds": 28.9,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 42,
+    "channels_not_found": 39,
     "total_http_requests": 30,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
@@ -50,6 +50,7 @@
     "América Televisión Perú",
     "Mega Chile",
     "TVN Chile",
+    "Telefe",
     "El Trece Argentina",
     "Canal IPe"
   ],
@@ -196,10 +197,6 @@
     },
     {
       "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Telefe",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

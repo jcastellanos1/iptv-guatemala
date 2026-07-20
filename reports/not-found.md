@@ -38,7 +38,6 @@
 | Señal Colombia | All matched candidates failed stream validation or were skipped |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
-| Telefe | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
 | TV UNAM | All matched candidates failed stream validation or were skipped |
