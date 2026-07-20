@@ -72,6 +72,12 @@ http://45.162.193.35/NATGEO/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Infantil",Disney Channel
 http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="Nick Jr." tvg-logo="" group-title="Infantil",Nick Jr.
+http://138.186.23.7:8082/NICKJR/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Nickelodeon" tvg-logo="" group-title="Infantil",Nickelodeon
+http://138.186.23.7:8082/NICK/index.m3u8
+
 #EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-name="Canal 22" tvg-logo="https://i.imgur.com/R4wXVxf.png" group-title="TV abierta México",Canal 22
 https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
 
@@ -119,9 +125,6 @@ https://www.desde-paraguay.com/mega.m3u8
 
 #EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
-
-#EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="TV abierta Sudamérica",Telefe
-http://190.108.83.69:8000/play/a08l/index.m3u8
 
 #EXTINF:-1 tvg-id="TVPeru.pe@SD" tvg-name="TV Perú" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="TV abierta Sudamérica",TV Perú
 http://181.119.93.83:8000/play/a25t/index.m3u8

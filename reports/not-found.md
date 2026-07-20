@@ -29,8 +29,6 @@
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
 | Cartoonito | No candidates matched name or aliases in IPTV-org |
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
-| Nickelodeon | Manual override failed: HTTP 404 |
-| Nick Jr. | Manual override failed: HTTP 404 |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Azteca 7 | All matched candidates failed stream validation or were skipped |
 | ADN 40 | All matched candidates failed stream validation or were skipped |
@@ -40,6 +38,7 @@
 | Señal Colombia | All matched candidates failed stream validation or were skipped |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
+| Telefe | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
 | TV UNAM | All matched candidates failed stream validation or were skipped |

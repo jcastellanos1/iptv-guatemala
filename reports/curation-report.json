@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-19T18:43:59.240540+00:00",
-  "execution_time_seconds": 32.07,
+  "generated_at": "2026-07-20T02:23:18.146381+00:00",
+  "execution_time_seconds": 34.06,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
+    "channels_found": 41,
+    "channels_not_found": 40,
     "total_http_requests": 30,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
@@ -31,6 +31,8 @@
     "TeleSUR",
     "History",
     "National Geographic",
+    "Nickelodeon",
+    "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
     "Canal 5 México",
@@ -48,7 +50,6 @@
     "América Televisión Perú",
     "Mega Chile",
     "TVN Chile",
-    "Telefe",
     "El Trece Argentina",
     "Canal IPe"
   ],
@@ -162,14 +163,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Nickelodeon",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Nick Jr.",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
       "name": "Azteca Uno",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -203,6 +196,10 @@
     },
     {
       "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Telefe",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
