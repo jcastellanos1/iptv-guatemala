@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T08:02:17.399256+00:00",
-  "execution_time_seconds": 34.02,
+  "generated_at": "2026-07-21T13:08:16.207441+00:00",
+  "execution_time_seconds": 30.45,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 31,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
@@ -12,6 +12,7 @@
   },
   "selected_channels": [
     "AMC",
+    "AXN",
     "Cinecanal",
     "FX",
     "Golden",
@@ -52,10 +53,6 @@
     "Canal IPe"
   ],
   "not_found_channels": [
-    {
-      "name": "AXN",
-      "reason": "Manual override failed: Timeout"
-    },
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"

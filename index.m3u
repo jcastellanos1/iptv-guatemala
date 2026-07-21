@@ -12,6 +12,9 @@ https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="Películas y Series",AMC
 http://45.162.193.35/AMC/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
+http://138.121.15.230:9002/AXN/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="Cinecanal" tvg-logo="" group-title="Películas y Series",Cinecanal
 http://138.186.23.7:8082/CINECANAL/index.m3u8
 
