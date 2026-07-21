@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-20T19:19:57.238845+00:00",
-  "execution_time_seconds": 32.48,
+  "generated_at": "2026-07-21T01:15:59.962783+00:00",
+  "execution_time_seconds": 30.2,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
-    "total_http_requests": 30,
+    "channels_found": 41,
+    "channels_not_found": 40,
+    "total_http_requests": 31,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
@@ -47,7 +47,6 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
-    "América Televisión Perú",
     "Mega Chile",
     "TVN Chile",
     "Telefe",
@@ -189,6 +188,10 @@
     },
     {
       "name": "Señal Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "América Televisión Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
