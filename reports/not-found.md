@@ -29,7 +29,6 @@
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
 | Cartoonito | No candidates matched name or aliases in IPTV-org |
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
-| Disney Channel | Manual override failed: HTTP 404 |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Azteca 7 | All matched candidates failed stream validation or were skipped |
 | ADN 40 | All matched candidates failed stream validation or were skipped |
