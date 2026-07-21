@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-21T01:15:59.962783+00:00",
-  "execution_time_seconds": 30.2,
+  "generated_at": "2026-07-21T08:02:17.399256+00:00",
+  "execution_time_seconds": 34.02,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 39,
+    "channels_not_found": 42,
     "total_http_requests": 31,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
@@ -12,7 +12,6 @@
   },
   "selected_channels": [
     "AMC",
-    "AXN",
     "Cinecanal",
     "FX",
     "Golden",
@@ -33,7 +32,6 @@
     "National Geographic",
     "Nickelodeon",
     "Nick Jr.",
-    "Disney Channel",
     "Imagen Televisión",
     "Canal 5 México",
     "Canal 22 México",
@@ -54,6 +52,10 @@
     "Canal IPe"
   ],
   "not_found_channels": [
+    {
+      "name": "AXN",
+      "reason": "Manual override failed: Timeout"
+    },
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
@@ -161,6 +163,10 @@
     {
       "name": "Discovery Kids",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Disney Channel",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Azteca Uno",
