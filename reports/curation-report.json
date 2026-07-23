@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-23T08:05:29.064200+00:00",
-  "execution_time_seconds": 34.9,
+  "generated_at": "2026-07-23T13:17:01.595771+00:00",
+  "execution_time_seconds": 39.38,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 39,
+    "channels_not_found": 42,
     "total_http_requests": 30,
     "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
@@ -31,8 +31,6 @@
     "TeleSUR",
     "History",
     "National Geographic",
-    "Nickelodeon",
-    "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
     "Canal 5 México",
@@ -161,6 +159,14 @@
     {
       "name": "Discovery Kids",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Nickelodeon",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Nick Jr.",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Azteca Uno",
