@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T18:52:44.773627+00:00",
-  "execution_time_seconds": 28.62,
+  "generated_at": "2026-07-23T01:22:05.639045+00:00",
+  "execution_time_seconds": 32.84,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
-    "total_http_requests": 31,
+    "channels_found": 42,
+    "channels_not_found": 39,
+    "total_http_requests": 30,
     "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
@@ -40,6 +40,7 @@
     "Caracol Televisión",
     "RCN Televisión",
     "Canal 1 Colombia",
+    "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -50,6 +51,7 @@
     "Mega Chile",
     "TVN Chile",
     "Telefe",
+    "El Trece Argentina",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -186,10 +188,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Señal Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "América Televisión Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -199,10 +197,6 @@
     },
     {
       "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "El Trece Argentina",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
