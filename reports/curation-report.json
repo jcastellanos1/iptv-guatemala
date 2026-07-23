@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-23T01:22:05.639045+00:00",
-  "execution_time_seconds": 32.84,
+  "generated_at": "2026-07-23T08:05:29.064200+00:00",
+  "execution_time_seconds": 34.9,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 41,
+    "channels_not_found": 40,
     "total_http_requests": 30,
-    "discarded_by_region": 14,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
@@ -39,7 +39,6 @@
     "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
-    "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
@@ -186,6 +185,10 @@
     {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Canal 1 Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "América Televisión Perú",
