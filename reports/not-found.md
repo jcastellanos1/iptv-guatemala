@@ -8,6 +8,7 @@
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
+| Comedy Central | Manual override failed: HTTP 404 |
 | E! | All matched candidates failed stream validation or were skipped |
 | Las Estrellas | Manual override failed: HTTP 403 |
 | CNN en Español | No candidates matched name or aliases in IPTV-org |
@@ -15,7 +16,6 @@
 | DW Español | All matched candidates failed stream validation or were skipped |
 | France 24 Español | All matched candidates failed stream validation or were skipped |
 | Euronews Español | All matched candidates failed stream validation or were skipped |
-| TeleSUR | Manual override failed: HTTP 404 |
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
 | Todo Noticias | All matched candidates failed stream validation or were skipped |
@@ -40,7 +40,6 @@
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
-| El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
 | TV UNAM | All matched candidates failed stream validation or were skipped |
