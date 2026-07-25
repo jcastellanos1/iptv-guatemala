@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-25T01:18:59.377931+00:00",
-  "execution_time_seconds": 30.06,
+  "generated_at": "2026-07-25T07:46:26.260728+00:00",
+  "execution_time_seconds": 32.49,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
-    "total_http_requests": 31,
-    "discarded_by_region": 16,
+    "channels_found": 41,
+    "channels_not_found": 40,
+    "total_http_requests": 30,
+    "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
@@ -47,6 +47,7 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
+    "Mega Chile",
     "TVN Chile",
     "Telefe",
     "El Trece Argentina",
@@ -195,10 +196,6 @@
     },
     {
       "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Mega Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
