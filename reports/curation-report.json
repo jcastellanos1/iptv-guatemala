@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-25T12:53:15.985798+00:00",
-  "execution_time_seconds": 29.2,
+  "generated_at": "2026-07-25T18:44:29.638595+00:00",
+  "execution_time_seconds": 37.67,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
+    "channels_found": 38,
+    "channels_not_found": 43,
     "total_http_requests": 30,
     "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
@@ -13,7 +13,6 @@
   "selected_channels": [
     "AMC",
     "AXN",
-    "Cinecanal",
     "FX",
     "Golden",
     "Golden Edge",
@@ -52,6 +51,10 @@
     "Canal IPe"
   ],
   "not_found_channels": [
+    {
+      "name": "Cinecanal",
+      "reason": "Manual override failed: HTTP 404"
+    },
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
