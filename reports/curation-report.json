@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T12:50:15.129668+00:00",
-  "execution_time_seconds": 32.01,
+  "generated_at": "2026-07-26T18:49:10.630425+00:00",
+  "execution_time_seconds": 32.04,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 38,
@@ -21,6 +21,7 @@
     "Studio Universal",
     "Universal TV",
     "A&E",
+    "Comedy Central",
     "Distrito Comedia",
     "Lifetime",
     "Sony Channel",
@@ -30,8 +31,6 @@
     "TeleSUR",
     "History",
     "National Geographic",
-    "Nickelodeon",
-    "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
     "Canal 5 México",
@@ -42,6 +41,7 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
+    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -74,10 +74,6 @@
     {
       "name": "Warner Channel",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Comedy Central",
-      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "E!",
@@ -164,6 +160,14 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Nickelodeon",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Nick Jr.",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
       "name": "Azteca Uno",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -189,10 +193,6 @@
     },
     {
       "name": "Canal 1 Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Telepacífico",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

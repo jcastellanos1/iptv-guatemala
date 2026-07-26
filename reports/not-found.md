@@ -8,7 +8,6 @@
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
-| Comedy Central | Manual override failed: HTTP 404 |
 | E! | All matched candidates failed stream validation or were skipped |
 | Las Estrellas | Manual override failed: HTTP 403 |
 | CNN en Español | No candidates matched name or aliases in IPTV-org |
@@ -30,6 +29,8 @@
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
 | Cartoonito | No candidates matched name or aliases in IPTV-org |
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
+| Nickelodeon | Manual override failed: HTTP 404 |
+| Nick Jr. | Manual override failed: HTTP 404 |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Azteca 7 | All matched candidates failed stream validation or were skipped |
 | ADN 40 | All matched candidates failed stream validation or were skipped |
@@ -37,7 +38,6 @@
 | Canal Once | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
-| Telepacífico | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
 | Mega Chile | All matched candidates failed stream validation or were skipped |
