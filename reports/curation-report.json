@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-07-25T18:44:29.638595+00:00",
-  "execution_time_seconds": 37.67,
+  "generated_at": "2026-07-26T01:21:40.243341+00:00",
+  "execution_time_seconds": 35.93,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 38,
-    "channels_not_found": 43,
-    "total_http_requests": 30,
-    "discarded_by_region": 17,
+    "channels_found": 40,
+    "channels_not_found": 41,
+    "total_http_requests": 31,
+    "discarded_by_region": 19,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
   "selected_channels": [
     "AMC",
     "AXN",
+    "Cinecanal",
     "FX",
     "Golden",
     "Golden Edge",
@@ -30,6 +31,8 @@
     "TeleSUR",
     "History",
     "National Geographic",
+    "Nickelodeon",
+    "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
     "Canal 5 México",
@@ -44,17 +47,12 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
-    "Mega Chile",
     "TVN Chile",
     "Telefe",
     "El Trece Argentina",
     "Canal IPe"
   ],
   "not_found_channels": [
-    {
-      "name": "Cinecanal",
-      "reason": "Manual override failed: HTTP 404"
-    },
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
@@ -164,14 +162,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Nickelodeon",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Nick Jr.",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
       "name": "Azteca Uno",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -205,6 +195,10 @@
     },
     {
       "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Mega Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
