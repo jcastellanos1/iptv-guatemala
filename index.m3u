@@ -12,9 +12,6 @@ https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="Películas y Series",AMC
 http://45.162.193.35/AMC/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
-http://138.121.15.230:9002/AXN/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Cinecanal" tvg-logo="" group-title="Películas y Series",Cinecanal
 http://138.186.23.7:8082/CINECANAL/index.m3u8
 
@@ -116,6 +113,9 @@ https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 
 #EXTINF:-1 tvg-id="Latina.pe" tvg-name="Latina Televisión" tvg-logo="https://i.imgur.com/MOsWriY.png" group-title="TV abierta Sudamérica",Latina Televisión
 https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
+https://www.desde-paraguay.com/mega.m3u8
 
 #EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8

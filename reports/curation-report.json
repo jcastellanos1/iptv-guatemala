@@ -1,18 +1,17 @@
 {
-  "generated_at": "2026-07-27T01:26:24.463378+00:00",
-  "execution_time_seconds": 29.6,
+  "generated_at": "2026-07-27T09:01:34.268415+00:00",
+  "execution_time_seconds": 38.6,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 40,
     "channels_not_found": 41,
-    "total_http_requests": 31,
-    "discarded_by_region": 19,
+    "total_http_requests": 30,
+    "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
   "selected_channels": [
     "AMC",
-    "AXN",
     "Cinecanal",
     "FX",
     "Golden",
@@ -47,12 +46,17 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
+    "Mega Chile",
     "TVN Chile",
     "Telefe",
     "El Trece Argentina",
     "Canal IPe"
   ],
   "not_found_channels": [
+    {
+      "name": "AXN",
+      "reason": "Manual override failed: Timeout"
+    },
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
@@ -195,10 +199,6 @@
     },
     {
       "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Mega Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
