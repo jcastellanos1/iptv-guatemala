@@ -32,6 +32,7 @@
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Azteca 7 | All matched candidates failed stream validation or were skipped |
 | ADN 40 | All matched candidates failed stream validation or were skipped |
+| Canal 5 México | All matched candidates failed stream validation or were skipped |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal Once | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-28T01:13:57.989014+00:00",
-  "execution_time_seconds": 50.06,
+  "generated_at": "2026-07-28T08:09:23.330556+00:00",
+  "execution_time_seconds": 42.82,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
-    "total_http_requests": 30,
+    "channels_found": 40,
+    "channels_not_found": 41,
+    "total_http_requests": 31,
     "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
@@ -35,7 +35,6 @@
     "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
-    "Canal 5 México",
     "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
@@ -172,6 +171,10 @@
     },
     {
       "name": "ADN 40",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 5 México",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
