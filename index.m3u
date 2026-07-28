@@ -33,12 +33,6 @@ http://45.162.193.35/STAR_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Studio Universal" tvg-logo="" group-title="Películas y Series",Studio Universal
 http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Universal TV" tvg-logo="" group-title="Películas y Series",Universal TV
-http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="A&E" tvg-logo="" group-title="Entretenimiento",A&E
-http://138.121.15.230:9002/A&E/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Azteca Internacional" tvg-logo="" group-title="Entretenimiento",Azteca Internacional
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 
@@ -47,15 +41,6 @@ http://181.119.93.83:8000/play/a1di/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Distrito Comedia" tvg-logo="" group-title="Entretenimiento",Distrito Comedia
 http://177.234.249.135:8888/DistritoComedia/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Lifetime" tvg-logo="" group-title="Entretenimiento",Lifetime
-http://138.121.15.230:9002/LIFETIME/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Sony Channel" tvg-logo="" group-title="Entretenimiento",Sony Channel
-http://138.121.15.230:9002/SONY/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Telemundo Internacional" tvg-logo="" group-title="Entretenimiento",Telemundo Internacional
-http://138.121.15.230:9002/TELEMUNDO/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="TLNovelas" tvg-logo="" group-title="Entretenimiento",TLNovelas
 http://177.234.249.135:8888/Telenovelas/index.m3u8

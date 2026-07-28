@@ -7,8 +7,13 @@
 | Space | No candidates matched name or aliases in IPTV-org |
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
+| Universal TV | Manual override failed: HTTP 404 |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
+| A&E | Manual override failed: HTTP 404 |
 | E! | All matched candidates failed stream validation or were skipped |
+| Lifetime | Manual override failed: HTTP 404 |
+| Sony Channel | Manual override failed: HTTP 404 |
+| Telemundo Internacional | Manual override failed: HTTP 404 |
 | Las Estrellas | Manual override failed: HTTP 403 |
 | CNN en Español | No candidates matched name or aliases in IPTV-org |
 | NTN24 | Disabled via overrides |
