@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-29T01:16:58.141461+00:00",
-  "execution_time_seconds": 50.55,
+  "generated_at": "2026-07-29T08:13:32.220923+00:00",
+  "execution_time_seconds": 46.48,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 31,
     "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
@@ -21,6 +21,7 @@
     "Studio Universal",
     "Universal TV",
     "A&E",
+    "Comedy Central",
     "Distrito Comedia",
     "Lifetime",
     "Sony Channel",
@@ -75,10 +76,6 @@
     {
       "name": "Warner Channel",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Comedy Central",
-      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "E!",
