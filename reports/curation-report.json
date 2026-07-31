@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-31T13:23:12.521900+00:00",
-  "execution_time_seconds": 41.42,
+  "generated_at": "2026-07-31T19:02:05.595102+00:00",
+  "execution_time_seconds": 40.68,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 38,
-    "channels_not_found": 43,
-    "total_http_requests": 32,
-    "discarded_by_region": 18,
+    "channels_found": 40,
+    "channels_not_found": 41,
+    "total_http_requests": 31,
+    "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
   },
@@ -35,6 +35,7 @@
     "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
+    "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
@@ -45,6 +46,7 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
+    "Mega Chile",
     "TVN Chile",
     "Telefe",
     "El Trece Argentina",
@@ -184,10 +186,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Canal 22 México",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -201,10 +199,6 @@
     },
     {
       "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Mega Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
