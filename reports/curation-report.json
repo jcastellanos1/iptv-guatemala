@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-31T01:22:11.790500+00:00",
-  "execution_time_seconds": 44.21,
+  "generated_at": "2026-07-31T08:26:24.425952+00:00",
+  "execution_time_seconds": 41.13,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
-    "total_http_requests": 31,
+    "channels_found": 38,
+    "channels_not_found": 43,
+    "total_http_requests": 32,
     "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
@@ -47,7 +47,6 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "TVN Chile",
-    "Telefe",
     "El Trece Argentina",
     "Canal IPe"
   ],
@@ -206,6 +205,10 @@
     },
     {
       "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Telefe",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
