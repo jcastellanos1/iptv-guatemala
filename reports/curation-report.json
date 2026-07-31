@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T08:26:24.425952+00:00",
-  "execution_time_seconds": 41.13,
+  "generated_at": "2026-07-31T13:23:12.521900+00:00",
+  "execution_time_seconds": 41.42,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 38,
@@ -35,7 +35,6 @@
     "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
-    "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
@@ -47,6 +46,7 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "TVN Chile",
+    "Telefe",
     "El Trece Argentina",
     "Canal IPe"
   ],
@@ -184,6 +184,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Canal 22 México",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -205,10 +209,6 @@
     },
     {
       "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Telefe",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
