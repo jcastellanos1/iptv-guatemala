@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T19:05:09.445598+00:00",
-  "execution_time_seconds": 45.18,
+  "generated_at": "2026-07-31T01:22:11.790500+00:00",
+  "execution_time_seconds": 44.21,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 37,
-    "channels_not_found": 44,
-    "total_http_requests": 32,
+    "channels_found": 39,
+    "channels_not_found": 42,
+    "total_http_requests": 31,
     "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 7
@@ -31,6 +31,8 @@
     "TeleSUR",
     "History",
     "National Geographic",
+    "Nickelodeon",
+    "Nick Jr.",
     "Disney Channel",
     "Imagen Televisión",
     "Canal 22 México",
@@ -159,14 +161,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Nickelodeon",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Nick Jr.",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
       "name": "Azteca Uno",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -224,7 +218,7 @@
     },
     {
       "name": "TV UNAM",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     }
   ],
   "guatemala_channels_confirmed": [
