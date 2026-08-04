@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-04T13:30:07.876050+00:00",
-  "execution_time_seconds": 37.46,
+  "generated_at": "2026-08-04T19:14:49.832140+00:00",
+  "execution_time_seconds": 33.89,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 38,
-    "channels_not_found": 43,
+    "channels_found": 36,
+    "channels_not_found": 45,
     "total_http_requests": 30,
     "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
@@ -13,10 +13,8 @@
   "selected_channels": [
     "AMC",
     "AXN",
-    "Cinecanal",
     "FX",
     "Golden",
-    "Golden Edge",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
@@ -52,8 +50,16 @@
   ],
   "not_found_channels": [
     {
+      "name": "Cinecanal",
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
+    },
+    {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Golden Edge",
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index"
     },
     {
       "name": "Paramount Network",
@@ -161,11 +167,11 @@
     },
     {
       "name": "Nickelodeon",
-      "reason": "Manual override failed: HTTP 404"
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8 "
     },
     {
       "name": "Nick Jr.",
-      "reason": "Manual override failed: HTTP 404"
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
     },
     {
       "name": "Azteca Uno",

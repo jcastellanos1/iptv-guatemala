@@ -2,7 +2,9 @@
 
 | Canal | Razón |
 |---|---|
+| Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | Cinemax | No candidates matched name or aliases in IPTV-org |
+| Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
 | TNT | All matched candidates failed stream validation or were skipped |
@@ -29,8 +31,8 @@
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
 | Cartoonito | No candidates matched name or aliases in IPTV-org |
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
-| Nickelodeon | Manual override failed: HTTP 404 |
-| Nick Jr. | Manual override failed: HTTP 404 |
+| Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
+| Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Azteca 7 | All matched candidates failed stream validation or were skipped |
 | ADN 40 | All matched candidates failed stream validation or were skipped |
