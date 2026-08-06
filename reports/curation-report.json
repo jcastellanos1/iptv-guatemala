@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-06T08:09:54.340154+00:00",
-  "execution_time_seconds": 36.7,
+  "generated_at": "2026-08-06T13:26:41.935730+00:00",
+  "execution_time_seconds": 45.02,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 36,
-    "channels_not_found": 45,
+    "channels_found": 35,
+    "channels_not_found": 46,
     "total_http_requests": 31,
     "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
@@ -27,7 +27,6 @@
     "TLNovelas",
     "Azteca Internacional",
     "TeleSUR",
-    "History",
     "National Geographic",
     "Disney Channel",
     "Imagen Televisión",
@@ -140,6 +139,10 @@
     {
       "name": "Animal Planet",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "History",
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "History 2",
