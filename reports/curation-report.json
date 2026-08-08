@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T18:34:58.514778+00:00",
-  "execution_time_seconds": 29.81,
+  "generated_at": "2026-08-08T00:38:17.844024+00:00",
+  "execution_time_seconds": 32.92,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 37,
@@ -8,7 +8,7 @@
     "total_http_requests": 29,
     "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 7
+    "discarded_by_blocked_terms": 6
   },
   "selected_channels": [
     "AMC",
