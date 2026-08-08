@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-08T00:38:17.844024+00:00",
-  "execution_time_seconds": 32.92,
+  "generated_at": "2026-08-08T06:28:28.406542+00:00",
+  "execution_time_seconds": 29.77,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 37,
-    "channels_not_found": 44,
+    "channels_found": 34,
+    "channels_not_found": 47,
     "total_http_requests": 29,
     "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
@@ -14,17 +14,14 @@
     "AMC",
     "AXN",
     "FX",
-    "Golden",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
     "A&E",
     "Comedy Central",
-    "Distrito Comedia",
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
-    "TLNovelas",
     "Azteca Internacional",
     "TeleSUR",
     "History",
@@ -59,6 +56,10 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Golden",
+      "reason": "Manual override failed: HTTP 403"
+    },
+    {
       "name": "Golden Edge",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index"
     },
@@ -83,11 +84,19 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Distrito Comedia",
+      "reason": "Manual override failed: HTTP 403"
+    },
+    {
       "name": "E!",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Las Estrellas",
+      "reason": "Manual override failed: HTTP 403"
+    },
+    {
+      "name": "TLNovelas",
       "reason": "Manual override failed: HTTP 403"
     },
     {

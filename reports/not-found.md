@@ -4,14 +4,17 @@
 |---|---|
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | Cinemax | No candidates matched name or aliases in IPTV-org |
+| Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
+| Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | All matched candidates failed stream validation or were skipped |
 | Las Estrellas | Manual override failed: HTTP 403 |
+| TLNovelas | Manual override failed: HTTP 403 |
 | CNN en Español | No candidates matched name or aliases in IPTV-org |
 | NTN24 | Disabled via overrides |
 | DW Español | All matched candidates failed stream validation or were skipped |
