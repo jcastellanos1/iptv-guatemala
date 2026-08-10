@@ -9,20 +9,8 @@ https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8
 #EXTINF:-1 tvg-id="TN23.gt" tvg-name="TN23 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/tn23.png" group-title="Guatemala",TN23 Guatemala
 https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="Películas y Series",AMC
-http://45.162.193.35/AMC/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="FX" tvg-logo="" group-title="Películas y Series",FX
-http://45.162.193.35/FX/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Star Channel" tvg-logo="" group-title="Películas y Series",Star Channel
-http://45.162.193.35/STAR_CHANNEL/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Studio Universal" tvg-logo="" group-title="Películas y Series",Studio Universal
-http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Universal TV" tvg-logo="" group-title="Películas y Series",Universal TV
 http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
@@ -50,9 +38,6 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
-
-#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentales",National Geographic
-http://45.162.193.35/NATGEO/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Infantil",Disney Channel
 http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8

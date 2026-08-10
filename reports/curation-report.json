@@ -1,21 +1,17 @@
 {
-  "generated_at": "2026-08-09T18:20:12.815933+00:00",
-  "execution_time_seconds": 33.06,
+  "generated_at": "2026-08-10T00:42:50.684753+00:00",
+  "execution_time_seconds": 67.72,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
+    "channels_found": 29,
+    "channels_not_found": 52,
     "total_http_requests": 29,
-    "discarded_by_region": 16,
+    "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 6
   },
   "selected_channels": [
-    "AMC",
     "AXN",
-    "FX",
-    "Star Channel",
-    "Studio Universal",
     "Universal TV",
     "A&E",
     "Comedy Central",
@@ -25,7 +21,6 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
-    "National Geographic",
     "Disney Channel",
     "Imagen Televisión",
     "Canal 5 México",
@@ -48,12 +43,20 @@
   ],
   "not_found_channels": [
     {
+      "name": "AMC",
+      "reason": "Manual override failed: Timeout"
+    },
+    {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
     },
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "FX",
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -70,6 +73,14 @@
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Star Channel",
+      "reason": "Manual override failed: Timeout"
+    },
+    {
+      "name": "Studio Universal",
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
@@ -153,6 +164,10 @@
     },
     {
       "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
