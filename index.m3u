@@ -9,8 +9,20 @@ https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8
 #EXTINF:-1 tvg-id="TN23.gt" tvg-name="TN23 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/tn23.png" group-title="Guatemala",TN23 Guatemala
 https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="Películas y Series",AMC
+http://45.162.193.35/AMC/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="FX" tvg-logo="" group-title="Películas y Series",FX
+http://45.162.193.35/FX/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Star Channel" tvg-logo="" group-title="Películas y Series",Star Channel
+http://45.162.193.35/STAR_CHANNEL/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="Studio Universal" tvg-logo="" group-title="Películas y Series",Studio Universal
+http://45.162.193.35/STUDIO-UNIVERSAL/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Universal TV" tvg-logo="" group-title="Películas y Series",Universal TV
 http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
@@ -39,6 +51,9 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentales",National Geographic
+http://45.162.193.35/NATGEO/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Infantil",Disney Channel
 http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
 
@@ -51,17 +66,14 @@ http://45.181.87.106/CANAL5HD/index.m3u8
 #EXTINF:-1 tvg-id="ImagenTV.mx@SD" tvg-name="Imagen Televisión" tvg-logo="https://i.imgur.com/lKrRvtS.png" group-title="TV abierta México",Imagen Televisión
 https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
 
-#EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-name="Canal Capital" tvg-logo="https://i.imgur.com/zAYtbYi.png" group-title="TV abierta Colombia",Canal Capital
-http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Caracol Televisión" tvg-logo="" group-title="TV abierta Colombia",Caracol Televisión
 http://45.171.108.253:8888/CARACOL/index.m3u8
 
 #EXTINF:-1 tvg-id="CanalRCN.co@SD" tvg-name="RCN Televisión" tvg-logo="https://i.imgur.com/5PhTaHp.png" group-title="TV abierta Colombia",RCN Televisión
 http://138.121.15.230:9002/RCN/index.m3u8
 
-#EXTINF:-1 tvg-id="SenalColombia.co@SD" tvg-name="Señal" tvg-logo="https://i.imgur.com/Y9x16vl.png" group-title="TV abierta Colombia",Señal
-http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8
+#EXTINF:-1 tvg-id="CanalInstitucional.co@SD" tvg-name="Señal" tvg-logo="https://i.imgur.com/hqfQVrU.png" group-title="TV abierta Colombia",Señal
+https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Teleantioquia.co@SD" tvg-name="Teleantioquia" tvg-logo="https://i.imgur.com/6WMV2Az.png" group-title="TV abierta Colombia",Teleantioquia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
@@ -86,9 +98,6 @@ https://www.desde-paraguay.com/mega.m3u8
 
 #EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
-
-#EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="TV abierta Sudamérica",Telefe
-http://190.108.83.69:8000/play/a08l/index.m3u8
 
 #EXTINF:-1 tvg-id="TVPeru.pe@SD" tvg-name="TV Perú" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="TV abierta Sudamérica",TV Perú
 http://181.119.93.83:8000/play/a25t/index.m3u8
