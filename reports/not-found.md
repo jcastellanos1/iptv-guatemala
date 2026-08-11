@@ -22,7 +22,6 @@
 | Euronews Español | All matched candidates failed stream validation or were skipped |
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
-| Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
 | Discovery Channel | No candidates matched name or aliases in IPTV-org |
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
@@ -36,16 +35,13 @@
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
-| Azteca Uno | All matched candidates failed stream validation or were skipped |
-| Azteca 7 | All matched candidates failed stream validation or were skipped |
-| ADN 40 | All matched candidates failed stream validation or were skipped |
+| Azteca Uno | No candidates matched name or aliases in IPTV-org |
+| Azteca 7 | No candidates matched name or aliases in IPTV-org |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
-| Canal Once | All matched candidates failed stream validation or were skipped |
+| Canal Once | No candidates matched name or aliases in IPTV-org |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
-| Chilevisión | All matched candidates failed stream validation or were skipped |
-| Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |

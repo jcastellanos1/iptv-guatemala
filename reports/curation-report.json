@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T12:34:14.602944+00:00",
-  "execution_time_seconds": 38.77,
+  "generated_at": "2026-08-11T18:41:34.928896+00:00",
+  "execution_time_seconds": 24.96,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
-    "total_http_requests": 29,
-    "discarded_by_region": 16,
+    "channels_found": 38,
+    "channels_not_found": 43,
+    "total_http_requests": 27,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 6
   },
@@ -24,9 +24,11 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
     "History",
     "National Geographic",
     "Disney Channel",
+    "ADN 40",
     "Imagen Televisión",
     "Canal 5 México",
     "Canal 22 México",
@@ -40,8 +42,10 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina",
     "Canal IPe"
@@ -128,10 +132,6 @@
       "reason": "Disabled via overrides"
     },
     {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -185,15 +185,11 @@
     },
     {
       "name": "Azteca Uno",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Azteca 7",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "ADN 40",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Nu9ve",
@@ -201,7 +197,7 @@
     },
     {
       "name": "Canal Once",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Multimedios",
@@ -213,14 +209,6 @@
     },
     {
       "name": "América Televisión Perú",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:34:14.602020+00:00",
+  "generated_at": "2026-08-11T18:41:34.928044+00:00",
   "channels": [
     {
       "curated_name": "AMC",
@@ -12,7 +12,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 296,
+      "latency_ms": 285,
       "source": "manual-override"
     },
     {
@@ -26,7 +26,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 555,
+      "latency_ms": 226,
       "source": "manual-override"
     },
     {
@@ -40,7 +40,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 288,
+      "latency_ms": 281,
       "source": "manual-override"
     },
     {
@@ -54,7 +54,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 291,
+      "latency_ms": 282,
       "source": "manual-override"
     },
     {
@@ -68,7 +68,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 288,
+      "latency_ms": 283,
       "source": "manual-override"
     },
     {
@@ -82,7 +82,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 558,
+      "latency_ms": 223,
       "source": "manual-override"
     },
     {
@@ -96,7 +96,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 244,
+      "latency_ms": 221,
       "source": "manual-override"
     },
     {
@@ -110,7 +110,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 277,
+      "latency_ms": 274,
       "source": "manual-override"
     },
     {
@@ -124,7 +124,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 546,
+      "latency_ms": 221,
       "source": "manual-override"
     },
     {
@@ -138,7 +138,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 581,
+      "latency_ms": 221,
       "source": "manual-override"
     },
     {
@@ -152,7 +152,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 232,
+      "latency_ms": 220,
       "source": "manual-override"
     },
     {
@@ -166,7 +166,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 222,
+      "latency_ms": 130,
       "source": "manual-override"
     },
     {
@@ -180,8 +180,22 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 241,
+      "latency_ms": 180,
       "source": "manual-override"
+    },
+    {
+      "curated_name": "Todo Noticias",
+      "display_name": "TN (1080p)",
+      "tvg_id": "TN.ar@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/vFwPhPS.png",
+      "group": "Noticias",
+      "stream_url": "http://15.204.246.24:8080/TNHD/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "AR",
+      "latency_ms": 123,
+      "source": "iptv-org"
     },
     {
       "curated_name": "History",
@@ -194,7 +208,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 1572,
+      "latency_ms": 223,
       "source": "manual-override"
     },
     {
@@ -204,11 +218,11 @@
       "tvg_name": "",
       "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
       "group": "Documentales",
-      "stream_url": "http://45.162.193.35/NATGEO/index.m3u8",
+      "stream_url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 293,
+      "latency_ms": 124,
       "source": "iptv-org"
     },
     {
@@ -222,8 +236,22 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 240,
+      "latency_ms": 243,
       "source": "manual-override"
+    },
+    {
+      "curated_name": "ADN 40",
+      "display_name": "ADN 40 (720p)",
+      "tvg_id": "ADN40.mx@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/Og17U9N.png",
+      "group": "TV abierta México",
+      "stream_url": "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8",
+      "extra_lines": [],
+      "resolution": "720p",
+      "country": "MX",
+      "latency_ms": 836,
+      "source": "iptv-org"
     },
     {
       "curated_name": "Imagen Televisión",
@@ -236,7 +264,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 251,
+      "latency_ms": 159,
       "source": "iptv-org"
     },
     {
@@ -250,7 +278,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 142,
+      "latency_ms": 138,
       "source": "iptv-org"
     },
     {
@@ -264,7 +292,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "AR",
-      "latency_ms": 684,
+      "latency_ms": 822,
       "source": "iptv-org"
     },
     {
@@ -278,7 +306,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 235,
+      "latency_ms": 240,
       "source": "manual-override"
     },
     {
@@ -292,7 +320,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 556,
+      "latency_ms": 231,
       "source": "iptv-org"
     },
     {
@@ -306,7 +334,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 440,
+      "latency_ms": 215,
       "source": "iptv-org"
     },
     {
@@ -320,7 +348,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 236,
+      "latency_ms": 228,
       "source": "iptv-org"
     },
     {
@@ -336,7 +364,7 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 212,
+      "latency_ms": 216,
       "source": "iptv-org"
     },
     {
@@ -352,7 +380,7 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 196,
+      "latency_ms": 249,
       "source": "iptv-org"
     },
     {
@@ -366,7 +394,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 691,
+      "latency_ms": 675,
       "source": "iptv-org"
     },
     {
@@ -380,21 +408,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 841,
+      "latency_ms": 379,
       "source": "iptv-org"
     },
     {
       "curated_name": "Latina Televisión",
       "display_name": "Latina (1080p)",
-      "tvg_id": "Latina.pe",
+      "tvg_id": "Latina.pe@SD",
       "tvg_name": "",
       "tvg_logo": "https://i.imgur.com/MOsWriY.png",
       "group": "TV abierta Sudamérica",
-      "stream_url": "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8",
+      "stream_url": "http://190.93.224.42/LATINA/index.m3u8",
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 1485,
+      "latency_ms": 272,
       "source": "iptv-org"
     },
     {
@@ -408,7 +436,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 411,
+      "latency_ms": 247,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Chilevisión",
+      "display_name": "ChileVision (1080p)",
+      "tvg_id": "ChileVision.cl@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/PRijvR0.png",
+      "group": "TV abierta Sudamérica",
+      "stream_url": "http://15.204.246.24:8080/CHVHD/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "CL",
+      "latency_ms": 123,
       "source": "iptv-org"
     },
     {
@@ -422,7 +464,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PY",
-      "latency_ms": 578,
+      "latency_ms": 529,
       "source": "iptv-org"
     },
     {
@@ -436,7 +478,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "DO",
-      "latency_ms": 512,
+      "latency_ms": 1154,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Canal 13 Chile",
+      "display_name": "Canal 13 (1080p)",
+      "tvg_id": "Canal13.cl@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",
+      "group": "TV abierta Sudamérica",
+      "stream_url": "http://15.204.246.24:8080/Canal13HD/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "CL",
+      "latency_ms": 125,
       "source": "iptv-org"
     },
     {
@@ -450,7 +506,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "AR",
-      "latency_ms": 299,
+      "latency_ms": 293,
       "source": "iptv-org"
     },
     {
@@ -460,13 +516,11 @@
       "tvg_name": "",
       "tvg_logo": "https://i.imgur.com/TrgBAdA.png",
       "group": "TV abierta Sudamérica",
-      "stream_url": "https://livetrx01.vodgc.net/eltrecetv/index.m3u8",
-      "extra_lines": [
-        "#EXTVLCOPT:http-referrer=https://vodgc.net"
-      ],
+      "stream_url": "http://15.204.246.24:8080/eltreceHD/index.m3u8",
+      "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 671,
+      "latency_ms": 121,
       "source": "iptv-org"
     },
     {
@@ -480,7 +534,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "PE",
-      "latency_ms": 334,
+      "latency_ms": 330,
       "source": "iptv-org"
     }
   ]
