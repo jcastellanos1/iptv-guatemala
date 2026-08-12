@@ -11,6 +11,7 @@
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
+| Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | All matched candidates failed stream validation or were skipped |
 | Las Estrellas | Manual override failed: HTTP 403 |
@@ -41,7 +42,9 @@
 | Canal Once | No candidates matched name or aliases in IPTV-org |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
+| TV Perú | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
+| El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
