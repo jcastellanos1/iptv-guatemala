@@ -25,7 +25,7 @@
 | C5N | No candidates matched name or aliases in IPTV-org |
 | Discovery Channel | No candidates matched name or aliases in IPTV-org |
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
-| Discovery Turbo | All matched candidates failed stream validation or were skipped |
+| Discovery Turbo | No candidates matched name or aliases in IPTV-org |
 | Animal Planet | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T18:41:34.928896+00:00",
-  "execution_time_seconds": 24.96,
+  "generated_at": "2026-08-12T00:47:57.436166+00:00",
+  "execution_time_seconds": 20.23,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 38,
     "channels_not_found": 43,
     "total_http_requests": 27,
-    "discarded_by_region": 15,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 6
   },
@@ -145,7 +145,7 @@
     },
     {
       "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Animal Planet",
