@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:01:34.961629+00:00",
+  "generated_at": "2026-08-12T12:36:38.049804+00:00",
   "channels": [
     {
       "curated_name": "AMC",
@@ -12,7 +12,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 313,
+      "latency_ms": 250,
       "source": "manual-override"
     },
     {
@@ -26,7 +26,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 274,
+      "latency_ms": 196,
       "source": "manual-override"
     },
     {
@@ -40,7 +40,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 314,
+      "latency_ms": 250,
       "source": "manual-override"
     },
     {
@@ -54,7 +54,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 819,
+      "latency_ms": 250,
       "source": "manual-override"
     },
     {
@@ -68,7 +68,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 309,
+      "latency_ms": 249,
       "source": "manual-override"
     },
     {
@@ -82,7 +82,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 281,
+      "latency_ms": 189,
       "source": "manual-override"
     },
     {
@@ -96,7 +96,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 276,
+      "latency_ms": 205,
       "source": "manual-override"
     },
     {
@@ -110,7 +110,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 312,
+      "latency_ms": 226,
       "source": "manual-override"
     },
     {
@@ -124,7 +124,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 281,
+      "latency_ms": 189,
       "source": "manual-override"
     },
     {
@@ -138,7 +138,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 274,
+      "latency_ms": 197,
       "source": "manual-override"
     },
     {
@@ -152,7 +152,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 282,
+      "latency_ms": 193,
       "source": "manual-override"
     },
     {
@@ -166,7 +166,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 83,
+      "latency_ms": 111,
       "source": "manual-override"
     },
     {
@@ -180,7 +180,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 188,
+      "latency_ms": 192,
       "source": "manual-override"
     },
     {
@@ -194,7 +194,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 136,
+      "latency_ms": 9,
       "source": "iptv-org"
     },
     {
@@ -208,7 +208,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 283,
+      "latency_ms": 205,
       "source": "manual-override"
     },
     {
@@ -222,7 +222,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 136,
+      "latency_ms": 9,
       "source": "iptv-org"
     },
     {
@@ -236,7 +236,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 272,
+      "latency_ms": 201,
       "source": "manual-override"
     },
     {
@@ -250,7 +250,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "MX",
-      "latency_ms": 945,
+      "latency_ms": 710,
       "source": "iptv-org"
     },
     {
@@ -264,7 +264,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 102,
+      "latency_ms": 233,
       "source": "iptv-org"
     },
     {
@@ -278,7 +278,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 166,
+      "latency_ms": 103,
       "source": "iptv-org"
     },
     {
@@ -292,7 +292,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "AR",
-      "latency_ms": 472,
+      "latency_ms": 644,
       "source": "iptv-org"
     },
     {
@@ -306,7 +306,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 268,
+      "latency_ms": 201,
       "source": "manual-override"
     },
     {
@@ -320,21 +320,35 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 274,
+      "latency_ms": 193,
       "source": "iptv-org"
     },
     {
       "curated_name": "Señal Colombia",
-      "display_name": "Canal Institucional (720p)",
-      "tvg_id": "CanalInstitucional.co@SD",
+      "display_name": "Senal Colombia (1080p)",
+      "tvg_id": "SenalColombia.co@SD",
       "tvg_name": "",
-      "tvg_logo": "https://i.imgur.com/hqfQVrU.png",
+      "tvg_logo": "https://i.imgur.com/Y9x16vl.png",
       "group": "TV abierta Colombia",
-      "stream_url": "https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8",
+      "stream_url": "http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8",
       "extra_lines": [],
-      "resolution": "720p",
+      "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 113,
+      "latency_ms": 170,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Canal Capital",
+      "display_name": "Canal Capital (1080p)",
+      "tvg_id": "CanalCapital.co@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/zAYtbYi.png",
+      "group": "TV abierta Colombia",
+      "stream_url": "http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "CO",
+      "latency_ms": 203,
       "source": "iptv-org"
     },
     {
@@ -350,7 +364,7 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 166,
+      "latency_ms": 112,
       "source": "iptv-org"
     },
     {
@@ -366,7 +380,7 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 150,
+      "latency_ms": 69,
       "source": "iptv-org"
     },
     {
@@ -380,7 +394,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 790,
+      "latency_ms": 521,
       "source": "iptv-org"
     },
     {
@@ -394,7 +408,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 355,
+      "latency_ms": 263,
       "source": "iptv-org"
     },
     {
@@ -408,7 +422,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 284,
+      "latency_ms": 239,
       "source": "iptv-org"
     },
     {
@@ -422,7 +436,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 267,
+      "latency_ms": 200,
       "source": "iptv-org"
     },
     {
@@ -436,7 +450,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CL",
-      "latency_ms": 136,
+      "latency_ms": 8,
       "source": "iptv-org"
     },
     {
@@ -450,7 +464,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PY",
-      "latency_ms": 542,
+      "latency_ms": 474,
       "source": "iptv-org"
     },
     {
@@ -464,7 +478,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "DO",
-      "latency_ms": 352,
+      "latency_ms": 131,
       "source": "iptv-org"
     },
     {
@@ -478,7 +492,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CL",
-      "latency_ms": 136,
+      "latency_ms": 7,
       "source": "iptv-org"
     },
     {
@@ -492,7 +506,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "AR",
-      "latency_ms": 321,
+      "latency_ms": 257,
       "source": "iptv-org"
     },
     {
@@ -506,7 +520,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 136,
+      "latency_ms": 8,
       "source": "iptv-org"
     },
     {
@@ -520,7 +534,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "PE",
-      "latency_ms": 361,
+      "latency_ms": 291,
       "source": "iptv-org"
     }
   ]

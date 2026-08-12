@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-12T07:01:34.962675+00:00",
-  "execution_time_seconds": 26.78,
+  "generated_at": "2026-08-12T12:36:38.050748+00:00",
+  "execution_time_seconds": 21.39,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 37,
-    "channels_not_found": 44,
-    "total_http_requests": 28,
+    "channels_found": 38,
+    "channels_not_found": 43,
+    "total_http_requests": 27,
     "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 6
@@ -35,6 +35,7 @@
     "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
+    "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
@@ -204,10 +205,6 @@
     },
     {
       "name": "Canal 1 Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Capital",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
