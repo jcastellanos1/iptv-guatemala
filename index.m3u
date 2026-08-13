@@ -45,9 +45,6 @@ http://138.121.15.230:9002/TELEMUNDO/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TeleSUR" tvg-logo="" group-title="Noticias",TeleSUR
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="TN.ar@SD" tvg-name="Todo Noticias" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="Noticias",Todo Noticias
-http://15.204.246.24:8080/TNHD/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 
@@ -101,8 +98,8 @@ http://15.204.246.24:8080/CHVHD/index.m3u8
 #EXTINF:-1 tvg-id="ElTrece.ar@SD" tvg-name="El Trece" tvg-logo="https://i.imgur.com/TrgBAdA.png" group-title="TV abierta Sudamérica",El Trece
 http://15.204.246.24:8080/eltreceHD/index.m3u8
 
-#EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="TV abierta Sudamérica",Latina Televisión
-https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
+#EXTINF:-1 tvg-id="Latina.pe@SD" tvg-name="Latina Televisión" tvg-logo="https://i.imgur.com/MOsWriY.png" group-title="TV abierta Sudamérica",Latina Televisión
+http://190.93.224.42/LATINA/index.m3u8
 
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
 https://www.desde-paraguay.com/mega.m3u8

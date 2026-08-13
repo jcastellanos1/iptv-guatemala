@@ -23,6 +23,7 @@
 | Euronews Español | All matched candidates failed stream validation or were skipped |
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
+| Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
 | Discovery Channel | No candidates matched name or aliases in IPTV-org |
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
