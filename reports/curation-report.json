@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-13T18:43:46.411299+00:00",
-  "execution_time_seconds": 29.07,
+  "generated_at": "2026-08-14T00:49:37.865272+00:00",
+  "execution_time_seconds": 20.56,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 35,
     "channels_not_found": 46,
-    "total_http_requests": 27,
-    "discarded_by_region": 14,
+    "total_http_requests": 26,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 6
+    "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
     "AMC",
@@ -37,6 +37,7 @@
     "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
+    "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
     "Chilevisión",
@@ -44,7 +45,6 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
-    "El Trece Argentina",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -213,11 +213,11 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "TV Perú",
+      "name": "América Televisión Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "América Televisión Perú",
+      "name": "El Trece Argentina",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

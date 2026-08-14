@@ -95,11 +95,8 @@ http://15.204.246.24:8080/Canal13HD/index.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl@SD" tvg-name="Chilevisión" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="TV abierta Sudamérica",Chilevisión
 http://15.204.246.24:8080/CHVHD/index.m3u8
 
-#EXTINF:-1 tvg-id="ElTrece.ar@SD" tvg-name="El Trece" tvg-logo="https://i.imgur.com/TrgBAdA.png" group-title="TV abierta Sudamérica",El Trece
-http://15.204.246.24:8080/eltreceHD/index.m3u8
-
-#EXTINF:-1 tvg-id="Latina.pe@SD" tvg-name="Latina Televisión" tvg-logo="https://i.imgur.com/MOsWriY.png" group-title="TV abierta Sudamérica",Latina Televisión
-http://190.93.224.42/LATINA/index.m3u8
+#EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="TV abierta Sudamérica",Latina Televisión
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
 https://www.desde-paraguay.com/mega.m3u8
@@ -109,6 +106,9 @@ http://45.171.108.253:8888/PANAMERICANA/index.m3u8
 
 #EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="TV abierta Sudamérica",Telefe
 http://190.108.83.69:8000/play/a08l/index.m3u8
+
+#EXTINF:-1 tvg-id="TVPeru.pe@SD" tvg-name="TV Perú" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="TV abierta Sudamérica",TV Perú
+http://190.93.224.42/TV-PERU/index.m3u8
 
 #EXTINF:-1 tvg-id="TVN.do@HD" tvg-name="TVN" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/4037-294x165-FFFFFF.jpg" group-title="TV abierta Sudamérica",TVN
 https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
