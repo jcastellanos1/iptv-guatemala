@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-15T18:09:40.937049+00:00",
-  "execution_time_seconds": 28.34,
+  "generated_at": "2026-08-16T00:27:52.119975+00:00",
+  "execution_time_seconds": 25.93,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 35,
@@ -86,7 +86,7 @@
     },
     {
       "name": "Comedy Central",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Distrito Comedia",
