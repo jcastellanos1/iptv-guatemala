@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-18T12:17:50.676529+00:00",
-  "execution_time_seconds": 24.56,
+  "generated_at": "2026-08-18T18:17:49.331776+00:00",
+  "execution_time_seconds": 29.22,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 31,
@@ -13,7 +13,6 @@
   "selected_channels": [
     "AMC",
     "AXN",
-    "FX",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
@@ -35,6 +34,7 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
+    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -51,6 +51,10 @@
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "FX",
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -210,10 +214,6 @@
     },
     {
       "name": "Canal 1 Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Telepacífico",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
