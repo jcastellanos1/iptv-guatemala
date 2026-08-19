@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-19T00:26:27.271457+00:00",
-  "execution_time_seconds": 32.25,
+  "generated_at": "2026-08-19T06:20:46.931869+00:00",
+  "execution_time_seconds": 28.21,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
+    "channels_found": 35,
+    "channels_not_found": 46,
     "total_http_requests": 27,
-    "discarded_by_region": 13,
+    "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
@@ -15,6 +15,7 @@
     "AXN",
     "FX",
     "Star Channel",
+    "Studio Universal",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -65,15 +66,11 @@
     },
     {
       "name": "Paramount Network",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Studio Universal",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
