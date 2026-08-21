@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-21T06:21:35.032167+00:00",
-  "execution_time_seconds": 27.37,
+  "generated_at": "2026-08-21T12:18:53.099984+00:00",
+  "execution_time_seconds": 21.78,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 35,
-    "channels_not_found": 46,
+    "channels_found": 34,
+    "channels_not_found": 47,
     "total_http_requests": 27,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
@@ -30,7 +30,6 @@
     "Imagen Televisión",
     "Canal 5 México",
     "Canal 22 México",
-    "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
     "Canal Capital",
@@ -207,6 +206,10 @@
     {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Caracol Televisión",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Canal 1 Colombia",
