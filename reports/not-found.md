@@ -42,7 +42,6 @@
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal Once | No candidates matched name or aliases in IPTV-org |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
-| Caracol Televisión | Manual override failed: HTTP 404 |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
