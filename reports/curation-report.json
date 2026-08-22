@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-21T18:18:00.034265+00:00",
-  "execution_time_seconds": 21.28,
+  "generated_at": "2026-08-22T00:26:32.823768+00:00",
+  "execution_time_seconds": 21.44,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 35,
-    "channels_not_found": 46,
+    "channels_found": 36,
+    "channels_not_found": 45,
     "total_http_requests": 27,
-    "discarded_by_region": 12,
+    "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
@@ -45,6 +45,7 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
+    "Canal 24 Horas Chile",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -218,10 +219,6 @@
     },
     {
       "name": "El Trece Argentina",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 24 Horas Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
