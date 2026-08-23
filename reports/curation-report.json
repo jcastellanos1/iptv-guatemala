@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-23T00:28:45.140810+00:00",
-  "execution_time_seconds": 23.4,
+  "generated_at": "2026-08-23T06:18:41.352885+00:00",
+  "execution_time_seconds": 27.09,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 33,
-    "channels_not_found": 48,
+    "channels_found": 36,
+    "channels_not_found": 45,
     "total_http_requests": 27,
-    "discarded_by_region": 13,
+    "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
@@ -24,6 +24,7 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
+    "National Geographic",
     "Disney Channel",
     "ADN 40",
     "Imagen Televisión",
@@ -39,8 +40,10 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "Canal 24 Horas Chile",
     "Canal IPe"
@@ -159,10 +162,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -216,14 +215,6 @@
     },
     {
       "name": "América Televisión Perú",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
