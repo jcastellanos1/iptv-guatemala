@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-08-23T18:10:18.305972+00:00",
-  "execution_time_seconds": 31.94,
+  "generated_at": "2026-08-24T00:28:18.665084+00:00",
+  "execution_time_seconds": 23.32,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
-    "total_http_requests": 28,
+    "channels_found": 36,
+    "channels_not_found": 45,
+    "total_http_requests": 27,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
+    "AMC",
     "AXN",
     "FX",
+    "Star Channel",
     "Studio Universal",
     "Universal TV",
     "A&E",
@@ -48,10 +50,6 @@
   ],
   "not_found_channels": [
     {
-      "name": "AMC",
-      "reason": "Manual override failed: Timeout"
-    },
-    {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
     },
@@ -74,10 +72,6 @@
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Star Channel",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
