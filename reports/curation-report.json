@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-25T00:27:43.975672+00:00",
-  "execution_time_seconds": 30.04,
+  "generated_at": "2026-08-25T06:21:55.040687+00:00",
+  "execution_time_seconds": 27.64,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
-    "total_http_requests": 27,
-    "discarded_by_region": 11,
+    "channels_found": 35,
+    "channels_not_found": 46,
+    "total_http_requests": 28,
+    "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
@@ -15,6 +15,7 @@
     "AXN",
     "FX",
     "Star Channel",
+    "Studio Universal",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -35,6 +36,7 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
+    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -43,7 +45,6 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
-    "Canal 24 Horas Chile",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -70,10 +71,6 @@
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Studio Universal",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
@@ -216,15 +213,15 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Telepacífico",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "América Televisión Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 24 Horas Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
