@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-25T06:21:55.040687+00:00",
-  "execution_time_seconds": 27.64,
+  "generated_at": "2026-08-25T12:20:07.736631+00:00",
+  "execution_time_seconds": 28.62,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 35,
     "channels_not_found": 46,
-    "total_http_requests": 28,
+    "total_http_requests": 27,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5

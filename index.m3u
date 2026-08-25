@@ -98,8 +98,8 @@ http://15.204.246.24:8080/CHVHD/index.m3u8
 #EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="TV abierta Sudamérica",Latina Televisión
 https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
-#EXTINF:-1 tvg-id="Mega.cl@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/RlZfR84.png" group-title="TV abierta Sudamérica",Mega
-http://15.204.246.24:8080/MEGAHD/index.m3u8
+#EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
+https://www.desde-paraguay.com/mega.m3u8
 
 #EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
