@@ -43,6 +43,7 @@
 | Canal Once | No candidates matched name or aliases in IPTV-org |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
+| Telepacífico | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
