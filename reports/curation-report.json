@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-26T06:23:49.051312+00:00",
-  "execution_time_seconds": 26.93,
+  "generated_at": "2026-08-26T12:21:43.943054+00:00",
+  "execution_time_seconds": 29.14,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
-    "total_http_requests": 28,
+    "channels_found": 35,
+    "channels_not_found": 46,
+    "total_http_requests": 27,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
@@ -36,6 +36,7 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
+    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -209,10 +210,6 @@
     },
     {
       "name": "Canal 1 Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Telepacífico",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
