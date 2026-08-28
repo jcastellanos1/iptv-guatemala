@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-28T01:48:47.327310+00:00",
-  "execution_time_seconds": 31.37,
+  "generated_at": "2026-08-28T17:45:14.974433+00:00",
+  "execution_time_seconds": 26.64,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 34,
     "channels_not_found": 47,
-    "total_http_requests": 27,
+    "total_http_requests": 28,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
@@ -14,6 +14,7 @@
     "AMC",
     "AXN",
     "FX",
+    "Star Channel",
     "Studio Universal",
     "Universal TV",
     "A&E",
@@ -35,7 +36,6 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
-    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -70,10 +70,6 @@
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Star Channel",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
@@ -213,6 +209,10 @@
     },
     {
       "name": "Canal 1 Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Telepacífico",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
