@@ -86,6 +86,9 @@ https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp01.smil/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-name="Telepacífico" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="TV abierta Colombia",Telepacífico
+https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8
+
 #EXTINF:-1 tvg-id="Canal13.cl@SD" tvg-name="Canal 13" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/" group-title="TV abierta Sudamérica",Canal 13
 http://15.204.246.24:8080/Canal13HD/index.m3u8
 
@@ -107,8 +110,8 @@ http://190.108.83.69:8000/play/a08l/index.m3u8
 #EXTINF:-1 tvg-id="TVPeru.pe@SD" tvg-name="TV Perú" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="TV abierta Sudamérica",TV Perú
 http://190.93.224.42/TV-PERU/index.m3u8
 
-#EXTINF:-1 tvg-id="TVN.cl@SD" tvg-name="TVN" tvg-logo="https://i.imgur.com/3FKZHL4.png" group-title="TV abierta Sudamérica",TVN
-http://15.204.246.24:8080/TVNHD/index.m3u8
+#EXTINF:-1 tvg-id="TVN.do@HD" tvg-name="TVN" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/4037-294x165-FFFFFF.jpg" group-title="TV abierta Sudamérica",TVN
+https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
 
 #EXTINF:-1 tvg-id="CanalIPe.pe@SD" tvg-name="Canal IPe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Identidad_Peruana_ipe_2020.png/960px-Identidad_Peruana_ipe_2020.png" group-title="Cultura y Educación",Canal IPe
 http://187.102.210.46/IPE/index.m3u8
