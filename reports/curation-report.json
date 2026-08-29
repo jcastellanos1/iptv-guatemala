@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-29T15:47:38.849281+00:00",
-  "execution_time_seconds": 35.39,
+  "generated_at": "2026-08-29T20:02:45.644969+00:00",
+  "execution_time_seconds": 31.57,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 35,
-    "channels_not_found": 46,
-    "total_http_requests": 27,
+    "channels_found": 34,
+    "channels_not_found": 47,
+    "total_http_requests": 28,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
@@ -14,7 +14,6 @@
     "AMC",
     "AXN",
     "FX",
-    "Star Channel",
     "Studio Universal",
     "Universal TV",
     "A&E",
@@ -73,6 +72,10 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Star Channel",
+      "reason": "Manual override failed: Timeout"
+    },
+    {
       "name": "TNT",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -86,7 +89,7 @@
     },
     {
       "name": "Comedy Central",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Distrito Comedia",
