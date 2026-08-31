@@ -8,6 +8,7 @@
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | No candidates matched name or aliases in IPTV-org |
 | Space | No candidates matched name or aliases in IPTV-org |
+| Studio Universal | Manual override failed: Timeout |
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
@@ -41,7 +42,6 @@
 | Azteca 7 | No candidates matched name or aliases in IPTV-org |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal Once | No candidates matched name or aliases in IPTV-org |
-| Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |

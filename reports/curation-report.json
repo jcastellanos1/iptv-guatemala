@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-31T11:55:24.297436+00:00",
-  "execution_time_seconds": 36.69,
+  "generated_at": "2026-08-31T18:15:20.612617+00:00",
+  "execution_time_seconds": 34.62,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 33,
@@ -15,7 +15,6 @@
     "AXN",
     "FX",
     "Star Channel",
-    "Studio Universal",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -29,6 +28,7 @@
     "ADN 40",
     "Imagen Televisión",
     "Canal 5 México",
+    "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
@@ -69,6 +69,10 @@
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Studio Universal",
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
@@ -201,10 +205,6 @@
     {
       "name": "Canal Once",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Canal 22 México",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Multimedios",
