@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-31T01:46:32.701522+00:00",
-  "execution_time_seconds": 33.56,
+  "generated_at": "2026-08-31T11:55:24.297436+00:00",
+  "execution_time_seconds": 36.69,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
-    "total_http_requests": 27,
+    "channels_found": 33,
+    "channels_not_found": 48,
+    "total_http_requests": 28,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
@@ -29,13 +29,13 @@
     "ADN 40",
     "Imagen Televisión",
     "Canal 5 México",
-    "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
+    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -43,7 +43,6 @@
     "Mega Chile",
     "TVN Chile",
     "Canal 13 Chile",
-    "Telefe",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -204,6 +203,10 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Canal 22 México",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -212,11 +215,11 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Telepacífico",
+      "name": "América Televisión Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "América Televisión Perú",
+      "name": "Telefe",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T01:46:32.700587+00:00",
+  "generated_at": "2026-08-31T11:55:24.296542+00:00",
   "channels": [
     {
       "curated_name": "AMC",
@@ -12,7 +12,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 2383,
+      "latency_ms": 333,
       "source": "manual-override"
     },
     {
@@ -26,7 +26,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 250,
+      "latency_ms": 257,
       "source": "manual-override"
     },
     {
@@ -40,7 +40,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 312,
+      "latency_ms": 331,
       "source": "manual-override"
     },
     {
@@ -54,7 +54,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 313,
+      "latency_ms": 330,
       "source": "manual-override"
     },
     {
@@ -68,7 +68,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 310,
+      "latency_ms": 334,
       "source": "manual-override"
     },
     {
@@ -82,7 +82,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 254,
+      "latency_ms": 252,
       "source": "manual-override"
     },
     {
@@ -96,7 +96,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 244,
+      "latency_ms": 260,
       "source": "manual-override"
     },
     {
@@ -110,7 +110,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 261,
+      "latency_ms": 256,
       "source": "manual-override"
     },
     {
@@ -124,7 +124,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 268,
+      "latency_ms": 264,
       "source": "manual-override"
     },
     {
@@ -138,7 +138,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 234,
+      "latency_ms": 264,
       "source": "manual-override"
     },
     {
@@ -152,7 +152,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 124,
+      "latency_ms": 118,
       "source": "manual-override"
     },
     {
@@ -166,7 +166,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 353,
+      "latency_ms": 307,
       "source": "manual-override"
     },
     {
@@ -180,7 +180,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 250,
+      "latency_ms": 259,
       "source": "manual-override"
     },
     {
@@ -194,7 +194,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 136,
+      "latency_ms": 125,
       "source": "iptv-org"
     },
     {
@@ -208,7 +208,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 284,
+      "latency_ms": 277,
       "source": "manual-override"
     },
     {
@@ -222,7 +222,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "MX",
-      "latency_ms": 600,
+      "latency_ms": 685,
       "source": "iptv-org"
     },
     {
@@ -236,7 +236,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 97,
+      "latency_ms": 186,
       "source": "iptv-org"
     },
     {
@@ -250,21 +250,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 174,
-      "source": "iptv-org"
-    },
-    {
-      "curated_name": "Canal 22 México",
-      "display_name": "Canal 22 (720p)",
-      "tvg_id": "Canal22.ar@SD",
-      "tvg_name": "",
-      "tvg_logo": "https://i.imgur.com/R4wXVxf.png",
-      "group": "TV abierta México",
-      "stream_url": "https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8",
-      "extra_lines": [],
-      "resolution": "720p",
-      "country": "AR",
-      "latency_ms": 464,
+      "latency_ms": 187,
       "source": "iptv-org"
     },
     {
@@ -278,7 +264,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 288,
+      "latency_ms": 296,
       "source": "manual-override"
     },
     {
@@ -292,7 +278,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 234,
+      "latency_ms": 251,
       "source": "iptv-org"
     },
     {
@@ -306,7 +292,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 233,
+      "latency_ms": 274,
       "source": "iptv-org"
     },
     {
@@ -320,7 +306,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 239,
+      "latency_ms": 252,
       "source": "iptv-org"
     },
     {
@@ -336,7 +322,7 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 208,
+      "latency_ms": 218,
       "source": "iptv-org"
     },
     {
@@ -352,7 +338,21 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 228,
+      "latency_ms": 177,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Telepacífico",
+      "display_name": "Telepacífico (1080p) [Geo-blocked]",
+      "tvg_id": "Telepacifico.co@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/39hy97J.png",
+      "group": "TV abierta Colombia",
+      "stream_url": "https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "CO",
+      "latency_ms": 839,
       "source": "iptv-org"
     },
     {
@@ -366,7 +366,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 292,
+      "latency_ms": 314,
       "source": "iptv-org"
     },
     {
@@ -380,7 +380,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "VE",
-      "latency_ms": 320,
+      "latency_ms": 338,
       "source": "iptv-org"
     },
     {
@@ -394,7 +394,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 283,
+      "latency_ms": 407,
       "source": "iptv-org"
     },
     {
@@ -408,7 +408,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CL",
-      "latency_ms": 137,
+      "latency_ms": 125,
       "source": "iptv-org"
     },
     {
@@ -422,7 +422,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PY",
-      "latency_ms": 536,
+      "latency_ms": 637,
       "source": "iptv-org"
     },
     {
@@ -436,7 +436,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "DO",
-      "latency_ms": 433,
+      "latency_ms": 476,
       "source": "iptv-org"
     },
     {
@@ -450,21 +450,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CL",
-      "latency_ms": 136,
-      "source": "iptv-org"
-    },
-    {
-      "curated_name": "Telefe",
-      "display_name": "Telefe Internacional (576p)",
-      "tvg_id": "TelefeInternacional.ar@SD",
-      "tvg_name": "",
-      "tvg_logo": "https://i.imgur.com/HNcCX3h.png",
-      "group": "TV abierta Sudamérica",
-      "stream_url": "http://190.108.83.69:8000/play/a08l/index.m3u8",
-      "extra_lines": [],
-      "resolution": "",
-      "country": "AR",
-      "latency_ms": 324,
+      "latency_ms": 125,
       "source": "iptv-org"
     },
     {
@@ -478,7 +464,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "PE",
-      "latency_ms": 356,
+      "latency_ms": 377,
       "source": "iptv-org"
     }
   ]

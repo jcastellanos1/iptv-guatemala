@@ -41,10 +41,11 @@
 | Azteca 7 | No candidates matched name or aliases in IPTV-org |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal Once | No candidates matched name or aliases in IPTV-org |
+| Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Canal 1 Colombia | All matched candidates failed stream validation or were skipped |
-| Telepacífico | All matched candidates failed stream validation or were skipped |
 | América Televisión Perú | All matched candidates failed stream validation or were skipped |
+| Telefe | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
