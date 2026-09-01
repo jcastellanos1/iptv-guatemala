@@ -15,9 +15,6 @@ http://45.162.193.35/AMC/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="FX" tvg-logo="" group-title="Películas y Series",FX
-http://45.162.193.35/FX/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Star Channel" tvg-logo="" group-title="Películas y Series",Star Channel
 http://45.162.193.35/STAR_CHANNEL/index.m3u8
 
