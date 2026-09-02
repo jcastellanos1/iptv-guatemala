@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-02T01:32:51.335721+00:00",
-  "execution_time_seconds": 26.99,
+  "generated_at": "2026-09-02T10:00:41.206274+00:00",
+  "execution_time_seconds": 36.64,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
-    "total_http_requests": 28,
-    "discarded_by_region": 13,
+    "channels_found": 28,
+    "channels_not_found": 53,
+    "total_http_requests": 29,
+    "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
@@ -24,26 +24,20 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
-    "National Geographic",
     "Disney Channel",
     "ADN 40",
     "Imagen Televisión",
     "Canal 5 México",
-    "Canal 22 México",
     "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
-    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
-    "Chilevisión",
-    "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -160,6 +154,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "National Geographic",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -204,6 +202,10 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Canal 22 México",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -212,7 +214,23 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Telepacífico",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "América Televisión Perú",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Mega Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
