@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T20:11:21.106743+00:00",
-  "execution_time_seconds": 39.72,
+  "generated_at": "2026-09-04T01:30:19.033675+00:00",
+  "execution_time_seconds": 35.78,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 33,
@@ -15,6 +15,7 @@
     "AXN",
     "FX",
     "Star Channel",
+    "Studio Universal",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -29,11 +30,9 @@
     "Imagen Televisión",
     "Canal 5 México",
     "Canal 22 México",
-    "Caracol Televisión",
     "RCN Televisión",
     "Señal Colombia",
     "Canal Capital",
-    "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
     "TV Perú",
@@ -43,7 +42,8 @@
     "Mega Chile",
     "TVN Chile",
     "Canal 13 Chile",
-    "Telefe"
+    "Telefe",
+    "Canal Encuentro"
   ],
   "not_found_channels": [
     {
@@ -69,10 +69,6 @@
     {
       "name": "Space",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Studio Universal",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT",
@@ -211,8 +207,16 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Caracol Televisión",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
       "name": "Canal 1 Colombia",
       "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Teleantioquia",
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "América Televisión Perú",
@@ -225,10 +229,6 @@
     {
       "name": "Canal 24 Horas Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
-      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "TV UNAM",
