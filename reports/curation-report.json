@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-09-04T15:12:24.123804+00:00",
-  "execution_time_seconds": 32.24,
+  "generated_at": "2026-09-04T19:56:58.546660+00:00",
+  "execution_time_seconds": 47.22,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 33,
-    "channels_not_found": 48,
-    "total_http_requests": 27,
-    "discarded_by_region": 13,
+    "channels_found": 28,
+    "channels_not_found": 53,
+    "total_http_requests": 28,
+    "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
-    "AMC",
     "AXN",
     "FX",
     "Star Channel",
@@ -24,11 +23,9 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
-    "National Geographic",
     "Disney Channel",
     "ADN 40",
     "Imagen Televisión",
-    "Canal 5 México",
     "Canal 22 México",
     "RCN Televisión",
     "Señal Colombia",
@@ -38,14 +35,16 @@
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "Canal Encuentro"
   ],
   "not_found_channels": [
+    {
+      "name": "AMC",
+      "reason": "Manual override failed: Timeout"
+    },
     {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
@@ -159,6 +158,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "National Geographic",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -195,6 +198,10 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Canal 5 México",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nu9ve",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -220,6 +227,14 @@
     },
     {
       "name": "América Televisión Perú",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
