@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-05T14:03:28.286225+00:00",
-  "execution_time_seconds": 46.32,
+  "generated_at": "2026-09-05T19:37:08.226910+00:00",
+  "execution_time_seconds": 47.73,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 32,
-    "channels_not_found": 49,
+    "channels_found": 33,
+    "channels_not_found": 48,
     "total_http_requests": 28,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
@@ -13,6 +13,7 @@
   "selected_channels": [
     "AMC",
     "AXN",
+    "FX",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
@@ -52,10 +53,6 @@
     {
       "name": "Cinemax",
       "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "FX",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
