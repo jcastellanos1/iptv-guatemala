@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-09-04T19:56:58.545676+00:00",
+  "generated_at": "2026-09-05T01:31:45.557291+00:00",
   "channels": [
+    {
+      "curated_name": "AMC",
+      "display_name": "AMC (Manual)",
+      "tvg_id": "",
+      "tvg_name": "",
+      "tvg_logo": "",
+      "group": "Películas y Series",
+      "stream_url": "http://45.162.193.35/AMC/index.m3u8",
+      "extra_lines": [],
+      "resolution": "",
+      "country": "",
+      "latency_ms": 259,
+      "source": "manual-override"
+    },
     {
       "curated_name": "AXN",
       "display_name": "AXN (Manual)",
@@ -12,7 +26,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 268,
+      "latency_ms": 185,
       "source": "manual-override"
     },
     {
@@ -26,7 +40,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 315,
+      "latency_ms": 259,
       "source": "manual-override"
     },
     {
@@ -40,7 +54,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 1348,
+      "latency_ms": 258,
       "source": "manual-override"
     },
     {
@@ -54,7 +68,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 313,
+      "latency_ms": 255,
       "source": "manual-override"
     },
     {
@@ -68,7 +82,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 235,
+      "latency_ms": 184,
       "source": "manual-override"
     },
     {
@@ -82,7 +96,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 239,
+      "latency_ms": 191,
       "source": "manual-override"
     },
     {
@@ -96,7 +110,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 242,
+      "latency_ms": 191,
       "source": "manual-override"
     },
     {
@@ -110,7 +124,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 241,
+      "latency_ms": 205,
       "source": "manual-override"
     },
     {
@@ -124,7 +138,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 1273,
+      "latency_ms": 181,
       "source": "manual-override"
     },
     {
@@ -138,7 +152,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 67,
+      "latency_ms": 193,
       "source": "manual-override"
     },
     {
@@ -152,7 +166,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 226,
+      "latency_ms": 194,
       "source": "manual-override"
     },
     {
@@ -166,8 +180,22 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 270,
+      "latency_ms": 180,
       "source": "manual-override"
+    },
+    {
+      "curated_name": "National Geographic",
+      "display_name": "National Geographic Latin America (1080p)",
+      "tvg_id": "NationalGeographicLatinAmerica.us@Panregional",
+      "tvg_name": "",
+      "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png",
+      "group": "Documentales",
+      "stream_url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "US",
+      "latency_ms": 44,
+      "source": "iptv-org"
     },
     {
       "curated_name": "Disney Channel",
@@ -180,7 +208,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 275,
+      "latency_ms": 221,
       "source": "manual-override"
     },
     {
@@ -194,7 +222,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "MX",
-      "latency_ms": 926,
+      "latency_ms": 571,
       "source": "iptv-org"
     },
     {
@@ -208,7 +236,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 58,
+      "latency_ms": 181,
       "source": "iptv-org"
     },
     {
@@ -222,7 +250,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "AR",
-      "latency_ms": 402,
+      "latency_ms": 422,
       "source": "iptv-org"
     },
     {
@@ -236,7 +264,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 257,
+      "latency_ms": 181,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Canal 1 Colombia",
+      "display_name": "Canal 1 (576p)",
+      "tvg_id": "Canal1.co@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/YFywPLC.png",
+      "group": "TV abierta Colombia",
+      "stream_url": "http://138.121.15.230:9002/CANAL-UNO/index.m3u8",
+      "extra_lines": [],
+      "resolution": "",
+      "country": "CO",
+      "latency_ms": 183,
       "source": "iptv-org"
     },
     {
@@ -250,7 +292,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 225,
+      "latency_ms": 181,
       "source": "iptv-org"
     },
     {
@@ -264,7 +306,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 241,
+      "latency_ms": 191,
       "source": "iptv-org"
     },
     {
@@ -280,7 +322,7 @@
       ],
       "resolution": "720p",
       "country": "CO",
-      "latency_ms": 170,
+      "latency_ms": 105,
       "source": "iptv-org"
     },
     {
@@ -294,7 +336,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 738,
+      "latency_ms": 616,
       "source": "iptv-org"
     },
     {
@@ -308,7 +350,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 284,
+      "latency_ms": 259,
       "source": "iptv-org"
     },
     {
@@ -322,7 +364,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "VE",
-      "latency_ms": 378,
+      "latency_ms": 146,
       "source": "iptv-org"
     },
     {
@@ -336,7 +378,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 276,
+      "latency_ms": 222,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Chilevisión",
+      "display_name": "ChileVision (1080p)",
+      "tvg_id": "ChileVision.cl@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/PRijvR0.png",
+      "group": "TV abierta Sudamérica",
+      "stream_url": "http://15.204.246.24:8080/CHVHD/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "CL",
+      "latency_ms": 37,
       "source": "iptv-org"
     },
     {
@@ -350,7 +406,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PY",
-      "latency_ms": 590,
+      "latency_ms": 489,
       "source": "iptv-org"
     },
     {
@@ -364,7 +420,21 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "DO",
-      "latency_ms": 356,
+      "latency_ms": 162,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Canal 13 Chile",
+      "display_name": "Canal 13 (1080p)",
+      "tvg_id": "Canal13.cl@SD",
+      "tvg_name": "",
+      "tvg_logo": "https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/",
+      "group": "TV abierta Sudamérica",
+      "stream_url": "http://15.204.246.24:8080/Canal13HD/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "CL",
+      "latency_ms": 44,
       "source": "iptv-org"
     },
     {
@@ -378,7 +448,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "AR",
-      "latency_ms": 324,
+      "latency_ms": 272,
       "source": "iptv-org"
     },
     {
@@ -392,7 +462,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "AR",
-      "latency_ms": 444,
+      "latency_ms": 372,
       "source": "iptv-org"
     }
   ]
