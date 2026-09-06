@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-05T19:37:08.226910+00:00",
-  "execution_time_seconds": 47.73,
+  "generated_at": "2026-09-06T01:26:08.237262+00:00",
+  "execution_time_seconds": 44.55,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 33,
     "channels_not_found": 48,
-    "total_http_requests": 28,
+    "total_http_requests": 29,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
@@ -33,17 +33,17 @@
     "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
+    "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
+    "América Televisión Perú",
     "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
-    "Telefe",
-    "Canal Encuentro"
+    "Canal 13 Chile"
   ],
   "not_found_channels": [
     {
@@ -215,11 +215,7 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Teleantioquia",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "América Televisión Perú",
+      "name": "Telefe",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -228,6 +224,10 @@
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
