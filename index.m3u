@@ -57,9 +57,6 @@ http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="ADN40.mx@SD" tvg-name="ADN 40" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="TV abierta México",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
-#EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-name="Canal 22" tvg-logo="https://i.imgur.com/R4wXVxf.png" group-title="TV abierta México",Canal 22
-https://5f700d5b2c46f.streamlock.net/canal22/canal22/playlist.m3u8
-
 #EXTINF:-1 tvg-id="ImagenTV.mx@SD" tvg-name="Imagen Televisión" tvg-logo="https://i.imgur.com/lKrRvtS.png" group-title="TV abierta México",Imagen Televisión
 https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
 
@@ -104,6 +101,9 @@ https://www.desde-paraguay.com/mega.m3u8
 
 #EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
+
+#EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="TV abierta Sudamérica",Telefe
+http://190.108.83.69:8000/play/a08l/index.m3u8
 
 #EXTINF:-1 tvg-id="TVPeru.pe@SD" tvg-name="TV Perú" tvg-logo="https://i.imgur.com/6io0IrX.png" group-title="TV abierta Sudamérica",TV Perú
 http://190.93.224.42/TV-PERU/index.m3u8

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T01:26:08.237262+00:00",
-  "execution_time_seconds": 44.55,
+  "generated_at": "2026-09-06T09:44:50.237682+00:00",
+  "execution_time_seconds": 45.37,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 33,
@@ -28,7 +28,6 @@
     "Disney Channel",
     "ADN 40",
     "Imagen Televisión",
-    "Canal 22 México",
     "RCN Televisión",
     "Canal 1 Colombia",
     "Señal Colombia",
@@ -43,7 +42,8 @@
     "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile"
+    "Canal 13 Chile",
+    "Telefe"
   ],
   "not_found_channels": [
     {
@@ -207,16 +207,16 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Canal 22 México",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Multimedios",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Telefe",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
