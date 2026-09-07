@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-06T19:39:03.440195+00:00",
-  "execution_time_seconds": 37.05,
+  "generated_at": "2026-09-07T01:24:28.625491+00:00",
+  "execution_time_seconds": 37.38,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 33,
@@ -35,9 +35,9 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
-    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
+    "Panamericana Televisión",
     "América Televisión Perú",
     "Chilevisión",
     "Mega Chile",
@@ -215,7 +215,7 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Panamericana Televisión",
+      "name": "Telepacífico",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
