@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-09-07T16:42:44.907313+00:00",
-  "execution_time_seconds": 42.02,
+  "generated_at": "2026-09-07T20:51:09.423360+00:00",
+  "execution_time_seconds": 46.53,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 30,
     "channels_not_found": 51,
-    "total_http_requests": 30,
-    "discarded_by_region": 16,
+    "total_http_requests": 29,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
-    "AMC",
     "AXN",
     "FX",
     "Star Channel",
@@ -39,10 +38,15 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Mega Chile",
     "TVN Chile",
     "Telefe"
   ],
   "not_found_channels": [
+    {
+      "name": "AMC",
+      "reason": "Manual override failed: Timeout"
+    },
     {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
@@ -217,10 +221,6 @@
     },
     {
       "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Mega Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

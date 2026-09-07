@@ -2,6 +2,7 @@
 
 | Canal | Razón |
 |---|---|
+| AMC | Manual override failed: Timeout |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | Cinemax | All matched candidates failed stream validation or were skipped |
 | Golden | Manual override failed: HTTP 403 |
@@ -46,7 +47,6 @@
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
-| Mega Chile | All matched candidates failed stream validation or were skipped |
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
