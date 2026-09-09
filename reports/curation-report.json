@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-09-09T01:41:51.711566+00:00",
-  "execution_time_seconds": 45.63,
+  "generated_at": "2026-09-09T10:11:23.530326+00:00",
+  "execution_time_seconds": 42.61,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 33,
-    "channels_not_found": 48,
+    "channels_found": 34,
+    "channels_not_found": 47,
     "total_http_requests": 29,
-    "discarded_by_region": 12,
+    "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
+    "AMC",
     "AXN",
     "FX",
     "Star Channel",
@@ -47,16 +48,12 @@
   ],
   "not_found_channels": [
     {
-      "name": "AMC",
-      "reason": "Manual override failed: Timeout"
-    },
-    {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
     },
     {
       "name": "Cinemax",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Golden",
