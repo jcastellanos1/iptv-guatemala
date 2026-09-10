@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-10T10:06:29.850257+00:00",
-  "execution_time_seconds": 36.27,
+  "generated_at": "2026-09-10T15:16:44.654124+00:00",
+  "execution_time_seconds": 41.52,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
+    "channels_found": 32,
+    "channels_not_found": 49,
     "total_http_requests": 29,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
@@ -13,7 +13,6 @@
   "selected_channels": [
     "AMC",
     "AXN",
-    "FX",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
@@ -35,7 +34,6 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
-    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -54,6 +52,10 @@
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "FX",
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -214,6 +216,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Telepacífico",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
