@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-09T20:05:49.725929+00:00",
-  "execution_time_seconds": 36.31,
+  "generated_at": "2026-09-10T01:36:35.703907+00:00",
+  "execution_time_seconds": 36.47,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
+    "channels_found": 33,
+    "channels_not_found": 48,
     "total_http_requests": 29,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
@@ -35,7 +35,6 @@
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
-    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -214,6 +213,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Telepacífico",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
