@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T15:18:35.876992+00:00",
-  "execution_time_seconds": 39.42,
+  "generated_at": "2026-09-11T20:07:15.723329+00:00",
+  "execution_time_seconds": 37.6,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 33,
-    "channels_not_found": 48,
+    "channels_found": 34,
+    "channels_not_found": 47,
     "total_http_requests": 30,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
@@ -13,6 +13,7 @@
   "selected_channels": [
     "AMC",
     "AXN",
+    "FX",
     "Star Channel",
     "Studio Universal",
     "Universal TV",
@@ -53,10 +54,6 @@
     {
       "name": "Cinemax",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "FX",
-      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
