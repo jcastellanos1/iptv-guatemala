@@ -1,17 +1,16 @@
 {
-  "generated_at": "2026-09-11T01:35:35.394410+00:00",
-  "execution_time_seconds": 36.65,
+  "generated_at": "2026-09-11T10:03:57.310351+00:00",
+  "execution_time_seconds": 39.61,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 34,
-    "channels_not_found": 47,
+    "channels_found": 33,
+    "channels_not_found": 48,
     "total_http_requests": 30,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
-    "AMC",
     "AXN",
     "FX",
     "Star Channel",
@@ -47,6 +46,10 @@
     "Telefe"
   ],
   "not_found_channels": [
+    {
+      "name": "AMC",
+      "reason": "Manual override failed: HTTP 404"
+    },
     {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
