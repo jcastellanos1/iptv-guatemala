@@ -2,9 +2,9 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: HTTP 404 |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | Cinemax | No candidates matched name or aliases in IPTV-org |
+| FX | Manual override failed: Timeout |
 | Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | No candidates matched name or aliases in IPTV-org |
