@@ -9,6 +9,9 @@ https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8
 #EXTINF:-1 tvg-id="TN23.gt" tvg-name="TN23 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/tn23.png" group-title="Guatemala",TN23 Guatemala
 https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="Películas y Series",AMC
+http://45.162.193.35/AMC/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
 
@@ -65,9 +68,6 @@ http://138.121.15.230:9002/CANAL-UNO/index.m3u8
 
 #EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-name="Canal Capital" tvg-logo="https://i.imgur.com/zAYtbYi.png" group-title="TV abierta Colombia",Canal Capital
 http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
-
-#EXTINF:-1 tvg-id="CanalRCN.co@SD" tvg-name="RCN Televisión" tvg-logo="https://i.imgur.com/5PhTaHp.png" group-title="TV abierta Colombia",RCN Televisión
-http://138.121.15.230:9002/RCN/index.m3u8
 
 #EXTINF:-1 tvg-id="SenalColombia.co@SD" tvg-name="Señal" tvg-logo="https://i.imgur.com/Y9x16vl.png" group-title="TV abierta Colombia",Señal
 http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8
