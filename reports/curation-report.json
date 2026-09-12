@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-12T09:39:44.745075+00:00",
-  "execution_time_seconds": 40.81,
+  "generated_at": "2026-09-12T14:26:58.697025+00:00",
+  "execution_time_seconds": 39.24,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 33,
-    "channels_not_found": 48,
-    "total_http_requests": 29,
+    "channels_found": 34,
+    "channels_not_found": 47,
+    "total_http_requests": 30,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
@@ -29,6 +29,7 @@
     "ADN 40",
     "Imagen Televisión",
     "Canal 22 México",
+    "RCN Televisión",
     "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
@@ -213,10 +214,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "RCN Televisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
