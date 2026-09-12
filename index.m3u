@@ -9,9 +9,6 @@ https://d1zq2gydd8y59v.cloudfront.net/medialist_4276517416086298479_hls.m3u8
 #EXTINF:-1 tvg-id="TN23.gt" tvg-name="TN23 Guatemala" tvg-logo="https://jcastellanos1.github.io/iptv-guatemala/logos/tn23.png" group-title="Guatemala",TN23 Guatemala
 https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="AMC" tvg-logo="" group-title="Películas y Series",AMC
-http://45.162.193.35/AMC/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
 
@@ -76,8 +73,7 @@ http://138.121.15.230:9002/RCN/index.m3u8
 http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8
 
 #EXTINF:-1 tvg-id="Teleantioquia.co@SD" tvg-name="Teleantioquia" tvg-logo="https://i.imgur.com/6WMV2Az.png" group-title="TV abierta Colombia",Teleantioquia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8
+http://138.121.15.230:9002/TELEANTIOQUIA/index.m3u8
 
 #EXTINF:-1 tvg-id="Telecaribe.co@SD" tvg-name="Telecaribe" tvg-logo="https://i.imgur.com/E35cXHt.png" group-title="TV abierta Colombia",Telecaribe
 http://138.121.15.230:9002/TELECARIBE/index.m3u8
@@ -95,8 +91,8 @@ http://15.204.246.24:8080/Canal13HD/index.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl@SD" tvg-name="Chilevisión" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="TV abierta Sudamérica",Chilevisión
 http://15.204.246.24:8080/CHVHD/index.m3u8
 
-#EXTINF:-1 tvg-id="Latina.pe@SD" tvg-name="Latina Televisión" tvg-logo="https://i.imgur.com/MOsWriY.png" group-title="TV abierta Sudamérica",Latina Televisión
-http://190.93.224.42/LATINA/index.m3u8
+#EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="TV abierta Sudamérica",Latina Televisión
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
 https://www.desde-paraguay.com/mega.m3u8
