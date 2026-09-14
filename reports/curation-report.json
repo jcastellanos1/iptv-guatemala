@@ -1,16 +1,17 @@
 {
-  "generated_at": "2026-09-13T19:55:30.521976+00:00",
-  "execution_time_seconds": 38.32,
+  "generated_at": "2026-09-14T01:50:41.931288+00:00",
+  "execution_time_seconds": 60.11,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 33,
-    "channels_not_found": 48,
-    "total_http_requests": 30,
+    "channels_found": 34,
+    "channels_not_found": 47,
+    "total_http_requests": 29,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 5
   },
   "selected_channels": [
+    "AMC",
     "AXN",
     "FX",
     "Star Channel",
@@ -47,12 +48,8 @@
   ],
   "not_found_channels": [
     {
-      "name": "AMC",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
       "name": "Cinecanal",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Cinemax",
@@ -64,7 +61,7 @@
     },
     {
       "name": "Golden Edge",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Paramount Network",
@@ -184,11 +181,11 @@
     },
     {
       "name": "Nickelodeon",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8 "
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Nick Jr.",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Azteca Uno",
@@ -228,7 +225,7 @@
     },
     {
       "name": "Canal Encuentro",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "TV UNAM",
