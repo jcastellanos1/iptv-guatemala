@@ -1,10 +1,10 @@
 # Reporte de Curación y Reconstrucción
 
-- **Fecha**: 2026-09-14 11:01:46 UTC
-- **Tiempo total de ejecución**: 36.89 segundos
+- **Fecha**: 2026-09-14 17:05:33 UTC
+- **Tiempo total de ejecución**: 38.34 segundos
 - **Total de marcas procesadas**: 81
-- **Canales encontrados**: 33
-- **Canales no encontrados**: 48
+- **Canales encontrados**: 34
+- **Canales no encontrados**: 47
 - **Total de solicitudes HTTP**: 29
 - **Señales descartadas por región**: 12
 - **Señales descartadas por duplicidad**: 0
@@ -19,36 +19,37 @@
 
 | Canal | Categoría | Resolución | Origen | Latencia |
 |---|---|---|---|---|
-| AXN | Películas y Series | desconocida |  | 168ms |
-| FX | Películas y Series | desconocida |  | 245ms |
-| Star Channel | Películas y Series | desconocida |  | 263ms |
-| Studio Universal | Películas y Series | desconocida |  | 249ms |
-| Universal TV | Películas y Series | desconocida |  | 194ms |
-| A&E | Entretenimiento | desconocida |  | 172ms |
-| Lifetime | Entretenimiento | desconocida |  | 168ms |
-| Sony Channel | Entretenimiento | desconocida |  | 171ms |
-| Telemundo Internacional | Entretenimiento | desconocida |  | 167ms |
-| Azteca Internacional | Entretenimiento | desconocida |  | 321ms |
-| TeleSUR | Noticias | desconocida |  | 254ms |
-| History | Documentales | desconocida |  | 173ms |
-| National Geographic | Documentales | 1080p | US | 9ms |
-| Disney Channel | Infantil | desconocida |  | 217ms |
-| ADN 40 | TV abierta México | 720p | MX | 568ms |
-| Imagen Televisión | TV abierta México | 1080p | MX | 145ms |
-| Canal 22 México | TV abierta México | 720p | AR | 500ms |
-| RCN Televisión | TV abierta Colombia | 1080p | CO | 172ms |
-| Canal 1 Colombia | TV abierta Colombia | desconocida | CO | 206ms |
-| Señal Colombia | TV abierta Colombia | 720p | CO | 70ms |
-| Canal Capital | TV abierta Colombia | 1080p | CO | 170ms |
-| Teleantioquia | TV abierta Colombia | 1080p | CO | 171ms |
-| Telecaribe | TV abierta Colombia | 1080p | CO | 486ms |
-| Telepacífico | TV abierta Colombia | 1080p | CO | 510ms |
-| TV Perú | TV abierta Sudamérica | 1080p | PE | 255ms |
-| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 88ms |
-| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 218ms |
-| América Televisión Perú | TV abierta Sudamérica | 720p | AR | 533ms |
-| Chilevisión | TV abierta Sudamérica | 1080p | CL | 9ms |
-| Mega Chile | TV abierta Sudamérica | 1080p | PY | 449ms |
-| TVN Chile | TV abierta Sudamérica | 1080p | DO | 343ms |
-| Canal 13 Chile | TV abierta Sudamérica | 1080p | CL | 9ms |
-| Telefe | TV abierta Sudamérica | desconocida | AR | 263ms |
+| AMC | Películas y Series | desconocida |  | 294ms |
+| AXN | Películas y Series | desconocida |  | 215ms |
+| FX | Películas y Series | desconocida |  | 293ms |
+| Star Channel | Películas y Series | desconocida |  | 286ms |
+| Studio Universal | Películas y Series | desconocida |  | 293ms |
+| Universal TV | Películas y Series | desconocida |  | 227ms |
+| A&E | Entretenimiento | desconocida |  | 222ms |
+| Lifetime | Entretenimiento | desconocida |  | 215ms |
+| Sony Channel | Entretenimiento | desconocida |  | 215ms |
+| Telemundo Internacional | Entretenimiento | desconocida |  | 237ms |
+| Azteca Internacional | Entretenimiento | desconocida |  | 263ms |
+| TeleSUR | Noticias | desconocida |  | 268ms |
+| History | Documentales | desconocida |  | 216ms |
+| National Geographic | Documentales | 1080p | US | 92ms |
+| Disney Channel | Infantil | desconocida |  | 249ms |
+| ADN 40 | TV abierta México | 720p | MX | 730ms |
+| Imagen Televisión | TV abierta México | 1080p | MX | 228ms |
+| Canal 22 México | TV abierta México | 720p | AR | 652ms |
+| RCN Televisión | TV abierta Colombia | 1080p | CO | 216ms |
+| Canal 1 Colombia | TV abierta Colombia | desconocida | CO | 217ms |
+| Señal Colombia | TV abierta Colombia | 720p | CO | 181ms |
+| Canal Capital | TV abierta Colombia | 1080p | CO | 210ms |
+| Teleantioquia | TV abierta Colombia | 1080p | CO | 215ms |
+| Telecaribe | TV abierta Colombia | 1080p | CO | 216ms |
+| Telepacífico | TV abierta Colombia | 1080p | CO | 685ms |
+| TV Perú | TV abierta Sudamérica | 1080p | PE | 297ms |
+| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 269ms |
+| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 239ms |
+| América Televisión Perú | TV abierta Sudamérica | 720p | AR | 571ms |
+| Chilevisión | TV abierta Sudamérica | 1080p | CL | 102ms |
+| Mega Chile | TV abierta Sudamérica | 1080p | PY | 584ms |
+| TVN Chile | TV abierta Sudamérica | 1080p | DO | 417ms |
+| Canal 13 Chile | TV abierta Sudamérica | 1080p | CL | 96ms |
+| Telefe | TV abierta Sudamérica | desconocida | AR | 297ms |
