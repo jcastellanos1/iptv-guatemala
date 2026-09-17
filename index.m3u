@@ -88,9 +88,6 @@ https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
 https://www.desde-paraguay.com/mega.m3u8
 
-#EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
-http://45.171.108.253:8888/PANAMERICANA/index.m3u8
-
 #EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="TV abierta Sudamérica",Telefe
 http://190.108.83.69:8000/play/a08l/index.m3u8
 
