@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-19T01:46:23.230380+00:00",
-  "execution_time_seconds": 33.55,
+  "generated_at": "2026-09-19T09:48:01.476939+00:00",
+  "execution_time_seconds": 35.55,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 28,
-    "channels_not_found": 53,
+    "channels_found": 29,
+    "channels_not_found": 52,
     "total_http_requests": 28,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
@@ -33,6 +33,7 @@
     "Telepacífico",
     "TV Perú",
     "Latina Televisión",
+    "Panamericana Televisión",
     "América Televisión Perú",
     "Chilevisión",
     "Mega Chile",
@@ -228,10 +229,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Panamericana Televisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
