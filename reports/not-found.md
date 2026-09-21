@@ -2,7 +2,7 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: HTTP 400 |
+| AMC | Manual override failed: Timeout |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | Cinemax | No candidates matched name or aliases in IPTV-org |
 | FX | Manual override failed: HTTP 400 |
@@ -34,7 +34,6 @@
 | Discovery Turbo | No candidates matched name or aliases in IPTV-org |
 | Animal Planet | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
-| National Geographic | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
@@ -50,8 +49,6 @@
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
-| Chilevisión | All matched candidates failed stream validation or were skipped |
-| Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |
