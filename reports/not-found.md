@@ -10,7 +10,7 @@
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
-| Star Channel | Manual override failed: HTTP 400 |
+| Star Channel | Manual override failed: Timeout |
 | Studio Universal | Manual override failed: HTTP 400 |
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
@@ -41,6 +41,7 @@
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
+| Disney Channel | Manual override failed: HTTP 404 |
 | Azteca Uno | No candidates matched name or aliases in IPTV-org |
 | Azteca 7 | No candidates matched name or aliases in IPTV-org |
 | Canal 5 México | All matched candidates failed stream validation or were skipped |
@@ -49,6 +50,7 @@
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
+| Panamericana Televisión | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | Canal Encuentro | No candidates matched name or aliases in IPTV-org |

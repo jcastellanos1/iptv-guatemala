@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T20:31:57.894899+00:00",
-  "execution_time_seconds": 39.2,
+  "generated_at": "2026-09-23T01:56:23.181483+00:00",
+  "execution_time_seconds": 41.09,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 29,
-    "channels_not_found": 52,
+    "channels_found": 27,
+    "channels_not_found": 54,
     "total_http_requests": 28,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
@@ -21,7 +21,6 @@
     "TeleSUR",
     "History",
     "National Geographic",
-    "Disney Channel",
     "ADN 40",
     "Imagen Televisión",
     "RCN Televisión",
@@ -33,7 +32,6 @@
     "Telepacífico",
     "TV Perú",
     "Latina Televisión",
-    "Panamericana Televisión",
     "América Televisión Perú",
     "Chilevisión",
     "Mega Chile",
@@ -76,7 +74,7 @@
     },
     {
       "name": "Star Channel",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Studio Universal",
@@ -199,6 +197,10 @@
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
     },
     {
+      "name": "Disney Channel",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
       "name": "Azteca Uno",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -229,6 +231,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Panamericana Televisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",

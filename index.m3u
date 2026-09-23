@@ -39,9 +39,6 @@ http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentales",National Geographic
 http://15.204.246.24:8080/NatGeoHD/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Infantil",Disney Channel
-http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
-
 #EXTINF:-1 tvg-id="ADN40.mx@SD" tvg-name="ADN 40" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="TV abierta México",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
@@ -84,9 +81,6 @@ https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
 
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-name="Mega" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="TV abierta Sudamérica",Mega
 https://www.desde-paraguay.com/mega.m3u8
-
-#EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-name="Panamericana Televisión" tvg-logo="https://i.imgur.com/uQhEDES.png" group-title="TV abierta Sudamérica",Panamericana Televisión
-http://45.171.108.253:8888/PANAMERICANA/index.m3u8
 
 #EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-name="Telefe" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="TV abierta Sudamérica",Telefe
 http://190.108.83.69:8000/play/a08l/index.m3u8
