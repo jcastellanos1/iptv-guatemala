@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-24T20:50:18.092513+00:00",
-  "execution_time_seconds": 35.77,
+  "generated_at": "2026-09-25T02:02:20.734372+00:00",
+  "execution_time_seconds": 36.64,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 29,
-    "channels_not_found": 52,
-    "total_http_requests": 28,
+    "channels_found": 28,
+    "channels_not_found": 53,
+    "total_http_requests": 29,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 26
@@ -38,8 +38,7 @@
     "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
-    "Telefe"
+    "Canal 13 Chile"
   ],
   "not_found_channels": [
     {
@@ -229,6 +228,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Telefe",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
