@@ -36,9 +36,6 @@ https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 
-#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentales",National Geographic
-http://15.204.246.24:8080/NatGeoHD/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Infantil",Disney Channel
 http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
 
@@ -72,12 +69,6 @@ http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar@SD" tvg-name="América Televisión Perú" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="TV abierta Sudamérica",América Televisión Perú
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
-
-#EXTINF:-1 tvg-id="Canal13.cl@SD" tvg-name="Canal 13" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/" group-title="TV abierta Sudamérica",Canal 13
-http://15.204.246.24:8080/Canal13HD/index.m3u8
-
-#EXTINF:-1 tvg-id="ChileVision.cl@SD" tvg-name="Chilevisión" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="TV abierta Sudamérica",Chilevisión
-http://15.204.246.24:8080/CHVHD/index.m3u8
 
 #EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="TV abierta Sudamérica",Latina Televisión
 https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
