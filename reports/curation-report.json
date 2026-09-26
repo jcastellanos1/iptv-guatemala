@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T02:07:45.571691+00:00",
-  "execution_time_seconds": 42.66,
+  "generated_at": "2026-09-26T10:21:34.802831+00:00",
+  "execution_time_seconds": 40.36,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 29,
@@ -56,7 +56,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Golden",
