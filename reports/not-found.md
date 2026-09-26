@@ -2,7 +2,7 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: HTTP 400 |
+| AMC | Manual override failed: Timeout |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | Cinemax | No candidates matched name or aliases in IPTV-org |
 | FX | Manual override failed: HTTP 400 |
@@ -18,7 +18,6 @@
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | No candidates matched name or aliases in IPTV-org |
-| Las Estrellas | Manual override failed: HTTP 403 |
 | TLNovelas | Manual override failed: HTTP 403 |
 | CNN en Español | No candidates matched name or aliases in IPTV-org |
 | NTN24 | Disabled via overrides |
