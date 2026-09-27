@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-26T20:15:02.133139+00:00",
-  "execution_time_seconds": 44.22,
+  "generated_at": "2026-09-27T01:59:53.264192+00:00",
+  "execution_time_seconds": 44.64,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 30,
-    "channels_not_found": 51,
-    "total_http_requests": 28,
-    "discarded_by_region": 12,
+    "channels_found": 27,
+    "channels_not_found": 54,
+    "total_http_requests": 29,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 26
   },
@@ -17,12 +17,11 @@
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
-    "Las Estrellas",
     "Azteca Internacional",
     "TeleSUR",
     "History",
-    "National Geographic",
     "Disney Channel",
+    "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
     "RCN Televisión",
@@ -36,16 +35,14 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe"
   ],
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Cinecanal",
@@ -57,7 +54,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -106,6 +103,10 @@
     {
       "name": "E!",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Las Estrellas",
+      "reason": "Manual override failed: HTTP 403"
     },
     {
       "name": "TLNovelas",
@@ -168,6 +169,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "National Geographic",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -200,10 +205,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Azteca 7",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
       "name": "Canal 5 México",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -226,6 +227,14 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
