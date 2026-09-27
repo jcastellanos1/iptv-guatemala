@@ -1,7 +1,7 @@
 # Reporte de Curación y Reconstrucción
 
-- **Fecha**: 2026-09-27 15:51:56 UTC
-- **Tiempo total de ejecución**: 41.08 segundos
+- **Fecha**: 2026-09-27 20:30:17 UTC
+- **Tiempo total de ejecución**: 39.38 segundos
 - **Total de marcas procesadas**: 81
 - **Canales encontrados**: 30
 - **Canales no encontrados**: 51
@@ -19,33 +19,33 @@
 
 | Canal | Categoría | Resolución | Origen | Latencia |
 |---|---|---|---|---|
-| AXN | Películas y Series | desconocida |  | 201ms |
-| Universal TV | Películas y Series | desconocida |  | 538ms |
-| A&E | Entretenimiento | desconocida |  | 199ms |
-| Lifetime | Entretenimiento | desconocida |  | 234ms |
-| Sony Channel | Entretenimiento | desconocida |  | 216ms |
-| Telemundo Internacional | Entretenimiento | desconocida |  | 1252ms |
-| Azteca Internacional | Entretenimiento | desconocida |  | 138ms |
-| TeleSUR | Noticias | desconocida |  | 244ms |
-| History | Documentales | desconocida |  | 213ms |
-| National Geographic | Documentales | 1080p | US | 134ms |
-| Disney Channel | Infantil | desconocida |  | 240ms |
-| Azteca 7 | TV abierta México | 1080p | MX | 143ms |
-| ADN 40 | TV abierta México | 720p | MX | 768ms |
-| Imagen Televisión | TV abierta México | 1080p | MX | 106ms |
-| RCN Televisión | TV abierta Colombia | 1080p | CO | 201ms |
-| Canal 1 Colombia | TV abierta Colombia | desconocida | CO | 202ms |
-| Señal Colombia | TV abierta Colombia | 720p | CO | 153ms |
-| Canal Capital | TV abierta Colombia | 1080p | CO | 232ms |
-| Teleantioquia | TV abierta Colombia | 1080p | CO | 207ms |
-| Telecaribe | TV abierta Colombia | 1080p | CO | 204ms |
-| Telepacífico | TV abierta Colombia | 1080p | CO | 203ms |
-| TV Perú | TV abierta Sudamérica | 1080p | PE | 279ms |
-| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 316ms |
-| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 241ms |
-| América Televisión Perú | TV abierta Sudamérica | 720p | AR | 570ms |
-| Chilevisión | TV abierta Sudamérica | 1080p | CL | 128ms |
-| Mega Chile | TV abierta Sudamérica | 1080p | PY | 505ms |
-| TVN Chile | TV abierta Sudamérica | 1080p | DO | 340ms |
-| Canal 13 Chile | TV abierta Sudamérica | 1080p | CL | 130ms |
-| Telefe | TV abierta Sudamérica | desconocida | AR | 297ms |
+| AXN | Películas y Series | desconocida |  | 623ms |
+| Universal TV | Películas y Series | desconocida |  | 236ms |
+| A&E | Entretenimiento | desconocida |  | 243ms |
+| Lifetime | Entretenimiento | desconocida |  | 254ms |
+| Sony Channel | Entretenimiento | desconocida |  | 242ms |
+| Telemundo Internacional | Entretenimiento | desconocida |  | 234ms |
+| Azteca Internacional | Entretenimiento | desconocida |  | 95ms |
+| TeleSUR | Noticias | desconocida |  | 181ms |
+| History | Documentales | desconocida |  | 233ms |
+| National Geographic | Documentales | 1080p | US | 137ms |
+| Disney Channel | Infantil | desconocida |  | 274ms |
+| Azteca 7 | TV abierta México | 1080p | MX | 145ms |
+| ADN 40 | TV abierta México | 720p | MX | 1040ms |
+| Imagen Televisión | TV abierta México | 1080p | MX | 84ms |
+| RCN Televisión | TV abierta Colombia | 1080p | CO | 233ms |
+| Canal 1 Colombia | TV abierta Colombia | desconocida | CO | 234ms |
+| Señal Colombia | TV abierta Colombia | 720p | CO | 120ms |
+| Canal Capital | TV abierta Colombia | 1080p | CO | 241ms |
+| Teleantioquia | TV abierta Colombia | 1080p | CO | 245ms |
+| Telecaribe | TV abierta Colombia | 1080p | CO | 239ms |
+| Telepacífico | TV abierta Colombia | 1080p | CO | 246ms |
+| TV Perú | TV abierta Sudamérica | 1080p | PE | 283ms |
+| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 346ms |
+| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 279ms |
+| América Televisión Perú | TV abierta Sudamérica | 720p | AR | 597ms |
+| Chilevisión | TV abierta Sudamérica | 1080p | CL | 138ms |
+| Mega Chile | TV abierta Sudamérica | 1080p | PY | 542ms |
+| TVN Chile | TV abierta Sudamérica | 1080p | DO | 358ms |
+| Canal 13 Chile | TV abierta Sudamérica | 1080p | CL | 138ms |
+| Telefe | TV abierta Sudamérica | desconocida | AR | 324ms |
