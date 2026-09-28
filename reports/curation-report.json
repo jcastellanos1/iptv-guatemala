@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-27T20:30:17.346877+00:00",
-  "execution_time_seconds": 39.38,
+  "generated_at": "2026-09-28T02:05:39.750109+00:00",
+  "execution_time_seconds": 60.93,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 30,
-    "channels_not_found": 51,
-    "total_http_requests": 29,
-    "discarded_by_region": 12,
+    "channels_found": 27,
+    "channels_not_found": 54,
+    "total_http_requests": 28,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 26
   },
@@ -20,7 +20,6 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
-    "National Geographic",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
@@ -36,10 +35,8 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe"
   ],
   "not_found_channels": [
@@ -49,7 +46,7 @@
     },
     {
       "name": "Cinecanal",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Cinemax",
@@ -57,7 +54,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -65,7 +62,7 @@
     },
     {
       "name": "Golden Edge",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Paramount Network",
@@ -172,6 +169,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "National Geographic",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -193,11 +194,11 @@
     },
     {
       "name": "Nickelodeon",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8 "
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Nick Jr.",
-      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Azteca Uno",
@@ -226,6 +227,14 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
