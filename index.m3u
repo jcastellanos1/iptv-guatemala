@@ -51,6 +51,9 @@ http://187.245.231.226:8000/play/a0uz/index.m3u8
 #EXTINF:-1 tvg-id="ImagenTV.mx@SD" tvg-name="Imagen Televisión" tvg-logo="https://i.imgur.com/lKrRvtS.png" group-title="TV abierta México",Imagen Televisión
 https://igd-it-runtime.otteravision.com/igd/it/it.m3u8
 
+#EXTINF:-1 tvg-id="Canal1.co@SD" tvg-name="Canal 1" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="TV abierta Colombia",Canal 1
+http://38.134.250.110:8000/play/a014/index.m3u8
+
 #EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-name="Canal Capital" tvg-logo="https://i.imgur.com/zAYtbYi.png" group-title="TV abierta Colombia",Canal Capital
 http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
 

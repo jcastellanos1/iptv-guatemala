@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-29T17:05:52.632637+00:00",
-  "execution_time_seconds": 54.92,
+  "generated_at": "2026-09-29T21:33:41.569011+00:00",
+  "execution_time_seconds": 42.11,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 29,
-    "channels_not_found": 52,
+    "channels_found": 30,
+    "channels_not_found": 51,
     "total_http_requests": 28,
-    "discarded_by_region": 12,
+    "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 27
   },
@@ -26,6 +26,7 @@
     "ADN 40",
     "Imagen Televisión",
     "RCN Televisión",
+    "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
@@ -48,7 +49,7 @@
     },
     {
       "name": "Cinecanal",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
     },
     {
       "name": "Cinemax",
@@ -64,7 +65,7 @@
     },
     {
       "name": "Golden Edge",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index"
     },
     {
       "name": "Paramount Network",
@@ -192,11 +193,11 @@
     },
     {
       "name": "Nickelodeon",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8 "
     },
     {
       "name": "Nick Jr.",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
     },
     {
       "name": "Azteca Uno",
@@ -225,10 +226,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Canal 1 Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
