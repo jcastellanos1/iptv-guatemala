@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-30T21:34:13.936379+00:00",
-  "execution_time_seconds": 39.24,
+  "generated_at": "2026-10-01T02:35:27.286889+00:00",
+  "execution_time_seconds": 36.53,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 31,
-    "channels_not_found": 50,
-    "total_http_requests": 29,
-    "discarded_by_region": 13,
+    "channels_found": 29,
+    "channels_not_found": 52,
+    "total_http_requests": 30,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 27
   },
@@ -20,11 +20,11 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
-    "National Geographic",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
+    "Canal Once",
     "RCN Televisión",
     "Canal 1 Colombia",
     "Señal Colombia",
@@ -36,10 +36,8 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "Canal Encuentro"
   ],
@@ -162,7 +160,7 @@
     },
     {
       "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Animal Planet",
@@ -170,6 +168,10 @@
     },
     {
       "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -213,10 +215,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Canal Once",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
       "name": "Canal 22 México",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -227,6 +225,14 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
