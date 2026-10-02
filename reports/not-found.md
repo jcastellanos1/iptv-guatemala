@@ -8,7 +8,7 @@
 | FX | Manual override failed: HTTP 400 |
 | Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
-| Paramount Network | No candidates matched name or aliases in IPTV-org |
+| Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
 | Star Channel | Manual override failed: HTTP 400 |
 | Studio Universal | Manual override failed: HTTP 400 |
@@ -31,7 +31,7 @@
 | C5N | No candidates matched name or aliases in IPTV-org |
 | Discovery Channel | No candidates matched name or aliases in IPTV-org |
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
-| Discovery Turbo | No candidates matched name or aliases in IPTV-org |
+| Discovery Turbo | All matched candidates failed stream validation or were skipped |
 | Animal Planet | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
