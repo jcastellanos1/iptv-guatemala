@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-03T20:15:18.406376+00:00",
-  "execution_time_seconds": 37.02,
+  "generated_at": "2026-10-04T02:57:34.973793+00:00",
+  "execution_time_seconds": 45.29,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 29,
-    "channels_not_found": 52,
+    "channels_found": 28,
+    "channels_not_found": 53,
     "total_http_requests": 30,
     "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
@@ -38,8 +38,7 @@
     "América Televisión Perú",
     "Mega Chile",
     "TVN Chile",
-    "Telefe",
-    "Canal Encuentro"
+    "Telefe"
   ],
   "not_found_channels": [
     {
@@ -240,6 +239,10 @@
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
