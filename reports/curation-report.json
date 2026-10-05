@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T02:31:07.939515+00:00",
-  "execution_time_seconds": 43.02,
+  "generated_at": "2026-10-05T12:46:08.108253+00:00",
+  "execution_time_seconds": 37.77,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 28,
-    "channels_not_found": 53,
+    "channels_found": 32,
+    "channels_not_found": 49,
     "total_http_requests": 30,
-    "discarded_by_region": 17,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -20,6 +20,7 @@
     "Azteca Internacional",
     "TeleSUR",
     "History",
+    "National Geographic",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
@@ -36,9 +37,12 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Telefe"
+    "Canal 13 Chile",
+    "Telefe",
+    "Canal Encuentro"
   ],
   "not_found_channels": [
     {
@@ -170,10 +174,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -226,23 +226,11 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "El Trece Argentina",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
