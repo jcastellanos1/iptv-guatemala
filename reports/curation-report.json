@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T23:23:44.959980+00:00",
-  "execution_time_seconds": 40.62,
+  "generated_at": "2026-10-06T03:25:37.374405+00:00",
+  "execution_time_seconds": 32.54,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 31,
@@ -21,7 +21,6 @@
     "TeleSUR",
     "History",
     "National Geographic",
-    "Disney Channel",
     "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
@@ -41,6 +40,7 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
+    "Canal 24 Horas Chile",
     "Canal Encuentro"
   ],
   "not_found_channels": [
@@ -201,6 +201,10 @@
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
     },
     {
+      "name": "Disney Channel",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
       "name": "Azteca Uno",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -230,10 +234,6 @@
     },
     {
       "name": "El Trece Argentina",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 24 Horas Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
