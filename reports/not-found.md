@@ -11,7 +11,7 @@
 | Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
 | Star Channel | Manual override failed: HTTP 400 |
-| Studio Universal | Manual override failed: HTTP 400 |
+| Studio Universal | Manual override failed: Timeout |
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
@@ -41,7 +41,6 @@
 | Discovery Kids | No candidates matched name or aliases in IPTV-org |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
-| Disney Channel | Manual override failed: HTTP 404 |
 | Azteca Uno | No candidates matched name or aliases in IPTV-org |
 | Canal 5 México | All matched candidates failed stream validation or were skipped |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
