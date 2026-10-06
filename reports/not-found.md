@@ -11,7 +11,7 @@
 | Paramount Network | All matched candidates failed stream validation or were skipped |
 | Space | No candidates matched name or aliases in IPTV-org |
 | Star Channel | Manual override failed: HTTP 400 |
-| Studio Universal | Manual override failed: Timeout |
+| Studio Universal | Manual override failed: HTTP 400 |
 | TNT | All matched candidates failed stream validation or were skipped |
 | TNT Series | No candidates matched name or aliases in IPTV-org |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
