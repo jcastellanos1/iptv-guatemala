@@ -21,9 +21,6 @@ http://138.121.15.230:9002/A&E/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Azteca Internacional" tvg-logo="" group-title="Entretenimiento",Azteca Internacional
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Las Estrellas" tvg-logo="" group-title="Entretenimiento",Las Estrellas
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Lifetime" tvg-logo="" group-title="Entretenimiento",Lifetime
 http://138.121.15.230:9002/LIFETIME/index.m3u8
 
