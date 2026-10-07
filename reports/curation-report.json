@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06T21:55:59.401403+00:00",
-  "execution_time_seconds": 39.94,
+  "generated_at": "2026-10-07T02:49:15.724523+00:00",
+  "execution_time_seconds": 35.13,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 32,
-    "channels_not_found": 49,
+    "channels_found": 33,
+    "channels_not_found": 48,
     "total_http_requests": 31,
     "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 29
+    "discarded_by_blocked_terms": 28
   },
   "selected_channels": [
     "AXN",
@@ -17,6 +17,7 @@
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
+    "Las Estrellas",
     "Azteca Internacional",
     "TeleSUR",
     "History",
@@ -108,10 +109,6 @@
     {
       "name": "E!",
       "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Las Estrellas",
-      "reason": "Manual override failed: HTTP 403"
     },
     {
       "name": "TLNovelas",

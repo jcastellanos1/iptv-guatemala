@@ -2,6 +2,6 @@
 
 - **Señales descartadas por duplicidad de URL o TVG-ID**: 0
 - **Señales descartadas por región incorrecta**: 14
-- **Señales descartadas por términos excluidos/bloqueados**: 29
+- **Señales descartadas por términos excluidos/bloqueados**: 28
 
 Este reporte confirma que cada canal seleccionado tiene una resolución única, una región única y no comparte URLs de transmisión ni identificadores con otros canales de la playlist.

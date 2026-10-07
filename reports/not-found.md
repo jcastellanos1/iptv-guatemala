@@ -18,7 +18,6 @@
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | All matched candidates failed stream validation or were skipped |
-| Las Estrellas | Manual override failed: HTTP 403 |
 | TLNovelas | Manual override failed: HTTP 403 |
 | CNN en Español | No candidates matched name or aliases in IPTV-org |
 | NTN24 | Disabled via overrides |
