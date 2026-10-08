@@ -1,17 +1,20 @@
 {
-  "generated_at": "2026-10-07T22:19:39.906402+00:00",
-  "execution_time_seconds": 31.67,
+  "generated_at": "2026-10-08T03:07:07.366478+00:00",
+  "execution_time_seconds": 33.33,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 32,
-    "channels_not_found": 49,
-    "total_http_requests": 31,
-    "discarded_by_region": 14,
+    "channels_found": 37,
+    "channels_not_found": 44,
+    "total_http_requests": 36,
+    "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 28
+    "discarded_by_blocked_terms": 30
   },
   "selected_channels": [
     "AXN",
+    "Cinemax",
+    "TNT",
+    "TNT Series",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -19,9 +22,11 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Discovery Channel",
     "History",
     "National Geographic",
     "Disney Channel",
+    "Azteca Uno",
     "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
@@ -54,10 +59,6 @@
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
     },
     {
-      "name": "Cinemax",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
       "name": "FX",
       "reason": "Manual override failed: HTTP 400"
     },
@@ -84,14 +85,6 @@
     {
       "name": "Studio Universal",
       "reason": "Manual override failed: HTTP 400"
-    },
-    {
-      "name": "TNT",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "TNT Series",
-      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Warner Channel",
@@ -154,10 +147,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Discovery Channel",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
       "name": "Discovery Science",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -200,10 +189,6 @@
     {
       "name": "Nick Jr.",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
-    },
-    {
-      "name": "Azteca Uno",
-      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Canal 5 México",

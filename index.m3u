@@ -12,6 +12,15 @@ https://d3qt8k30mpy8xx.cloudfront.net/medialist_15609871089997455276_hls.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
 
+#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@HD" tvg-name="Cinemax" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="Películas y Series",Cinemax
+http://38.65.175.84:8000/play/a093/index.m3u8
+
+#EXTINF:-1 tvg-id="TNTLatinAmerica.us@Center" tvg-name="TNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/TNT_Logo_2016.svg/960px-TNT_Logo_2016.svg.png" group-title="Películas y Series",TNT
+http://45.171.64.30:6060/play/a03i/index.m3u8
+
+#EXTINF:-1 tvg-id="TNTSeriesLatinAmerica.us@Panregional" tvg-name="TNT Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/75/TNT_Series_Logo_2016.png" group-title="Películas y Series",TNT Series
+http://168.196.127.137:6001/play/a095/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="Universal TV" tvg-logo="" group-title="Películas y Series",Universal TV
 http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
 
@@ -36,6 +45,9 @@ http://187.102.208.209:8000/play/a0a1/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TeleSUR" tvg-logo="" group-title="Noticias",TeleSUR
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
 
+#EXTINF:-1 tvg-id="DiscoveryChannelLatinAmerica.us@Panregional" tvg-name="Discovery Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="Documentales",Discovery Channel
+http://45.171.64.30:6060/play/a032/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 
@@ -50,6 +62,9 @@ https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
 #EXTINF:-1 tvg-id="Azteca7.mx@SD" tvg-name="Azteca 7" tvg-logo="https://i.imgur.com/UtFXjIn.png" group-title="TV abierta México",Azteca 7
 http://187.245.231.226:8000/play/a0uz/index.m3u8
+
+#EXTINF:-1 tvg-id="AztecaUno.mx@SD" tvg-name="Azteca Uno" tvg-logo="https://i.imgur.com/rRxgBtI.png" group-title="TV abierta México",Azteca Uno
+http://38.44.109.41:8003/play/a033/index.m3u8
 
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-name="Canal Once" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Once_logo_2025.png" group-title="TV abierta México",Canal Once
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
