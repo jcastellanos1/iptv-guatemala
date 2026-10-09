@@ -2,13 +2,13 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: Timeout |
+| AMC | Manual override failed: HTTP 400 |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | FX | Manual override failed: HTTP 400 |
 | Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
-| Star Channel | Manual override failed: Timeout |
+| Star Channel | Manual override failed: HTTP 400 |
 | Studio Universal | Manual override failed: HTTP 400 |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
 | Comedy Central | Manual override failed: HTTP 404 |
@@ -27,7 +27,9 @@
 | C5N | No candidates matched name or aliases in IPTV-org |
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
 | Discovery Turbo | All matched candidates failed stream validation or were skipped |
+| Animal Planet | All matched candidates failed stream validation or were skipped |
 | History 2 | All matched candidates failed stream validation or were skipped |
+| National Geographic | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
@@ -41,6 +43,8 @@
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
 | Señal Colombia | All matched candidates failed stream validation or were skipped |
+| Chilevisión | All matched candidates failed stream validation or were skipped |
+| Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
 | Canal IPe | All matched candidates failed stream validation or were skipped |

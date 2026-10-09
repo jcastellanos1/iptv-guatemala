@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-09T03:13:41.608594+00:00",
-  "execution_time_seconds": 49.99,
+  "generated_at": "2026-10-09T12:08:55.297325+00:00",
+  "execution_time_seconds": 35.49,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
+    "channels_found": 35,
+    "channels_not_found": 46,
     "total_http_requests": 38,
-    "discarded_by_region": 12,
+    "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -24,9 +24,7 @@
     "Azteca Internacional",
     "TeleSUR",
     "Discovery Channel",
-    "Animal Planet",
     "History",
-    "National Geographic",
     "Disney Channel",
     "Azteca Uno",
     "Azteca 7",
@@ -43,10 +41,8 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "Canal 24 Horas Chile",
     "Canal Encuentro"
@@ -54,7 +50,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Cinecanal",
@@ -78,7 +74,7 @@
     },
     {
       "name": "Star Channel",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
@@ -153,7 +149,15 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Animal Planet",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -206,6 +210,14 @@
     },
     {
       "name": "Señal Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
