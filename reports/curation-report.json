@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-10-08T22:32:10.635584+00:00",
-  "execution_time_seconds": 37.44,
+  "generated_at": "2026-10-09T03:13:41.608594+00:00",
+  "execution_time_seconds": 49.99,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 37,
-    "channels_not_found": 44,
-    "total_http_requests": 36,
+    "channels_found": 39,
+    "channels_not_found": 42,
+    "total_http_requests": 38,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 30
+    "discarded_by_blocked_terms": 29
   },
   "selected_channels": [
     "AXN",
     "Cinemax",
+    "Space",
     "TNT",
     "TNT Series",
     "Universal TV",
@@ -23,6 +24,7 @@
     "Azteca Internacional",
     "TeleSUR",
     "Discovery Channel",
+    "Animal Planet",
     "History",
     "National Geographic",
     "Disney Channel",
@@ -52,7 +54,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Cinecanal",
@@ -75,12 +77,8 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Space",
-      "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
       "name": "Star Channel",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Studio Universal",
@@ -153,10 +151,6 @@
     {
       "name": "Discovery Turbo",
       "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Animal Planet",
-      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "History 2",

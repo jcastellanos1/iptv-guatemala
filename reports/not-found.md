@@ -2,14 +2,13 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: HTTP 400 |
+| AMC | Manual override failed: Timeout |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | FX | Manual override failed: HTTP 400 |
 | Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
-| Space | No candidates matched name or aliases in IPTV-org |
-| Star Channel | Manual override failed: HTTP 400 |
+| Star Channel | Manual override failed: Timeout |
 | Studio Universal | Manual override failed: HTTP 400 |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
 | Comedy Central | Manual override failed: HTTP 404 |
@@ -28,7 +27,6 @@
 | C5N | No candidates matched name or aliases in IPTV-org |
 | Discovery Science | No candidates matched name or aliases in IPTV-org |
 | Discovery Turbo | All matched candidates failed stream validation or were skipped |
-| Animal Planet | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
