@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T11:26:40.425175+00:00",
-  "execution_time_seconds": 37.81,
+  "generated_at": "2026-10-10T16:25:33.613037+00:00",
+  "execution_time_seconds": 40.86,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 42,
@@ -81,7 +81,7 @@
     },
     {
       "name": "Star Channel",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Studio Universal",

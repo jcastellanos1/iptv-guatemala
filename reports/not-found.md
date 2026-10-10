@@ -8,7 +8,7 @@
 | Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
-| Star Channel | Manual override failed: HTTP 400 |
+| Star Channel | Manual override failed: Timeout |
 | Studio Universal | Manual override failed: HTTP 400 |
 | Warner Channel | No candidates matched name or aliases in IPTV-org |
 | Comedy Central | Manual override failed: HTTP 404 |
