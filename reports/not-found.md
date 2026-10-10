@@ -16,7 +16,7 @@
 | E! | All matched candidates failed stream validation or were skipped |
 | Las Estrellas | Manual override failed: HTTP 403 |
 | TLNovelas | Manual override failed: HTTP 403 |
-| CNN en Español | No candidates matched name or aliases in IPTV-org |
+| CNN en Español | All matched candidates failed stream validation or were skipped |
 | NTN24 | Disabled via overrides |
 | DW Español | All matched candidates failed stream validation or were skipped |
 | France 24 Español | All matched candidates failed stream validation or were skipped |
@@ -25,14 +25,11 @@
 | Foro TV | Disabled via overrides |
 | Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
-| Discovery Science | No candidates matched name or aliases in IPTV-org |
-| Discovery Turbo | All matched candidates failed stream validation or were skipped |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | No candidates matched name or aliases in IPTV-org |
 | Cartoonito | No candidates matched name or aliases in IPTV-org |
-| Discovery Kids | No candidates matched name or aliases in IPTV-org |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
 | Canal 5 México | All matched candidates failed stream validation or were skipped |
