@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T16:25:33.613037+00:00",
-  "execution_time_seconds": 40.86,
+  "generated_at": "2026-10-10T20:46:02.692913+00:00",
+  "execution_time_seconds": 36.82,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 42,
@@ -21,6 +21,7 @@
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
+    "Las Estrellas",
     "Azteca Internacional",
     "TeleSUR",
     "Discovery Channel",
@@ -51,7 +52,6 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
-    "Canal 24 Horas Chile",
     "Canal Encuentro"
   ],
   "not_found_channels": [
@@ -81,7 +81,7 @@
     },
     {
       "name": "Star Channel",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
@@ -102,10 +102,6 @@
     {
       "name": "E!",
       "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Las Estrellas",
-      "reason": "Manual override failed: HTTP 403"
     },
     {
       "name": "TLNovelas",
@@ -201,6 +197,10 @@
     },
     {
       "name": "El Trece Argentina",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 24 Horas Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
