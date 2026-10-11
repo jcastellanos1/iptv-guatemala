@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T16:50:04.000599+00:00",
-  "execution_time_seconds": 35.62,
+  "generated_at": "2026-10-11T21:07:00.463166+00:00",
+  "execution_time_seconds": 32.07,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 38,
+    "channels_not_found": 43,
     "total_http_requests": 40,
-    "discarded_by_region": 11,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 31
   },
@@ -25,10 +25,8 @@
     "TeleSUR",
     "Discovery Channel",
     "Discovery Science",
-    "Discovery Turbo",
     "Animal Planet",
     "History",
-    "National Geographic",
     "Discovery Kids",
     "Disney Channel",
     "Azteca Uno",
@@ -47,10 +45,8 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "Canal Encuentro"
   ],
@@ -148,7 +144,15 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Discovery Turbo",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -194,6 +198,14 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
