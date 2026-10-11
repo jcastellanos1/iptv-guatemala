@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-11T02:21:51.923936+00:00",
-  "execution_time_seconds": 43.22,
+  "generated_at": "2026-10-11T11:40:07.299475+00:00",
+  "execution_time_seconds": 42.24,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 42,
@@ -57,7 +57,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Cinecanal",
@@ -65,7 +65,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
