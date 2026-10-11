@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10T20:46:02.692913+00:00",
-  "execution_time_seconds": 36.82,
+  "generated_at": "2026-10-11T02:21:51.923936+00:00",
+  "execution_time_seconds": 43.22,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 42,
     "channels_not_found": 39,
-    "total_http_requests": 41,
-    "discarded_by_region": 12,
+    "total_http_requests": 40,
+    "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 29
+    "discarded_by_blocked_terms": 31
   },
   "selected_channels": [
     "AXN",
@@ -21,7 +21,6 @@
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
-    "Las Estrellas",
     "Azteca Internacional",
     "TeleSUR",
     "Discovery Channel",
@@ -39,6 +38,7 @@
     "Canal Once",
     "RCN Televisión",
     "Canal 1 Colombia",
+    "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -57,7 +57,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Cinecanal",
@@ -102,6 +102,10 @@
     {
       "name": "E!",
       "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Las Estrellas",
+      "reason": "Manual override failed: HTTP 403"
     },
     {
       "name": "TLNovelas",
@@ -190,10 +194,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Señal Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",

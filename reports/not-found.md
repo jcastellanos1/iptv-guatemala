@@ -2,7 +2,7 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: HTTP 400 |
+| AMC | Manual override failed: Timeout |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | FX | Manual override failed: HTTP 400 |
 | Golden | Manual override failed: HTTP 403 |
@@ -14,6 +14,7 @@
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | All matched candidates failed stream validation or were skipped |
+| Las Estrellas | Manual override failed: HTTP 403 |
 | TLNovelas | Manual override failed: HTTP 403 |
 | CNN en Español | All matched candidates failed stream validation or were skipped |
 | NTN24 | Disabled via overrides |
@@ -36,7 +37,6 @@
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
-| Señal Colombia | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
