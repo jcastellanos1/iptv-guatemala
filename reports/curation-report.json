@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T21:07:00.463166+00:00",
-  "execution_time_seconds": 32.07,
+  "generated_at": "2026-10-12T02:46:15.463766+00:00",
+  "execution_time_seconds": 47.43,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 38,
-    "channels_not_found": 43,
-    "total_http_requests": 40,
-    "discarded_by_region": 15,
+    "channels_found": 39,
+    "channels_not_found": 42,
+    "total_http_requests": 41,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 31
   },
@@ -27,9 +27,10 @@
     "Discovery Science",
     "Animal Planet",
     "History",
+    "National Geographic",
+    "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
-    "Azteca Uno",
     "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
@@ -152,20 +153,12 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Love Nature",
       "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Cartoon Network",
-      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "Cartoonito",
@@ -178,6 +171,10 @@
     {
       "name": "Nick Jr.",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
+    },
+    {
+      "name": "Azteca Uno",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 5 México",
