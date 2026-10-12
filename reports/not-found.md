@@ -25,22 +25,21 @@
 | Foro TV | Disabled via overrides |
 | Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
-| Discovery Turbo | All matched candidates failed stream validation or were skipped |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoonito | No candidates matched name or aliases in IPTV-org |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
+| Disney Channel | Manual override failed: HTTP 404 |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Canal 5 México | All matched candidates failed stream validation or were skipped |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
-| Chilevisión | All matched candidates failed stream validation or were skipped |
-| Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
+| Canal Encuentro | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
 | Canal IPe | All matched candidates failed stream validation or were skipped |

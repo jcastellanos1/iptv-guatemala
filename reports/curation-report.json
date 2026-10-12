@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-12T02:46:15.463766+00:00",
-  "execution_time_seconds": 47.43,
+  "generated_at": "2026-10-12T13:37:16.501310+00:00",
+  "execution_time_seconds": 38.57,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 41,
-    "discarded_by_region": 13,
+    "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 31
   },
@@ -25,12 +25,12 @@
     "TeleSUR",
     "Discovery Channel",
     "Discovery Science",
+    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
     "Cartoon Network",
     "Discovery Kids",
-    "Disney Channel",
     "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
@@ -46,10 +46,11 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Telefe",
-    "Canal Encuentro"
+    "Canal 13 Chile",
+    "Telefe"
   ],
   "not_found_channels": [
     {
@@ -145,10 +146,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "History 2",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -171,6 +168,10 @@
     {
       "name": "Nick Jr.",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
+    },
+    {
+      "name": "Disney Channel",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Azteca Uno",
@@ -197,19 +198,15 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "El Trece Argentina",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
