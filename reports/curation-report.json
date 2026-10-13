@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-13T04:02:51.000294+00:00",
-  "execution_time_seconds": 39.62,
+  "generated_at": "2026-10-13T13:00:34.457516+00:00",
+  "execution_time_seconds": 42.5,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
+    "channels_found": 42,
+    "channels_not_found": 39,
     "total_http_requests": 41,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
@@ -21,7 +21,6 @@
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
-    "Las Estrellas",
     "Azteca Internacional",
     "TeleSUR",
     "Discovery Channel",
@@ -58,7 +57,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Cinecanal",
@@ -103,6 +102,10 @@
     {
       "name": "E!",
       "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Las Estrellas",
+      "reason": "Manual override failed: HTTP 403"
     },
     {
       "name": "TLNovelas",
