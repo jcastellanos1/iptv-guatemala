@@ -2,7 +2,7 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: Timeout |
+| AMC | Manual override failed: HTTP 400 |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | FX | Manual override failed: HTTP 400 |
 | Golden | Manual override failed: HTTP 403 |

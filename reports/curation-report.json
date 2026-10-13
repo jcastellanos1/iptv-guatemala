@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T13:00:34.457516+00:00",
-  "execution_time_seconds": 42.5,
+  "generated_at": "2026-10-13T22:00:28.669859+00:00",
+  "execution_time_seconds": 41.71,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 42,
@@ -57,7 +57,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Cinecanal",
