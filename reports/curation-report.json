@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-13T22:00:28.669859+00:00",
-  "execution_time_seconds": 41.71,
+  "generated_at": "2026-10-14T02:17:12.527851+00:00",
+  "execution_time_seconds": 41.04,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
-    "total_http_requests": 41,
+    "channels_found": 41,
+    "channels_not_found": 40,
+    "total_http_requests": 42,
     "discarded_by_region": 11,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 31
@@ -51,8 +51,7 @@
     "Mega Chile",
     "TVN Chile",
     "Canal 13 Chile",
-    "Telefe",
-    "Canal Encuentro"
+    "Telefe"
   ],
   "not_found_channels": [
     {
@@ -201,6 +200,10 @@
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

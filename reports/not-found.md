@@ -39,5 +39,6 @@
 | Caracol Televisión | Manual override failed: HTTP 404 |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
+| Canal Encuentro | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
 | Canal IPe | All matched candidates failed stream validation or were skipped |
