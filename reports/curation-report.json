@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T10:41:23.140865+00:00",
-  "execution_time_seconds": 40.43,
+  "generated_at": "2026-10-14T16:00:52.948660+00:00",
+  "execution_time_seconds": 33.82,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
+    "channels_found": 41,
+    "channels_not_found": 40,
     "total_http_requests": 42,
-    "discarded_by_region": 13,
+    "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -29,7 +29,6 @@
     "Discovery Turbo",
     "Animal Planet",
     "History",
-    "National Geographic",
     "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
@@ -48,12 +47,11 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
-    "Canal Encuentro"
+    "Canal Encuentro",
+    "Canal IPe"
   ],
   "not_found_channels": [
     {
@@ -149,6 +147,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "National Geographic",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -193,6 +195,14 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "El Trece Argentina",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -203,10 +213,6 @@
     {
       "name": "TV UNAM",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Canal IPe",
-      "reason": "All matched candidates failed stream validation or were skipped"
     }
   ],
   "guatemala_channels_confirmed": [
