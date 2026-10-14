@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-14T16:00:52.948660+00:00",
-  "execution_time_seconds": 33.82,
+  "generated_at": "2026-10-14T21:01:23.557080+00:00",
+  "execution_time_seconds": 37.55,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 42,
-    "discarded_by_region": 16,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -23,12 +23,12 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
-    "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
+    "National Geographic",
     "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
@@ -47,8 +47,10 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "Canal Encuentro",
     "Canal IPe"
@@ -64,7 +66,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -139,15 +141,15 @@
       "reason": "Disabled via overrides"
     },
     {
+      "name": "Todo Noticias",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "History 2",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -193,14 +195,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
