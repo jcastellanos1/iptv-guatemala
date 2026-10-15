@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-15T01:58:11.102122+00:00",
-  "execution_time_seconds": 40.81,
+  "generated_at": "2026-10-15T10:24:50.503785+00:00",
+  "execution_time_seconds": 45.59,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 44,
-    "channels_not_found": 37,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 42,
-    "discarded_by_region": 13,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -38,7 +38,6 @@
     "Imagen Televisión",
     "Canal Once",
     "RCN Televisión",
-    "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
@@ -67,7 +66,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -83,7 +82,7 @@
     },
     {
       "name": "Star Channel",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
@@ -192,6 +191,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Canal 1 Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
