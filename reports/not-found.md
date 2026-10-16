@@ -2,7 +2,7 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: Timeout |
+| AMC | Manual override failed: HTTP 400 |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
 | FX | Manual override failed: HTTP 400 |
 | Golden | Manual override failed: HTTP 403 |
@@ -24,7 +24,6 @@
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
 | C5N | No candidates matched name or aliases in IPTV-org |
-| Discovery Turbo | All matched candidates failed stream validation or were skipped |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | National Geographic | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
