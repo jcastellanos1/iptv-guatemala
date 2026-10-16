@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-16T15:38:17.582399+00:00",
-  "execution_time_seconds": 37.58,
+  "generated_at": "2026-10-16T20:08:59.588535+00:00",
+  "execution_time_seconds": 44.68,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
-    "total_http_requests": 42,
-    "discarded_by_region": 16,
+    "channels_found": 42,
+    "channels_not_found": 39,
+    "total_http_requests": 43,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -29,6 +29,7 @@
     "Discovery Turbo",
     "Animal Planet",
     "History",
+    "National Geographic",
     "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
@@ -38,17 +39,17 @@
     "Canal Once",
     "RCN Televisión",
     "Canal 1 Colombia",
-    "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
-    "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "Canal Encuentro",
     "Canal IPe"
@@ -147,10 +148,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -195,11 +192,11 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Chilevisión",
+      "name": "Señal Colombia",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Canal 13 Chile",
+      "name": "TV Perú",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
