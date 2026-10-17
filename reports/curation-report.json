@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-17T14:30:04.526420+00:00",
-  "execution_time_seconds": 47.79,
+  "generated_at": "2026-10-17T19:44:59.902374+00:00",
+  "execution_time_seconds": 31.59,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
-    "total_http_requests": 43,
+    "channels_found": 44,
+    "channels_not_found": 37,
+    "total_http_requests": 42,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
@@ -39,6 +39,7 @@
     "Canal Once",
     "RCN Televisión",
     "Canal 1 Colombia",
+    "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -191,10 +192,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Señal Colombia",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
