@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-17T09:46:13.519380+00:00",
-  "execution_time_seconds": 43.75,
+  "generated_at": "2026-10-17T14:30:04.526420+00:00",
+  "execution_time_seconds": 47.79,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 43,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
@@ -52,6 +52,7 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
+    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -201,10 +202,6 @@
     },
     {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
