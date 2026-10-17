@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T01:42:51.627417+00:00",
-  "execution_time_seconds": 49.74,
+  "generated_at": "2026-10-17T09:46:13.519380+00:00",
+  "execution_time_seconds": 43.75,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
-    "total_http_requests": 42,
-    "discarded_by_region": 16,
+    "channels_found": 42,
+    "channels_not_found": 39,
+    "total_http_requests": 43,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -29,6 +29,7 @@
     "Discovery Turbo",
     "Animal Planet",
     "History",
+    "National Geographic",
     "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
@@ -38,7 +39,6 @@
     "Canal Once",
     "RCN Televisión",
     "Canal 1 Colombia",
-    "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -47,16 +47,17 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
-    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Cinecanal",
@@ -147,10 +148,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -195,11 +192,7 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
+      "name": "Señal Colombia",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -208,6 +201,10 @@
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

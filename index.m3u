@@ -54,6 +54,9 @@ http://38.134.250.110:8000/play/a01y/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentales",National Geographic
+http://15.204.246.24:8080/NatGeoHD/index.m3u8
+
 #EXTINF:-1 tvg-id="CartoonNetworkLatinAmerica.us@SouthAtlanticHD" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Infantil",Cartoon Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36 VLC/3.0.18 LibVLC/3.0.18
 https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8
@@ -85,9 +88,6 @@ http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
 #EXTINF:-1 tvg-id="CanalRCN.co@SD" tvg-name="RCN Televisión" tvg-logo="https://i.imgur.com/5PhTaHp.png" group-title="TV abierta Colombia",RCN Televisión
 http://138.121.15.230:9002/RCN/index.m3u8
 
-#EXTINF:-1 tvg-id="CanalInstitucional.co@SD" tvg-name="Señal" tvg-logo="https://i.imgur.com/hqfQVrU.png" group-title="TV abierta Colombia",Señal
-http://190.61.47.54:8000/play/a00v/index.m3u8
-
 #EXTINF:-1 tvg-id="Teleantioquia.co@SD" tvg-name="Teleantioquia" tvg-logo="https://i.imgur.com/6WMV2Az.png" group-title="TV abierta Colombia",Teleantioquia
 http://138.121.15.230:9002/TELEANTIOQUIA/index.m3u8
 
@@ -100,6 +100,12 @@ http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTV.ar@SD" tvg-name="América Televisión Perú" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="TV abierta Sudamérica",América Televisión Perú
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+
+#EXTINF:-1 tvg-id="Canal13.cl@SD" tvg-name="Canal 13" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/" group-title="TV abierta Sudamérica",Canal 13
+http://15.204.246.24:8080/Canal13HD/index.m3u8
+
+#EXTINF:-1 tvg-id="ChileVision.cl@SD" tvg-name="Chilevisión" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="TV abierta Sudamérica",Chilevisión
+http://15.204.246.24:8080/CHVHD/index.m3u8
 
 #EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina Televisión" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="TV abierta Sudamérica",Latina Televisión
 https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
@@ -118,9 +124,6 @@ http://190.93.224.42/TV-PERU/index.m3u8
 
 #EXTINF:-1 tvg-id="TVN.do@HD" tvg-name="TVN" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/4037-294x165-FFFFFF.jpg" group-title="TV abierta Sudamérica",TVN
 https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-name="Canal Encuentro" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Cultura y Educación",Canal Encuentro
-http://138.59.227.20:8000/play/a05s/index.m3u8
 
 #EXTINF:-1 tvg-id="CanalIPe.pe@SD" tvg-name="Canal IPe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Identidad_Peruana_ipe_2020.png/960px-Identidad_Peruana_ipe_2020.png" group-title="Cultura y Educación",Canal IPe
 http://187.102.210.46/IPE/index.m3u8
