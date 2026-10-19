@@ -70,6 +70,9 @@ http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="ADN40.mx@SD" tvg-name="ADN 40" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="TV abierta México",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
+#EXTINF:-1 tvg-id="Azteca7.mx@SD" tvg-name="Azteca 7" tvg-logo="https://i.imgur.com/UtFXjIn.png" group-title="TV abierta México",Azteca 7
+http://187.245.231.226:8000/play/a0uz/index.m3u8
+
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-name="Canal Once" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Once_logo_2025.png" group-title="TV abierta México",Canal Once
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 

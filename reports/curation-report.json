@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19T01:56:39.424330+00:00",
-  "execution_time_seconds": 36.12,
+  "generated_at": "2026-10-19T11:20:33.768760+00:00",
+  "execution_time_seconds": 38.32,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
+    "channels_found": 44,
+    "channels_not_found": 37,
     "total_http_requests": 42,
     "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
@@ -33,6 +33,7 @@
     "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
+    "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
     "Canal Once",
@@ -94,7 +95,7 @@
     },
     {
       "name": "Comedy Central",
-      "reason": "Manual override failed: HTTP 404"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Distrito Comedia",
@@ -170,10 +171,6 @@
     },
     {
       "name": "Azteca Uno",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Azteca 7",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
