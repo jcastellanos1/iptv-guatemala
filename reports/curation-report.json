@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T11:20:33.768760+00:00",
-  "execution_time_seconds": 38.32,
+  "generated_at": "2026-10-19T17:49:16.956791+00:00",
+  "execution_time_seconds": 42.66,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 44,
-    "channels_not_found": 37,
+    "channels_found": 41,
+    "channels_not_found": 40,
     "total_http_requests": 42,
-    "discarded_by_region": 13,
+    "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -29,7 +29,6 @@
     "Discovery Turbo",
     "Animal Planet",
     "History",
-    "National Geographic",
     "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
@@ -48,10 +47,8 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "Canal Encuentro",
     "Canal IPe"
@@ -150,6 +147,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "National Geographic",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -192,6 +193,14 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "El Trece Argentina",
