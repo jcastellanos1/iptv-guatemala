@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-20T02:14:44.492861+00:00",
-  "execution_time_seconds": 39.08,
+  "generated_at": "2026-10-20T10:29:12.737470+00:00",
+  "execution_time_seconds": 36.08,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
-    "total_http_requests": 43,
+    "channels_found": 40,
+    "channels_not_found": 41,
+    "total_http_requests": 42,
     "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
@@ -50,7 +50,6 @@
     "Mega Chile",
     "TVN Chile",
     "Telefe",
-    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -92,7 +91,7 @@
     },
     {
       "name": "Comedy Central",
-      "reason": "Manual override failed: HTTP 404"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Distrito Comedia",
@@ -208,6 +207,10 @@
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {

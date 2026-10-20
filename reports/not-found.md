@@ -11,7 +11,7 @@
 | Star Channel | Manual override failed: HTTP 400 |
 | Studio Universal | Manual override failed: HTTP 400 |
 | Warner Channel | All matched candidates failed stream validation or were skipped |
-| Comedy Central | Manual override failed: HTTP 404 |
+| Comedy Central | Manual override failed: Timeout |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | All matched candidates failed stream validation or were skipped |
 | Las Estrellas | Manual override failed: HTTP 403 |
@@ -41,4 +41,5 @@
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
+| Canal Encuentro | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
