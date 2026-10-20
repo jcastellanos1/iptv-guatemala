@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-20T15:53:07.734245+00:00",
-  "execution_time_seconds": 42.55,
+  "generated_at": "2026-10-20T20:56:28.868008+00:00",
+  "execution_time_seconds": 35.92,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 44,
-    "channels_not_found": 37,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 42,
-    "discarded_by_region": 13,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -30,7 +30,6 @@
     "Animal Planet",
     "History",
     "National Geographic",
-    "Cartoon Network",
     "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
@@ -155,6 +154,10 @@
     },
     {
       "name": "Love Nature",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Cartoon Network",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
