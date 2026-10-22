@@ -1,18 +1,19 @@
 {
-  "generated_at": "2026-10-22T10:43:07.524299+00:00",
-  "execution_time_seconds": 36.39,
+  "generated_at": "2026-10-22T16:08:04.165087+00:00",
+  "execution_time_seconds": 34.59,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
-    "total_http_requests": 43,
-    "discarded_by_region": 17,
+    "channels_found": 42,
+    "channels_not_found": 39,
+    "total_http_requests": 42,
+    "discarded_by_region": 16,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
   "selected_channels": [
     "AXN",
     "Cinemax",
+    "Space",
     "TNT",
     "TNT Series",
     "Universal TV",
@@ -22,12 +23,13 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
+    "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
-    "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
@@ -75,10 +77,6 @@
     },
     {
       "name": "Paramount Network",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Space",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -142,16 +140,8 @@
       "reason": "Disabled via overrides"
     },
     {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Discovery Channel",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "History 2",
@@ -171,6 +161,10 @@
     },
     {
       "name": "Cartoonito",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Discovery Kids",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
