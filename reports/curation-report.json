@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T02:05:16.562530+00:00",
-  "execution_time_seconds": 43.09,
+  "generated_at": "2026-10-24T09:53:07.567152+00:00",
+  "execution_time_seconds": 37.38,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 42,
+    "channels_not_found": 39,
     "total_http_requests": 42,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
@@ -23,6 +23,7 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
@@ -137,10 +138,6 @@
     {
       "name": "Foro TV",
       "reason": "Disabled via overrides"
-    },
-    {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "C5N",
