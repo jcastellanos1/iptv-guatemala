@@ -1,26 +1,20 @@
 {
-  "generated_at": "2026-10-24T09:53:07.567152+00:00",
-  "execution_time_seconds": 37.38,
+  "generated_at": "2026-10-24T14:56:16.569468+00:00",
+  "execution_time_seconds": 37.98,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 32,
+    "channels_not_found": 49,
     "total_http_requests": 42,
     "discarded_by_region": 12,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
   "selected_channels": [
-    "AXN",
     "Cinemax",
     "Space",
     "TNT",
     "TNT Series",
-    "Universal TV",
-    "A&E",
-    "Lifetime",
-    "Sony Channel",
-    "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
     "Todo Noticias",
@@ -28,7 +22,6 @@
     "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
-    "History",
     "National Geographic",
     "Discovery Kids",
     "Disney Channel",
@@ -39,10 +32,6 @@
     "RCN Televisión",
     "Canal 1 Colombia",
     "Señal Colombia",
-    "Canal Capital",
-    "Teleantioquia",
-    "Telecaribe",
-    "Telepacífico",
     "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
@@ -52,12 +41,17 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
+    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
     {
       "name": "AMC",
       "reason": "Manual override failed: HTTP 400"
+    },
+    {
+      "name": "AXN",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Cinecanal",
@@ -88,8 +82,16 @@
       "reason": "Manual override failed: HTTP 400"
     },
     {
+      "name": "Universal TV",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
       "name": "Warner Channel",
       "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "A&E",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Comedy Central",
@@ -102,6 +104,18 @@
     {
       "name": "E!",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Lifetime",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Sony Channel",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Telemundo Internacional",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "Las Estrellas",
@@ -142,6 +156,10 @@
     {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "History",
+      "reason": "Manual override failed: HTTP 404"
     },
     {
       "name": "History 2",
@@ -196,15 +214,27 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
+      "name": "Canal Capital",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Teleantioquia",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Telecaribe",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Telepacífico",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "El Trece Argentina",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
