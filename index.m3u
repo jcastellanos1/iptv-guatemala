@@ -48,9 +48,6 @@ http://45.171.64.30:6060/play/a032/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us@SD" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png" group-title="Documentales",Discovery Science
 http://45.171.64.30:6060/play/a007/index.m3u8
 
-#EXTINF:-1 tvg-id="DiscoveryTurboLatinAmerica.us@Panregional" tvg-name="Discovery Turbo" tvg-logo="https://i.imgur.com/1pQPxu3.png" group-title="Documentales",Discovery Turbo
-http://38.134.250.110:8000/play/a01y/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 
@@ -96,9 +93,8 @@ http://138.121.15.230:9002/TELECARIBE/index.m3u8
 #EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-name="Telepacífico" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="TV abierta Colombia",Telepacífico
 http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
 
-#EXTINF:-1 tvg-id="AmericaTV.ar@SD" tvg-name="América Televisión Perú" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png" group-title="TV abierta Sudamérica",América Televisión Perú
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
-https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
+#EXTINF:-1 tvg-id="AmericaTelevision.pe@SD" tvg-name="América Televisión Perú" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/500px-Am%C3%A9rica_Televisi%C3%B3n.svg.png" group-title="TV abierta Sudamérica",América Televisión Perú
+http://190.93.224.42/AMERICA-TV/index.m3u8
 
 #EXTINF:-1 tvg-id="Canal13.cl@SD" tvg-name="Canal 13" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/01/Canal_13_2018.png/revision/latest/scale-to-width-down/512/" group-title="TV abierta Sudamérica",Canal 13
 http://15.204.246.24:8080/Canal13HD/index.m3u8

@@ -24,6 +24,7 @@
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
 | C5N | No candidates matched name or aliases in IPTV-org |
+| Discovery Turbo | All matched candidates failed stream validation or were skipped |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |

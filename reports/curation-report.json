@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24T19:53:11.799058+00:00",
-  "execution_time_seconds": 36.27,
+  "generated_at": "2026-10-25T01:52:13.225241+00:00",
+  "execution_time_seconds": 32.07,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
-    "total_http_requests": 42,
-    "discarded_by_region": 12,
+    "channels_found": 42,
+    "channels_not_found": 39,
+    "total_http_requests": 40,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 30
+    "discarded_by_blocked_terms": 29
   },
   "selected_channels": [
     "AXN",
@@ -26,7 +26,6 @@
     "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
-    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
@@ -143,6 +142,10 @@
     {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Discovery Turbo",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "History 2",
