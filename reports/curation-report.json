@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T10:13:49.659918+00:00",
-  "execution_time_seconds": 39.18,
+  "generated_at": "2026-10-25T15:06:09.954203+00:00",
+  "execution_time_seconds": 39.79,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 40,
-    "discarded_by_region": 14,
+    "discarded_by_region": 13,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -30,6 +30,7 @@
     "Animal Planet",
     "History",
     "National Geographic",
+    "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
@@ -51,6 +52,7 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
+    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -163,10 +165,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Discovery Kids",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nickelodeon",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8 "
     },
@@ -204,10 +202,6 @@
     },
     {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
