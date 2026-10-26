@@ -9,7 +9,7 @@
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | No candidates matched name or aliases in IPTV-org |
 | Star Channel | Manual override failed: HTTP 400 |
-| Studio Universal | Manual override failed: Timeout |
+| Studio Universal | Manual override failed: HTTP 400 |
 | Warner Channel | All matched candidates failed stream validation or were skipped |
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
@@ -23,7 +23,6 @@
 | Euronews Español | All matched candidates failed stream validation or were skipped |
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
-| Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
@@ -40,5 +39,4 @@
 | Caracol Televisión | Manual override failed: HTTP 404 |
 | El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
-| Canal Encuentro | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |

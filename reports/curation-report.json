@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T20:02:57.022106+00:00",
-  "execution_time_seconds": 43.38,
+  "generated_at": "2026-10-26T01:54:13.842266+00:00",
+  "execution_time_seconds": 33.06,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 40,
-    "discarded_by_region": 13,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -23,6 +23,7 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
@@ -51,6 +52,7 @@
     "TVN Chile",
     "Canal 13 Chile",
     "Telefe",
+    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -84,7 +86,7 @@
     },
     {
       "name": "Studio Universal",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Warner Channel",
@@ -137,10 +139,6 @@
     {
       "name": "Foro TV",
       "reason": "Disabled via overrides"
-    },
-    {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "C5N",
@@ -204,10 +202,6 @@
     },
     {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
