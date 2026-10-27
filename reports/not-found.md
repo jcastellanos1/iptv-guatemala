@@ -21,11 +21,11 @@
 | DW Español | All matched candidates failed stream validation or were skipped |
 | France 24 Español | All matched candidates failed stream validation or were skipped |
 | Euronews Español | All matched candidates failed stream validation or were skipped |
+| TeleSUR | Manual override failed: HTTP 404 |
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
 | C5N | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
-| National Geographic | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | All matched candidates failed stream validation or were skipped |
@@ -38,7 +38,6 @@
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
-| Chilevisión | All matched candidates failed stream validation or were skipped |
-| Canal 13 Chile | All matched candidates failed stream validation or were skipped |
+| Panamericana Televisión | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
