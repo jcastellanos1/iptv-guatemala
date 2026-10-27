@@ -40,6 +40,5 @@
 | Caracol Televisión | Manual override failed: HTTP 404 |
 | Chilevisión | All matched candidates failed stream validation or were skipped |
 | Canal 13 Chile | All matched candidates failed stream validation or were skipped |
-| El Trece Argentina | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
