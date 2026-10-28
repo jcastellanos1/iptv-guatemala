@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-10-28T17:28:53.663632+00:00",
-  "execution_time_seconds": 69.0,
+  "generated_at": "2026-10-28T21:55:58.491173+00:00",
+  "execution_time_seconds": 44.4,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 38,
-    "channels_not_found": 43,
-    "total_http_requests": 42,
-    "discarded_by_region": 21,
+    "channels_found": 43,
+    "channels_not_found": 38,
+    "total_http_requests": 41,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
   "selected_channels": [
     "AXN",
     "Cinemax",
+    "Space",
+    "TNT",
     "TNT Series",
     "Universal TV",
     "A&E",
@@ -21,6 +23,9 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Discovery Channel",
+    "Discovery Science",
+    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
@@ -76,20 +81,12 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Space",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Star Channel",
       "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
       "reason": "Manual override failed: HTTP 400"
-    },
-    {
-      "name": "TNT",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Warner Channel",
@@ -150,18 +147,6 @@
     {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Discovery Channel",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Discovery Science",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "History 2",
