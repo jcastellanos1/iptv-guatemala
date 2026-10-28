@@ -1,12 +1,12 @@
 # Reporte de Curación y Reconstrucción
 
-- **Fecha**: 2026-10-27 21:30:33 UTC
-- **Tiempo total de ejecución**: 34.98 segundos
+- **Fecha**: 2026-10-28 02:41:14 UTC
+- **Tiempo total de ejecución**: 48.34 segundos
 - **Total de marcas procesadas**: 81
-- **Canales encontrados**: 42
-- **Canales no encontrados**: 39
+- **Canales encontrados**: 40
+- **Canales no encontrados**: 41
 - **Total de solicitudes HTTP**: 41
-- **Señales descartadas por región**: 14
+- **Señales descartadas por región**: 18
 - **Señales descartadas por duplicidad**: 0
 
 ## Confirmación de Canales de Guatemala
@@ -19,45 +19,43 @@
 
 | Canal | Categoría | Resolución | Origen | Latencia |
 |---|---|---|---|---|
-| AXN | Películas y Series | desconocida |  | 1183ms |
-| Cinemax | Películas y Series | 720p | US | 235ms |
-| Space | Películas y Series | 1080p | AR | 121ms |
-| TNT | Películas y Series | 1080p | US | 113ms |
-| TNT Series | Películas y Series | 1080p | US | 1128ms |
-| Universal TV | Películas y Series | desconocida |  | 177ms |
-| A&E | Entretenimiento | desconocida |  | 181ms |
-| Lifetime | Entretenimiento | desconocida |  | 184ms |
-| Sony Channel | Entretenimiento | desconocida |  | 177ms |
-| Telemundo Internacional | Entretenimiento | desconocida |  | 209ms |
-| Azteca Internacional | Entretenimiento | desconocida |  | 101ms |
-| Todo Noticias | Noticias | 1080p | AR | 320ms |
-| Discovery Channel | Documentales | 1080p | US | 110ms |
-| Discovery Science | Documentales | 720p | US | 116ms |
-| Discovery Turbo | Documentales | 1080p | US | 185ms |
-| Animal Planet | Documentales | 1080p | US | 288ms |
-| History | Documentales | desconocida |  | 175ms |
-| National Geographic | Documentales | 1080p | US | 9ms |
-| Discovery Kids | Infantil | 1080p | US | 288ms |
-| Disney Channel | Infantil | desconocida |  | 195ms |
-| Azteca 7 | TV abierta México | 1080p | MX | 149ms |
-| ADN 40 | TV abierta México | 720p | MX | 691ms |
-| Imagen Televisión | TV abierta México | 1080p | MX | 43ms |
-| Canal Once | TV abierta México | 1080p | MX | 131ms |
-| RCN Televisión | TV abierta Colombia | 1080p | CO | 188ms |
-| Canal 1 Colombia | TV abierta Colombia | 1080p | CO | 149ms |
-| Señal Colombia | TV abierta Colombia | 1080p | CO | 204ms |
-| Canal Capital | TV abierta Colombia | 1080p | CO | 180ms |
-| Teleantioquia | TV abierta Colombia | 1080p | CO | 174ms |
-| Telecaribe | TV abierta Colombia | 1080p | CO | 213ms |
-| Telepacífico | TV abierta Colombia | 1080p | CO | 185ms |
-| TV Perú | TV abierta Sudamérica | 1080p | PE | 296ms |
-| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 90ms |
-| América Televisión Perú | TV abierta Sudamérica | 1080p | PE | 295ms |
-| Chilevisión | TV abierta Sudamérica | 1080p | CL | 8ms |
-| Mega Chile | TV abierta Sudamérica | 1080p | PY | 398ms |
-| TVN Chile | TV abierta Sudamérica | 1080p | DO | 100ms |
-| Canal 13 Chile | TV abierta Sudamérica | 1080p | CL | 7ms |
-| Telefe | TV abierta Sudamérica | 1080p | AR | 219ms |
-| El Trece Argentina | TV abierta Sudamérica | 1080p | AR | 512ms |
-| Canal Encuentro | Cultura y Educación | 720p | AR | 375ms |
-| Canal IPe | Cultura y Educación | 720p | PE | 301ms |
+| AXN | Películas y Series | desconocida |  | 182ms |
+| Cinemax | Películas y Series | 720p | US | 2764ms |
+| Space | Películas y Series | 1080p | AR | 116ms |
+| TNT | Películas y Series | 1080p | US | 111ms |
+| TNT Series | Películas y Series | 1080p | US | 121ms |
+| Universal TV | Películas y Series | desconocida |  | 190ms |
+| A&E | Entretenimiento | desconocida |  | 172ms |
+| Lifetime | Entretenimiento | desconocida |  | 1192ms |
+| Sony Channel | Entretenimiento | desconocida |  | 188ms |
+| Telemundo Internacional | Entretenimiento | desconocida |  | 199ms |
+| Azteca Internacional | Entretenimiento | desconocida |  | 86ms |
+| TeleSUR | Noticias | desconocida |  | 148ms |
+| Todo Noticias | Noticias | 1080p | AR | 407ms |
+| Discovery Channel | Documentales | 1080p | US | 111ms |
+| Discovery Science | Documentales | 720p | US | 112ms |
+| Discovery Turbo | Documentales | 1080p | US | 189ms |
+| Animal Planet | Documentales | 1080p | US | 282ms |
+| History | Documentales | desconocida |  | 191ms |
+| Discovery Kids | Infantil | 1080p | US | 285ms |
+| Disney Channel | Infantil | desconocida |  | 197ms |
+| Azteca 7 | TV abierta México | 1080p | MX | 165ms |
+| ADN 40 | TV abierta México | 720p | MX | 609ms |
+| Imagen Televisión | TV abierta México | 1080p | MX | 229ms |
+| Canal Once | TV abierta México | 1080p | MX | 259ms |
+| RCN Televisión | TV abierta Colombia | 1080p | CO | 178ms |
+| Canal 1 Colombia | TV abierta Colombia | 1080p | CO | 143ms |
+| Señal Colombia | TV abierta Colombia | 1080p | CO | 181ms |
+| Canal Capital | TV abierta Colombia | 1080p | CO | 173ms |
+| Teleantioquia | TV abierta Colombia | 1080p | CO | 185ms |
+| Telecaribe | TV abierta Colombia | 1080p | CO | 185ms |
+| Telepacífico | TV abierta Colombia | 1080p | CO | 206ms |
+| TV Perú | TV abierta Sudamérica | 1080p | PE | 294ms |
+| Latina Televisión | TV abierta Sudamérica | 1080p | VE | 94ms |
+| Panamericana Televisión | TV abierta Sudamérica | 1080p | PE | 195ms |
+| América Televisión Perú | TV abierta Sudamérica | 1080p | PE | 292ms |
+| Mega Chile | TV abierta Sudamérica | 1080p | PY | 399ms |
+| TVN Chile | TV abierta Sudamérica | 1080p | DO | 153ms |
+| Telefe | TV abierta Sudamérica | 1080p | AR | 191ms |
+| El Trece Argentina | TV abierta Sudamérica | 1080p | AR | 528ms |
+| Canal IPe | Cultura y Educación | 720p | PE | 294ms |

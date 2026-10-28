@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-27T21:30:33.891733+00:00",
-  "execution_time_seconds": 34.98,
+  "generated_at": "2026-10-28T02:41:14.679603+00:00",
+  "execution_time_seconds": 48.34,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 41,
-    "discarded_by_region": 14,
+    "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -22,13 +22,13 @@
     "Sony Channel",
     "Telemundo Internacional",
     "Azteca Internacional",
+    "TeleSUR",
     "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
-    "National Geographic",
     "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
@@ -44,14 +44,12 @@
     "Telepacífico",
     "TV Perú",
     "Latina Televisión",
+    "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina",
-    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -77,7 +75,7 @@
     },
     {
       "name": "Paramount Network",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Star Channel",
@@ -132,10 +130,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "TeleSUR",
-      "reason": "Manual override failed: HTTP 404"
-    },
-    {
       "name": "Milenio Televisión",
       "reason": "Disabled via overrides"
     },
@@ -149,6 +143,10 @@
     },
     {
       "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -200,11 +198,19 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Panamericana Televisión",
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
