@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-10-28T02:41:14.679603+00:00",
-  "execution_time_seconds": 48.34,
+  "generated_at": "2026-10-28T11:43:30.163509+00:00",
+  "execution_time_seconds": 63.32,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
+    "channels_found": 37,
+    "channels_not_found": 44,
     "total_http_requests": 41,
-    "discarded_by_region": 18,
+    "discarded_by_region": 22,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
   "selected_channels": [
     "AXN",
     "Cinemax",
-    "Space",
-    "TNT",
     "TNT Series",
     "Universal TV",
     "A&E",
@@ -24,8 +22,6 @@
     "Azteca Internacional",
     "TeleSUR",
     "Todo Noticias",
-    "Discovery Channel",
-    "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
@@ -50,6 +46,7 @@
     "TVN Chile",
     "Telefe",
     "El Trece Argentina",
+    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -78,12 +75,20 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Space",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Star Channel",
       "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
       "reason": "Manual override failed: HTTP 400"
+    },
+    {
+      "name": "TNT",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Warner Channel",
@@ -140,6 +145,14 @@
     {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Discovery Channel",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Discovery Science",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "History 2",
@@ -207,10 +220,6 @@
     },
     {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
