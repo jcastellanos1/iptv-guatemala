@@ -48,6 +48,9 @@ http://45.171.64.30:6060/play/a032/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryScienceLatinAmerica.us@SD" tvg-name="Discovery Science" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png" group-title="Documentales",Discovery Science
 http://45.171.64.30:6060/play/a007/index.m3u8
 
+#EXTINF:-1 tvg-id="DiscoveryTurboLatinAmerica.us@Panregional" tvg-name="Discovery Turbo" tvg-logo="https://i.imgur.com/1pQPxu3.png" group-title="Documentales",Discovery Turbo
+http://38.134.250.110:8000/play/a01y/index.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="History" tvg-logo="" group-title="Documentales",History
 http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8
 

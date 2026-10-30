@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:04:01.546212+00:00",
+  "generated_at": "2026-10-30T03:04:53.973596+00:00",
   "channels": [
     {
       "curated_name": "AXN",
@@ -12,7 +12,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 206,
+      "latency_ms": 224,
       "source": "manual-override"
     },
     {
@@ -26,7 +26,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "US",
-      "latency_ms": 313,
+      "latency_ms": 2877,
       "source": "iptv-org"
     },
     {
@@ -40,7 +40,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 142,
+      "latency_ms": 143,
       "source": "iptv-org"
     },
     {
@@ -54,7 +54,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 136,
+      "latency_ms": 144,
       "source": "iptv-org"
     },
     {
@@ -68,7 +68,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 149,
+      "latency_ms": 162,
       "source": "iptv-org"
     },
     {
@@ -82,7 +82,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 534,
+      "latency_ms": 223,
       "source": "manual-override"
     },
     {
@@ -96,7 +96,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 203,
+      "latency_ms": 223,
       "source": "manual-override"
     },
     {
@@ -110,7 +110,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 205,
+      "latency_ms": 219,
       "source": "manual-override"
     },
     {
@@ -124,7 +124,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 238,
+      "latency_ms": 219,
       "source": "manual-override"
     },
     {
@@ -138,7 +138,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 201,
+      "latency_ms": 575,
       "source": "manual-override"
     },
     {
@@ -152,7 +152,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 153,
+      "latency_ms": 147,
       "source": "manual-override"
     },
     {
@@ -166,7 +166,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 242,
+      "latency_ms": 404,
       "source": "manual-override"
     },
     {
@@ -180,7 +180,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 380,
+      "latency_ms": 413,
       "source": "iptv-org"
     },
     {
@@ -194,7 +194,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 136,
+      "latency_ms": 145,
       "source": "iptv-org"
     },
     {
@@ -208,7 +208,21 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "US",
-      "latency_ms": 138,
+      "latency_ms": 155,
+      "source": "iptv-org"
+    },
+    {
+      "curated_name": "Discovery Turbo",
+      "display_name": "Discovery Turbo Latin America (1080p)",
+      "tvg_id": "DiscoveryTurboLatinAmerica.us@Panregional",
+      "tvg_name": "",
+      "tvg_logo": "https://i.imgur.com/1pQPxu3.png",
+      "group": "Documentales",
+      "stream_url": "http://38.134.250.110:8000/play/a01y/index.m3u8",
+      "extra_lines": [],
+      "resolution": "1080p",
+      "country": "US",
+      "latency_ms": 223,
       "source": "iptv-org"
     },
     {
@@ -222,7 +236,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 353,
+      "latency_ms": 366,
       "source": "iptv-org"
     },
     {
@@ -236,7 +250,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 197,
+      "latency_ms": 226,
       "source": "manual-override"
     },
     {
@@ -250,7 +264,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 60,
+      "latency_ms": 87,
       "source": "iptv-org"
     },
     {
@@ -264,7 +278,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "US",
-      "latency_ms": 320,
+      "latency_ms": 344,
       "source": "iptv-org"
     },
     {
@@ -278,7 +292,7 @@
       "extra_lines": [],
       "resolution": "",
       "country": "",
-      "latency_ms": 226,
+      "latency_ms": 247,
       "source": "manual-override"
     },
     {
@@ -292,7 +306,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 196,
+      "latency_ms": 140,
       "source": "iptv-org"
     },
     {
@@ -306,7 +320,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "MX",
-      "latency_ms": 518,
+      "latency_ms": 615,
       "source": "iptv-org"
     },
     {
@@ -320,7 +334,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 183,
+      "latency_ms": 273,
       "source": "iptv-org"
     },
     {
@@ -334,7 +348,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "MX",
-      "latency_ms": 181,
+      "latency_ms": 216,
       "source": "iptv-org"
     },
     {
@@ -348,7 +362,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 209,
+      "latency_ms": 221,
       "source": "iptv-org"
     },
     {
@@ -362,7 +376,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 175,
+      "latency_ms": 181,
       "source": "iptv-org"
     },
     {
@@ -376,7 +390,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 251,
+      "latency_ms": 253,
       "source": "iptv-org"
     },
     {
@@ -390,7 +404,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 210,
+      "latency_ms": 208,
       "source": "iptv-org"
     },
     {
@@ -404,7 +418,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 211,
+      "latency_ms": 214,
       "source": "iptv-org"
     },
     {
@@ -418,7 +432,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 241,
+      "latency_ms": 210,
       "source": "iptv-org"
     },
     {
@@ -432,7 +446,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CO",
-      "latency_ms": 204,
+      "latency_ms": 210,
       "source": "iptv-org"
     },
     {
@@ -446,7 +460,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 326,
+      "latency_ms": 334,
       "source": "iptv-org"
     },
     {
@@ -460,7 +474,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "VE",
-      "latency_ms": 170,
+      "latency_ms": 290,
       "source": "iptv-org"
     },
     {
@@ -474,7 +488,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 226,
+      "latency_ms": 233,
       "source": "iptv-org"
     },
     {
@@ -488,7 +502,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PE",
-      "latency_ms": 325,
+      "latency_ms": 339,
       "source": "iptv-org"
     },
     {
@@ -502,7 +516,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CL",
-      "latency_ms": 59,
+      "latency_ms": 88,
       "source": "iptv-org"
     },
     {
@@ -516,7 +530,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "PY",
-      "latency_ms": 506,
+      "latency_ms": 542,
       "source": "iptv-org"
     },
     {
@@ -530,7 +544,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "DO",
-      "latency_ms": 177,
+      "latency_ms": 370,
       "source": "iptv-org"
     },
     {
@@ -544,7 +558,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "CL",
-      "latency_ms": 63,
+      "latency_ms": 87,
       "source": "iptv-org"
     },
     {
@@ -558,7 +572,7 @@
       "extra_lines": [],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 222,
+      "latency_ms": 266,
       "source": "iptv-org"
     },
     {
@@ -574,7 +588,7 @@
       ],
       "resolution": "1080p",
       "country": "AR",
-      "latency_ms": 623,
+      "latency_ms": 666,
       "source": "iptv-org"
     },
     {
@@ -588,7 +602,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "AR",
-      "latency_ms": 1693,
+      "latency_ms": 497,
       "source": "iptv-org"
     },
     {
@@ -602,7 +616,7 @@
       "extra_lines": [],
       "resolution": "720p",
       "country": "PE",
-      "latency_ms": 344,
+      "latency_ms": 338,
       "source": "iptv-org"
     }
   ]

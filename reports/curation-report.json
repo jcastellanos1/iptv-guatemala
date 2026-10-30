@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-29T22:04:01.547207+00:00",
-  "execution_time_seconds": 37.31,
+  "generated_at": "2026-10-30T03:04:53.974784+00:00",
+  "execution_time_seconds": 50.36,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
+    "channels_found": 44,
+    "channels_not_found": 37,
     "total_http_requests": 41,
-    "discarded_by_region": 17,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -26,6 +26,7 @@
     "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
+    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
@@ -82,7 +83,7 @@
     },
     {
       "name": "Star Channel",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Studio Universal",
@@ -143,10 +144,6 @@
     {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
-    },
-    {
-      "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "History 2",
