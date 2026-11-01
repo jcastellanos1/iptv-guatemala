@@ -38,4 +38,5 @@
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
+| Canal Encuentro | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
