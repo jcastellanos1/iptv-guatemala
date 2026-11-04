@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-03T22:37:04.230055+00:00",
-  "execution_time_seconds": 41.77,
+  "generated_at": "2026-11-04T03:28:18.853786+00:00",
+  "execution_time_seconds": 52.75,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 44,
-    "channels_not_found": 37,
-    "total_http_requests": 41,
+    "channels_found": 43,
+    "channels_not_found": 38,
+    "total_http_requests": 42,
     "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
@@ -38,7 +38,6 @@
     "Canal Once",
     "RCN Televisión",
     "Canal 1 Colombia",
-    "Señal Colombia",
     "Canal Capital",
     "Teleantioquia",
     "Telecaribe",
@@ -59,7 +58,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Cinecanal",
@@ -196,6 +195,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Señal Colombia",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
