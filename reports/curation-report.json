@@ -1,20 +1,18 @@
 {
-  "generated_at": "2026-11-04T13:20:18.842293+00:00",
-  "execution_time_seconds": 35.3,
+  "generated_at": "2026-11-04T22:56:17.224335+00:00",
+  "execution_time_seconds": 39.2,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 39,
-    "channels_not_found": 42,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 41,
-    "discarded_by_region": 19,
+    "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
   "selected_channels": [
     "AXN",
-    "Space",
-    "TNT",
-    "TNT Series",
+    "Cinemax",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -22,11 +20,12 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
     "Discovery Channel",
-    "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
+    "National Geographic",
     "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
@@ -44,8 +43,10 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina",
     "Canal Encuentro",
@@ -59,10 +60,6 @@
     {
       "name": "Cinecanal",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index."
-    },
-    {
-      "name": "Cinemax",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "FX",
@@ -81,12 +78,24 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Space",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Star Channel",
       "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
       "reason": "Manual override failed: HTTP 400"
+    },
+    {
+      "name": "TNT",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "TNT Series",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Warner Channel",
@@ -141,19 +150,15 @@
       "reason": "Disabled via overrides"
     },
     {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "History 2",
+      "name": "Discovery Science",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
+      "name": "History 2",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -203,14 +208,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
