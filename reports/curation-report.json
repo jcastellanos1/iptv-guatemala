@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-11-04T22:56:17.224335+00:00",
-  "execution_time_seconds": 39.2,
+  "generated_at": "2026-11-05T03:50:36.148325+00:00",
+  "execution_time_seconds": 43.81,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 40,
-    "channels_not_found": 41,
+    "channels_found": 42,
+    "channels_not_found": 39,
     "total_http_requests": 41,
-    "discarded_by_region": 17,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
   "selected_channels": [
     "AXN",
     "Cinemax",
+    "Space",
+    "TNT",
     "Universal TV",
     "A&E",
     "Lifetime",
@@ -20,8 +22,8 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
-    "Todo Noticias",
     "Discovery Channel",
+    "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
@@ -78,20 +80,12 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Space",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Star Channel",
       "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Studio Universal",
       "reason": "Manual override failed: HTTP 400"
-    },
-    {
-      "name": "TNT",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "TNT Series",
@@ -150,12 +144,12 @@
       "reason": "Disabled via overrides"
     },
     {
-      "name": "C5N",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "name": "Todo Noticias",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Discovery Science",
-      "reason": "All matched candidates failed stream validation or were skipped"
+      "name": "C5N",
+      "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "History 2",
