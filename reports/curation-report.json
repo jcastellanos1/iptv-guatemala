@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-05T03:50:36.148325+00:00",
-  "execution_time_seconds": 43.81,
+  "generated_at": "2026-11-05T13:33:23.373728+00:00",
+  "execution_time_seconds": 41.95,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 41,
-    "discarded_by_region": 15,
+    "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -22,12 +22,12 @@
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
     "Animal Planet",
     "History",
-    "National Geographic",
     "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
@@ -45,10 +45,8 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina",
     "Canal Encuentro",
@@ -144,15 +142,15 @@
       "reason": "Disabled via overrides"
     },
     {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
       "name": "History 2",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -202,6 +200,14 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "Chilevisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
