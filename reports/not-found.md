@@ -11,7 +11,6 @@
 | Star Channel | Manual override failed: HTTP 400 |
 | Studio Universal | Manual override failed: HTTP 400 |
 | TNT Series | All matched candidates failed stream validation or were skipped |
-| Warner Channel | All matched candidates failed stream validation or were skipped |
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | No candidates matched name or aliases in IPTV-org |
@@ -24,6 +23,7 @@
 | Euronews Español | All matched candidates failed stream validation or were skipped |
 | Milenio Televisión | Disabled via overrides |
 | Foro TV | Disabled via overrides |
+| Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
 | History 2 | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |

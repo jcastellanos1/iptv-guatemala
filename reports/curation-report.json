@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-06T22:27:34.398321+00:00",
-  "execution_time_seconds": 38.87,
+  "generated_at": "2026-11-07T03:21:01.080064+00:00",
+  "execution_time_seconds": 29.77,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 43,
     "channels_not_found": 38,
     "total_http_requests": 42,
-    "discarded_by_region": 15,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 29
   },
@@ -16,13 +16,13 @@
     "Space",
     "TNT",
     "Universal TV",
+    "Warner Channel",
     "A&E",
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
-    "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
@@ -93,10 +93,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Warner Channel",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Comedy Central",
       "reason": "Manual override failed: HTTP 404"
     },
@@ -143,6 +139,10 @@
     {
       "name": "Foro TV",
       "reason": "Disabled via overrides"
+    },
+    {
+      "name": "Todo Noticias",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "C5N",
