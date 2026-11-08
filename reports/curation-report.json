@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T21:07:39.478423+00:00",
-  "execution_time_seconds": 40.24,
+  "generated_at": "2026-11-08T02:50:17.919267+00:00",
+  "execution_time_seconds": 45.5,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 44,
@@ -59,7 +59,7 @@
   "not_found_channels": [
     {
       "name": "AMC",
-      "reason": "Manual override failed: Timeout"
+      "reason": "Manual override failed: HTTP 400"
     },
     {
       "name": "Cinecanal",
@@ -67,7 +67,7 @@
     },
     {
       "name": "FX",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "Golden",
@@ -87,7 +87,7 @@
     },
     {
       "name": "Studio Universal",
-      "reason": "Manual override failed: HTTP 400"
+      "reason": "Manual override failed: Timeout"
     },
     {
       "name": "TNT Series",
