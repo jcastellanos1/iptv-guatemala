@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-10T13:49:56.507384+00:00",
-  "execution_time_seconds": 46.43,
+  "generated_at": "2026-11-10T22:35:29.960568+00:00",
+  "execution_time_seconds": 33.61,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 38,
-    "channels_not_found": 43,
-    "total_http_requests": 42,
-    "discarded_by_region": 18,
+    "channels_found": 44,
+    "channels_not_found": 37,
+    "total_http_requests": 41,
+    "discarded_by_region": 14,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 30
   },
@@ -16,6 +16,7 @@
     "Space",
     "TNT",
     "Universal TV",
+    "Warner Channel",
     "A&E",
     "Lifetime",
     "Sony Channel",
@@ -28,6 +29,7 @@
     "Discovery Turbo",
     "Animal Planet",
     "History",
+    "National Geographic",
     "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
@@ -45,9 +47,13 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
+    "El Trece Argentina",
+    "Canal Encuentro",
     "Canal IPe"
   ],
   "not_found_channels": [
@@ -85,10 +91,6 @@
     },
     {
       "name": "TNT Series",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Warner Channel",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -148,10 +150,6 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "National Geographic",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Nat Geo Wild",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
@@ -200,23 +198,7 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "El Trece Argentina",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "Canal 24 Horas Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
