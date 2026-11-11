@@ -3,8 +3,8 @@
 #EXTINF:-1 tvg-id="" tvg-name="AXN" tvg-logo="" group-title="Películas y Series",AXN
 http://138.121.15.230:9002/AXN/index.m3u8
 
-#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@HD" tvg-name="Cinemax" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="Películas y Series",Cinemax
-http://38.65.175.84:8000/play/a093/index.m3u8
+#EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@SD" tvg-name="Cinemax" tvg-logo="https://i.imgur.com/cZWoJWD.png" group-title="Películas y Series",Cinemax
+https://streaming.onnethn.com/CINEMAX/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Space.ar@Panregional" tvg-name="Space" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png" group-title="Películas y Series",Space
 http://45.171.64.30:6060/play/a04n/index.m3u8
