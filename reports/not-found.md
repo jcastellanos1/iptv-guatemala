@@ -2,14 +2,14 @@
 
 | Canal | Razón |
 |---|---|
-| AMC | Manual override failed: HTTP 400 |
+| AMC | Manual override failed: Timeout |
 | Cinecanal | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /CINECANAL/index. |
-| FX | Manual override failed: HTTP 400 |
+| FX | Manual override failed: Timeout |
 | Golden | Manual override failed: HTTP 403 |
 | Golden Edge | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /GOLDENEDGE/index |
 | Paramount Network | All matched candidates failed stream validation or were skipped |
-| Star Channel | Manual override failed: HTTP 400 |
-| Studio Universal | Manual override failed: HTTP 400 |
+| Star Channel | Manual override failed: Timeout |
+| Studio Universal | Manual override failed: Timeout |
 | TNT Series | All matched candidates failed stream validation or were skipped |
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
@@ -32,6 +32,7 @@
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
+| ADN 40 | All matched candidates failed stream validation or were skipped |
 | Canal 5 México | All matched candidates failed stream validation or were skipped |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
