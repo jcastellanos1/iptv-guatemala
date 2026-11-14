@@ -18,9 +18,6 @@ http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="WarnerChannel.us@Mexico" tvg-name="Warner Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Warner_TV_logo.svg/960px-Warner_TV_logo.svg.png" group-title="Películas y Series",Warner Channel
 http://15.204.246.24:8080/WarnerChannelHD/index.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="A&E" tvg-logo="" group-title="Entretenimiento",A&E
-http://138.121.15.230:9002/A&E/index.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Azteca Internacional" tvg-logo="" group-title="Entretenimiento",Azteca Internacional
 https://azt-mun.otteravision.com/azt/mun/mun.m3u8
 
