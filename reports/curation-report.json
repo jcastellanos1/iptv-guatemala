@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-14T21:42:55.022470+00:00",
-  "execution_time_seconds": 37.49,
+  "generated_at": "2026-11-15T03:17:54.506834+00:00",
+  "execution_time_seconds": 33.96,
   "metrics": {
     "total_brands_processed": 81,
     "channels_found": 44,
     "channels_not_found": 37,
     "total_http_requests": 41,
-    "discarded_by_region": 14,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 31
+    "discarded_by_blocked_terms": 34
   },
   "selected_channels": [
     "AXN",
