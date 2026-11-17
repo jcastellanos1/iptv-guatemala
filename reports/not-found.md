@@ -31,7 +31,6 @@
 | Cartoonito | All matched candidates failed stream validation or were skipped |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
-| Disney Channel | Manual override failed: HTTP 404 |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
 | Canal 5 México | All matched candidates failed stream validation or were skipped |
 | Nu9ve | No candidates matched name or aliases in IPTV-org |

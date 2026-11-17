@@ -60,6 +60,9 @@ http://15.204.246.24:8080/NatGeoHD/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryKidsLatinAmerica.us@Panregional" tvg-name="Discovery Kids" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Discovery_Kids_2021_2D_sin_wordmark.svg/960px-Discovery_Kids_2021_2D_sin_wordmark.svg.png" group-title="Infantil",Discovery Kids
 http://181.224.200.5:2277/play/a00o/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="Disney Channel" tvg-logo="" group-title="Infantil",Disney Channel
+http://45.171.108.253:8888/DISNEY_CHANNEL/index.m3u8
+
 #EXTINF:-1 tvg-id="ADN40.mx@SD" tvg-name="ADN 40" tvg-logo="https://i.imgur.com/Og17U9N.png" group-title="TV abierta México",ADN 40
 https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8
 
