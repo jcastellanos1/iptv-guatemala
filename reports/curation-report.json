@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-16T14:04:23.443353+00:00",
-  "execution_time_seconds": 42.73,
+  "generated_at": "2026-11-17T01:08:58.842986+00:00",
+  "execution_time_seconds": 47.23,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 44,
-    "channels_not_found": 37,
+    "channels_found": 42,
+    "channels_not_found": 39,
     "total_http_requests": 41,
     "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 34
+    "discarded_by_blocked_terms": 38
   },
   "selected_channels": [
     "AXN",
@@ -31,7 +31,6 @@
     "History",
     "National Geographic",
     "Discovery Kids",
-    "Disney Channel",
     "Azteca 7",
     "ADN 40",
     "Imagen Televisión",
@@ -53,8 +52,7 @@
     "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina",
-    "Canal Encuentro",
-    "Canal IPe"
+    "Canal Encuentro"
   ],
   "not_found_channels": [
     {
@@ -174,6 +172,10 @@
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u"
     },
     {
+      "name": "Disney Channel",
+      "reason": "Manual override failed: HTTP 404"
+    },
+    {
       "name": "Azteca Uno",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -204,6 +206,10 @@
     {
       "name": "TV UNAM",
       "reason": "No candidates matched name or aliases in IPTV-org"
+    },
+    {
+      "name": "Canal IPe",
+      "reason": "All matched candidates failed stream validation or were skipped"
     }
   ],
   "guatemala_channels_confirmed": [
