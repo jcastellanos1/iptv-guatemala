@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T14:38:56.743421+00:00",
-  "execution_time_seconds": 48.99,
+  "generated_at": "2026-11-18T23:38:34.599049+00:00",
+  "execution_time_seconds": 41.96,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 37,
-    "channels_not_found": 44,
+    "channels_found": 43,
+    "channels_not_found": 38,
     "total_http_requests": 42,
-    "discarded_by_region": 20,
+    "discarded_by_region": 15,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 38
   },
@@ -16,16 +16,20 @@
     "Space",
     "TNT",
     "Universal TV",
+    "Warner Channel",
     "A&E",
     "Lifetime",
     "Sony Channel",
     "Telemundo Internacional",
     "Azteca Internacional",
     "TeleSUR",
+    "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
     "Discovery Turbo",
+    "Animal Planet",
     "History",
+    "National Geographic",
     "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
@@ -43,8 +47,10 @@
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina",
     "Canal Encuentro"
@@ -84,10 +90,6 @@
     },
     {
       "name": "TNT Series",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Warner Channel",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -139,23 +141,11 @@
       "reason": "Disabled via overrides"
     },
     {
-      "name": "Todo Noticias",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "C5N",
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Animal Planet",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "History 2",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "National Geographic",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -205,14 +195,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
