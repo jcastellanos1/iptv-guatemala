@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-19T23:56:45.390664+00:00",
-  "execution_time_seconds": 44.86,
+  "generated_at": "2026-11-20T04:44:56.797463+00:00",
+  "execution_time_seconds": 55.68,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 42,
-    "channels_not_found": 39,
+    "channels_found": 41,
+    "channels_not_found": 40,
     "total_http_requests": 42,
     "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 38
+    "discarded_by_blocked_terms": 39
   },
   "selected_channels": [
     "AXN",
@@ -26,10 +26,10 @@
     "Todo Noticias",
     "Discovery Channel",
     "Discovery Science",
+    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
-    "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
@@ -42,7 +42,6 @@
     "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
-    "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
@@ -101,7 +100,7 @@
     },
     {
       "name": "E!",
-      "reason": "No candidates matched name or aliases in IPTV-org"
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Las Estrellas",
@@ -144,10 +143,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "History 2",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -165,6 +160,10 @@
     },
     {
       "name": "Cartoonito",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Discovery Kids",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -198,6 +197,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "TV Perú",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
