@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-22T03:38:24.099590+00:00",
-  "execution_time_seconds": 47.86,
+  "generated_at": "2026-11-22T13:40:07.636779+00:00",
+  "execution_time_seconds": 59.01,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 43,
-    "channels_not_found": 38,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 42,
-    "discarded_by_region": 17,
+    "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 39
   },
@@ -16,7 +16,6 @@
     "Space",
     "TNT",
     "Universal TV",
-    "Warner Channel",
     "A&E",
     "Lifetime",
     "Sony Channel",
@@ -30,7 +29,6 @@
     "Animal Planet",
     "History",
     "National Geographic",
-    "Discovery Kids",
     "Disney Channel",
     "Azteca 7",
     "ADN 40",
@@ -43,7 +41,6 @@
     "Teleantioquia",
     "Telecaribe",
     "Telepacífico",
-    "TV Perú",
     "Latina Televisión",
     "Panamericana Televisión",
     "América Televisión Perú",
@@ -90,6 +87,10 @@
     },
     {
       "name": "TNT Series",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Warner Channel",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
@@ -165,6 +166,10 @@
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
+      "name": "Discovery Kids",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Nickelodeon",
       "reason": "Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8 "
     },
@@ -195,6 +200,10 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
+    },
+    {
+      "name": "TV Perú",
+      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",

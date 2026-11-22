@@ -11,6 +11,7 @@
 | Star Channel | Manual override failed: HTTP 400 |
 | Studio Universal | Manual override failed: HTTP 400 |
 | TNT Series | All matched candidates failed stream validation or were skipped |
+| Warner Channel | All matched candidates failed stream validation or were skipped |
 | Comedy Central | Manual override failed: HTTP 404 |
 | Distrito Comedia | Manual override failed: HTTP 403 |
 | E! | All matched candidates failed stream validation or were skipped |
@@ -29,6 +30,7 @@
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | All matched candidates failed stream validation or were skipped |
 | Cartoonito | All matched candidates failed stream validation or were skipped |
+| Discovery Kids | All matched candidates failed stream validation or were skipped |
 | Nickelodeon | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICK/index.m3u8  |
 | Nick Jr. | Manual override failed: HTTPConnectionPool(host='138.186.23.7', port=8082): Max retries exceeded with url: /NICKJR/index.m3u |
 | Azteca Uno | All matched candidates failed stream validation or were skipped |
@@ -37,6 +39,7 @@
 | Canal 22 México | All matched candidates failed stream validation or were skipped |
 | Multimedios | No candidates matched name or aliases in IPTV-org |
 | Caracol Televisión | Manual override failed: HTTP 404 |
+| TV Perú | All matched candidates failed stream validation or were skipped |
 | Canal 24 Horas Chile | All matched candidates failed stream validation or were skipped |
 | TV UNAM | No candidates matched name or aliases in IPTV-org |
 | Canal IPe | All matched candidates failed stream validation or were skipped |
