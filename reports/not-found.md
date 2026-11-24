@@ -26,7 +26,9 @@
 | Foro TV | Disabled via overrides |
 | Todo Noticias | All matched candidates failed stream validation or were skipped |
 | C5N | No candidates matched name or aliases in IPTV-org |
+| Animal Planet | All matched candidates failed stream validation or were skipped |
 | History 2 | All matched candidates failed stream validation or were skipped |
+| National Geographic | All matched candidates failed stream validation or were skipped |
 | Nat Geo Wild | No candidates matched name or aliases in IPTV-org |
 | Love Nature | All matched candidates failed stream validation or were skipped |
 | Cartoon Network | All matched candidates failed stream validation or were skipped |
