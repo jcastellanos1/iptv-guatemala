@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T01:40:21.960836+00:00",
-  "execution_time_seconds": 57.58,
+  "generated_at": "2026-11-25T16:14:56.859955+00:00",
+  "execution_time_seconds": 71.66,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 41,
-    "channels_not_found": 40,
+    "channels_found": 36,
+    "channels_not_found": 45,
     "total_http_requests": 42,
-    "discarded_by_region": 17,
+    "discarded_by_region": 20,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 39
   },
@@ -24,7 +24,6 @@
     "TeleSUR",
     "Discovery Channel",
     "Discovery Science",
-    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
@@ -34,7 +33,6 @@
     "ADN 40",
     "Imagen Televisión",
     "Canal Once",
-    "RCN Televisión",
     "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
@@ -43,15 +41,12 @@
     "Telepacífico",
     "TV Perú",
     "Latina Televisión",
-    "Panamericana Televisión",
     "América Televisión Perú",
     "Chilevisión",
     "Mega Chile",
     "TVN Chile",
-    "Canal 13 Chile",
     "Telefe",
-    "El Trece Argentina",
-    "Canal Encuentro"
+    "El Trece Argentina"
   ],
   "not_found_channels": [
     {
@@ -151,6 +146,10 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
+      "name": "Discovery Turbo",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "History 2",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -203,7 +202,23 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
+      "name": "RCN Televisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Panamericana Televisión",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal 13 Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
       "name": "Canal 24 Horas Chile",
+      "reason": "All matched candidates failed stream validation or were skipped"
+    },
+    {
+      "name": "Canal Encuentro",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
