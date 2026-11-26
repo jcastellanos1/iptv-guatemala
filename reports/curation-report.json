@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T01:13:10.442609+00:00",
-  "execution_time_seconds": 69.86,
+  "generated_at": "2026-11-26T15:52:44.110043+00:00",
+  "execution_time_seconds": 54.67,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 37,
-    "channels_not_found": 44,
+    "channels_found": 40,
+    "channels_not_found": 41,
     "total_http_requests": 42,
-    "discarded_by_region": 18,
+    "discarded_by_region": 17,
     "discarded_by_duplicity": 0,
     "discarded_by_blocked_terms": 42
   },
@@ -43,9 +43,12 @@
     "Telepacífico",
     "TV Perú",
     "Latina Televisión",
+    "Panamericana Televisión",
     "América Televisión Perú",
+    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
+    "Canal 13 Chile",
     "Telefe",
     "El Trece Argentina"
   ],
@@ -197,18 +200,6 @@
     {
       "name": "Caracol Televisión",
       "reason": "Manual override failed: HTTP 404"
-    },
-    {
-      "name": "Panamericana Televisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Chilevisión",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
-      "name": "Canal 13 Chile",
-      "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
       "name": "Canal 24 Horas Chile",
