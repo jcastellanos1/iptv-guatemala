@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-25T16:14:56.859955+00:00",
-  "execution_time_seconds": 71.66,
+  "generated_at": "2026-11-26T01:13:10.442609+00:00",
+  "execution_time_seconds": 69.86,
   "metrics": {
     "total_brands_processed": 81,
-    "channels_found": 36,
-    "channels_not_found": 45,
+    "channels_found": 37,
+    "channels_not_found": 44,
     "total_http_requests": 42,
-    "discarded_by_region": 20,
+    "discarded_by_region": 18,
     "discarded_by_duplicity": 0,
-    "discarded_by_blocked_terms": 39
+    "discarded_by_blocked_terms": 42
   },
   "selected_channels": [
     "AXN",
@@ -24,6 +24,7 @@
     "TeleSUR",
     "Discovery Channel",
     "Discovery Science",
+    "Discovery Turbo",
     "Animal Planet",
     "History",
     "National Geographic",
@@ -33,6 +34,7 @@
     "ADN 40",
     "Imagen Televisión",
     "Canal Once",
+    "RCN Televisión",
     "Canal 1 Colombia",
     "Señal Colombia",
     "Canal Capital",
@@ -42,7 +44,6 @@
     "TV Perú",
     "Latina Televisión",
     "América Televisión Perú",
-    "Chilevisión",
     "Mega Chile",
     "TVN Chile",
     "Telefe",
@@ -146,10 +147,6 @@
       "reason": "No candidates matched name or aliases in IPTV-org"
     },
     {
-      "name": "Discovery Turbo",
-      "reason": "All matched candidates failed stream validation or were skipped"
-    },
-    {
       "name": "History 2",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
@@ -202,11 +199,11 @@
       "reason": "Manual override failed: HTTP 404"
     },
     {
-      "name": "RCN Televisión",
+      "name": "Panamericana Televisión",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
-      "name": "Panamericana Televisión",
+      "name": "Chilevisión",
       "reason": "All matched candidates failed stream validation or were skipped"
     },
     {
